@@ -2,7 +2,7 @@ pluginStore: https://github.com/aptenex/k8-store/raw/main/plugins/
 plugins:
 
   - name: advanced-custom-fields-pro
-    verson: 5.9.5
+    version: 5.9.5
 
   - name: acf-code-field
     version: 1.8
