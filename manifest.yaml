@@ -28,7 +28,7 @@ plugins:
   - name: wp-graphql-acf-0.4.1
     version: 0.4.1
 
-  - name: wp-graphql-meta-query
+  - name: wp-graphql-meta-query-0.1.1
     version: 0.1.0
 
   - name: wp-graphiql-master
