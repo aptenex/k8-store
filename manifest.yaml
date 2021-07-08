@@ -22,7 +22,7 @@ plugins:
   - name: wp-graphql-polylang-0.5.0
     version: 0.5.0
 
-  - name: wp-graphql-gutenberg
+  - name: wp-graphql-gutenberg-develop
     version: 0.3.8
 
   - name: wp-graphql-acf-0.4.1
