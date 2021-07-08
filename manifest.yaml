@@ -19,13 +19,13 @@ plugins:
   - name: wp-graphql
     version: 1.3.9
 
-  - name: wp-graphql-polylang
+  - name: wp-graphql-polylang-0.0.5
     version: 0.5.0
 
   - name: wp-graphql-gutenberg-develop
     version: 0.3.8
 
-  - name: wp-graphql-acf
+  - name: wp-graphql-acf-0.4.1
     version: 0.4.1
 
   - name: wp-graphql-meta-query
