@@ -1,4 +1,4 @@
-lazyblocksFile: https://raw.githubusercontent.com/aptenex/k8-store/main/lazyblocks.json
+lazyblocksUrl: https://raw.githubusercontent.com/aptenex/k8-store/main/lazyblocks.json
 pluginStore: https://github.com/aptenex/k8-store/raw/main/plugins/
 plugins:
 
