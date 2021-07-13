@@ -16,11 +16,8 @@ switch ($evalCommand) {
 
     case 'lazyblocks-import':
 
-        if (count($args) !== 2) {
-            die('Please provide the data file for the lazyblocks import');
-        }
-
-        $file = $args[1];
+        $name = 'lazyblocks-data.json';
+        $file = file_get_contents(__DIR__ . '/' . $name);
 
         echo "\nverifying\n";
 
@@ -32,7 +29,7 @@ switch ($evalCommand) {
         $_FILES['lzb_tools_import_json'] = [
             'size'     => strlen(file_get_contents($file)),
             'error'    => false,
-            'name'     => 'data.json',
+            'name'     => $name,
             'tmp_name' => $file,
         ];
 
