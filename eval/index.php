@@ -17,7 +17,7 @@ switch ($evalCommand) {
     case 'lazyblocks-import':
 
         $name = 'lazyblocks-data.json';
-        $file = file_get_contents(__DIR__ . '/' . $name);
+        $file = __DIR__ . '/' . $name;
 
         echo "\nverifying\n";
 
