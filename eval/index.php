@@ -48,10 +48,10 @@ switch ($evalCommand) {
         $tools = new \ACF_Admin_Field_Groups();
 
         $tools->setup_sync();
+        $tools->check_sync();
+        $tools->check_duplicate();
 
         print_r($tools->sync);
-
-        $tools->check_sync();
 
         echo "sync complete\n";
 
