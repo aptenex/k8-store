@@ -43,7 +43,7 @@ switch ($evalCommand) {
         $_GET['acfsync'] = [];
 
 
-        afc();
+        acf();
 
         $tools = new \ACF_Admin_Field_Groups();
 
