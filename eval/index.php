@@ -40,9 +40,8 @@ switch ($evalCommand) {
         break;
 
     case 'acf-field-group-sync':
-        $_GET['acfsync'] = [];
-
         include_once( ACF_PATH . 'includes/acf-utility-functions.php');
+        acf_include('includes/local-json.php');
         acf_include('includes/admin/admin-field-groups.php');
 
         $tools = new \ACF_Admin_Field_Groups();
