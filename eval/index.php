@@ -33,7 +33,7 @@ switch ($evalCommand) {
             'tmp_name' => $file,
         ];
 
-        $tools = new LazyBlocks_Tools();
+        $tools = new \LazyBlocks_Tools();
         $tools->import_json();
         echo "import complete\n";
 
@@ -43,7 +43,9 @@ switch ($evalCommand) {
         $_GET['acfsync'] = [];
 
 
-        $tools = new ACF_Admin_Field_Groups();
+        afc();
+
+        $tools = new \ACF_Admin_Field_Groups();
 
         $tools->setup_sync();
 
