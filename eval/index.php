@@ -44,7 +44,13 @@ switch ($evalCommand) {
 
 
         $tools = new ACF_Admin_Field_Groups();
+
+        $tools->setup_sync();
+
+        print_r($tools->sync);
+
         $tools->check_sync();
+
         echo "sync complete\n";
 
         break;
