@@ -29,13 +29,11 @@ function success($msg) {
     echo "success: $msg\n";
 }
 
-
 function acf_sync_from_json() {
 
     // NOTE: the following is copied & adapted from the ACF source code, in 'admin-field-groups.php' function 'check_sync()'
     //       + delete part heavily inspired by https://gist.github.com/nkkollaw/8f0b0047fb6fc4a000bc975719fec682
 
-    // vars
     $paths = acf_get_setting( 'load_json' );
     $groups = acf_get_field_groups();
 
