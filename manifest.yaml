@@ -1,8 +1,11 @@
 eval:
   scriptUrl: https://raw.githubusercontent.com/aptenex/k8-store/main/eval/index.php
-  dataUrls:
-    - name: lazyblocks-data.json
-      url: https://raw.githubusercontent.com/aptenex/k8-store/main/eval/lazyblocks-data.json
+
+dataUrls:
+  - name: wordpress.wxr
+    url: https://raw.githubusercontent.com/aptenex/k8-store/main/wordpress.wxr
+  - name: lazyblocks-data.json
+    url: https://raw.githubusercontent.com/aptenex/k8-store/main/eval/lazyblocks-data.json
 
 pluginStore: https://github.com/aptenex/k8-store/raw/main/plugins/
 plugins:
