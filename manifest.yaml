@@ -1,3 +1,5 @@
+siteRootUrl: https://raw.githubusercontent.com/aptenex/k8-store/main/sites
+
 eval:
   scriptUrl: https://raw.githubusercontent.com/aptenex/k8-store/main/eval/index.php
 
