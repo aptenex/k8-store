@@ -1,5 +1,13 @@
 siteRootUrl: https://raw.githubusercontent.com/aptenex/k8-store/main/sites
 
+sites:
+  - name: dannyswp
+    labelSelector: app.kubernetes.io/instance=dannyswp
+    user:
+      email: sam@rentivo.com
+      username: danny
+      password: password
+
 eval:
   scriptUrl: https://raw.githubusercontent.com/aptenex/k8-store/main/eval/index.php
 

@@ -169,23 +169,24 @@ switch ($evalCommand) {
         break;
 
     case 'acf-field-group-sync':
-        /*include_once( ACF_PATH . 'includes/acf-utility-functions.php');
-        acf_include('includes/local-json.php');
-        acf_include('includes/admin/admin-field-groups.php');
-
-        $tools = new \ACF_Admin_Field_Groups();
-
-        $tools->setup_sync();
-        $tools->check_sync();
-        $tools->check_duplicate();
-
-        print_r($tools->sync);*/
-
         acf_sync_from_json();
 
         echo "sync complete\n";
 
         break;
+
+    case 'rentivo-simba-update-site-config':
+        $name = 'siteConfig.js';
+        $file = __DIR__ . '/' . $name;
+
+        $siteConfig = file_get_contents($file);
+
+        update_field('site_config', $siteConfig, 'option');
+
+        echo "\nsite config updated\n";
+
+        break;
+
 
 }
 
