@@ -1,4 +1,4 @@
-export default {
+{
     "id": "tv",
     "name": "Thailand Villas",
     "shortName": "Thailand Villas",
@@ -1223,4 +1223,4 @@ export default {
         }
 
     }
-};
+}
