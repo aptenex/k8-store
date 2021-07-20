@@ -176,7 +176,7 @@ switch ($evalCommand) {
         break;
 
     case 'rentivo-simba-update-site-config':
-        $name = 'siteConfig.js';
+        $name = 'siteConfig.json';
         $file = __DIR__ . '/' . $name;
 
         $siteConfig = file_get_contents($file);
