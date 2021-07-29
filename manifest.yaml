@@ -7,6 +7,12 @@ sites:
       email: sam@rentivo.com
       username: danny
       password: password
+  - name: lch-wp
+    labelSelector: app.kubernetes.io/instance=lch-wordpress
+    user:
+      email:
+      username: lch
+      password: password
 
 eval:
   scriptUrl: https://raw.githubusercontent.com/aptenex/k8-store/main/eval/index.php
