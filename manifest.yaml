@@ -14,7 +14,7 @@ sites:
     namespace: site-lch
     labelSelector: app.kubernetes.io/instance=lch-wordpress
     user:
-      email:
+      email: lch@rentivo.com
       username: lch
       password: password
 
