@@ -1,4 +1,12 @@
-siteRootUrl: https://raw.githubusercontent.com/aptenex/k8-store/main/sites
+storeRoot: https://raw.githubusercontent.com/aptenex/k8-store/main
+
+dataUrls:
+  - name: eval-index.php
+    path: /eval/index.php
+  - name: wordpress.wxr
+    path: /wordpress.wxr
+  - name: lazyblocks-data.json
+    path: eval/lazyblocks-data.json
 
 sites:
   - name: dannyswp
@@ -18,16 +26,11 @@ sites:
       username: lch
       password: password
 
-eval:
-  scriptUrl: https://raw.githubusercontent.com/aptenex/k8-store/main/eval/index.php
+themes:
 
-dataUrls:
-  - name: wordpress.wxr
-    url: https://raw.githubusercontent.com/aptenex/k8-store/main/wordpress.wxr
-  - name: lazyblocks-data.json
-    url: https://raw.githubusercontent.com/aptenex/k8-store/main/eval/lazyblocks-data.json
+  - name: savanna
+    version: 1.0
 
-pluginStore: https://github.com/aptenex/k8-store/raw/main/plugins/
 plugins:
 
   - name: advanced-custom-fields-pro
