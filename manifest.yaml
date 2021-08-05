@@ -6,7 +6,7 @@ dataUrls:
   - name: wordpress.wxr
     path: /wordpress.wxr
   - name: lazyblocks-data.json
-    path: eval/lazyblocks-data.json
+    path: /data/lazyblocks-data.json
 
 sites:
   - name: dannyswp
