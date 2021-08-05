@@ -22,9 +22,10 @@ sites:
     namespace: site-lch
     labelSelector: app.kubernetes.io/instance=lch-wordpress
   - name: book-bnb-wp
-      enabled: true
-      namespace: site-book-bnb
-      labelSelector: app.kubernetes.io/instance=book-bnb-wordpress
+    enabled: true
+    namespace: site-book-bnb
+    labelSelector: app.kubernetes.io/instance=book-bnb-wordpress
+
 themes:
 
   - name: savanna
