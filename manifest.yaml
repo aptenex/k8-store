@@ -21,19 +21,10 @@ sites:
     enabled: true
     namespace: site-lch
     labelSelector: app.kubernetes.io/instance=lch-wordpress
-    user:
-      email: lch@rentivo.com
-      username: lch
-      password: password
   - name: book-bnb-wp
       enabled: true
       namespace: site-book-bnb
       labelSelector: app.kubernetes.io/instance=book-bnb-wordpress
-      user:
-        email: book-bnb@leavetown.com
-        username: book-bnb
-        password: password
-
 themes:
 
   - name: savanna
