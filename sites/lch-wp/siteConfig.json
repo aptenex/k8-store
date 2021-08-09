@@ -670,8 +670,8 @@
       }
     },
     "elasticSearch": {
-      "app": "lycan_main.stays_uk_gatsby_website.properties_n7zpdu",
-      "credentials": "stays:password",
+      "app": "lycan_main.lakecomohomescom.properties_vhc4nn",
+      "credentials": "lch:password",
       "url": "https://search.es.rentivo.com:9243",
       "size": 12
     }

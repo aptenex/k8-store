@@ -79,4 +79,4 @@ plugins:
     version: 0.7
 
   - name: rentivo-simba
-    version: 1.0.4
+    version: 1.0.5

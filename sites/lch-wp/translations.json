@@ -1,0 +1,21 @@
+{
+  "components.search.PageHeader.default.page.subtitle": "Stays have an extensive collection of holiday homes. Book online today and get a great deal!",
+  "components.search.PageHeader.default.page.title": "Self-Catering Holiday Cottages",
+  "components.search.PageHeader.default.seo.desc": "Stays have an extensive collection of holiday homes. Book online today and get a great deal!",
+  "components.search.PageHeader.default.seo.title": "Self-Catering Holiday Cottages | Stays.co.uk",
+
+  "components.search.PageHeader.place.page.subtitle": "Stays have an extensive collection of holiday homes throughout {placeName}. Book online today and get a great deal!",
+  "components.search.PageHeader.place.page.title": "{placeName} Holiday Cottages",
+  "components.search.PageHeader.place.seo.desc": "Stays have an extensive collection of holiday homes throughout {placeName}. Book online today and get a great deal!",
+  "components.search.PageHeader.place.seo.title": "{placeName} Holiday Cottages | Stays.co.uk",
+
+  "components.search.PageHeader.collection.page.subtitle": "Stays have an extensive collection of holiday homes throughout {collectionName}. Book online today and get a great deal!",
+  "components.search.PageHeader.collection.page.title": "Self-Catering Holiday Cottages in {collectionName}",
+  "components.search.PageHeader.collection.seo.desc": "Stays have an extensive collection of holiday homes throughout {collectionName}. Book online today and get a great deal!",
+  "components.search.PageHeader.collection.seo.title": "Self-Catering Holiday Cottages in {collectionName} | Stays.co.uk",
+
+  "components.property.PropertyHeader.page.subtitle": "{headline}, {bedrooms} bedroom {type} in {location}",
+  "components.property.PropertyHeader.page.title": "{headline}",
+  "components.property.PropertyHead.seo.desc": "{headline}, holiday cottage located in {location}. Book online today and get a great deal!",
+  "components.property.PropertyHead.seo.title": "{headline}, {location} | Stays.co.uk"
+}
