@@ -182,7 +182,7 @@
   },
   "search": {
     "collections": {
-      "rootCollectionDatabaseId": 0
+      "rootCollectionDatabaseId": 962
     },
     "results": {
       "perPage": 12,
@@ -493,32 +493,12 @@
         "optionsToShow": 12,
         "options": [
           {
-            "urlValue": "cabin_chalet_cottage",
-            "value": "LISTING_TYPE_CABIN|LISTING_TYPE_CHALET|LISTING_TYPE_COTTAGE"
+            "urlValue": "apartment",
+            "value": "LISTING_TYPE_APARTMENT"
           },
           {
-            "urlValue": "condo_apartment",
-            "value": "LISTING_TYPE_APARTMENT|LISTING_TYPE_CONDO|LISTING_TYPE_STUDIO"
-          },
-          {
-            "urlValue": "hotel",
-            "value": "LISTING_TYPE_HOTEL"
-          },
-          {
-            "urlValue": "house",
-            "value": "LISTING_TYPE_HOUSE|LISTING_TYPE_VILLA"
-          },
-          {
-            "urlValue": "townhome",
-            "value": "LISTING_TYPE_TOWNHOUSE"
-          },
-          {
-            "urlValue": "glamping",
-            "value": "LISTING_TYPE_CAMPER_VAN"
-          },
-          {
-            "urlValue": "on_water",
-            "value": "LISTING_TYPE_HOUSE_BOAT|LISTING_TYPE_BOAT"
+            "urlValue": "villa",
+            "value": "LISTING_TYPE_HOUSE|LISTING_TYPE_VILLA|LISTING_TYPE_TOWNHOUSE"
           }
         ]
       },
@@ -532,27 +512,19 @@
         "optionsToShow": 6,
         "options": [
           {
-            "urlValue": "waterfront",
-            "value": "LOCALITY_BEACH|LOCALITY_BEACH_FRONT|LOCAL_BEACH|LOCAL_BEACH_FRONT"
+            "urlValue": "lakefront",
+            "value": "LOCALITY_WATER_FRONT|LOCALITY_LAKE_FRONT|LOCALITY_LAKESIDE_TOWN"
           },
           {
             "urlValue": "water_view",
-            "value": "LOCALITY_WATER_VIEWS"
+            "value": "LOCALITY_WATER_VIEWS|LOCALITY_LAKE_VIEWS"
           },
           {
-            "urlValue": "central",
+            "urlValue": "town",
             "value": "LOCALITY_TOWN_CENTRE"
           },
           {
-            "urlValue": "slopeside",
-            "value": "LOCALITY_SKI_IN_SKI_OUT|LOCAL_SKIING"
-          },
-          {
-            "urlValue": "golf",
-            "value": "LOCAL_GOLF|LOCALITY_GOLF_COURSE"
-          },
-          {
-            "urlValue": "250m_ski",
+            "urlValue": "ski",
             "value": "LOCAL_SKIING|LOCAL_SNOW_BOARDING"
           }
         ]
@@ -1097,6 +1069,58 @@
       "search": {
         "defaultType": "list",
         "showViewButton": true,
+        "moreFilters": [
+          {
+            "type": "keyword"
+          },
+          {
+            "type": "bedrooms"
+          },
+          {
+            "type": "beds"
+          },
+          {
+            "type": "bathrooms"
+          },
+          {
+            "type": "tagsFlags"
+          },
+          {
+            "title": "FILTER_TITLE_FEATURES",
+            "type": "features"
+          },
+          {
+            "title": "FILTER_TITLE_TYPE",
+            "type": "features",
+            "props": {
+              "filterConfigKey": "type"
+            }
+          },
+          {
+            "title": "FILTER_TITLE_LOCATION_FILTERS",
+            "type": "features",
+            "props": {
+              "filterConfigKey": "locationFeatures"
+            }
+          },
+          {
+            "title": "FILTER_TITLE_SUITABILITY",
+            "type": "features",
+            "props": {
+              "filterConfigKey": "suitability"
+            }
+          },
+          {
+            "title": "FILTER_TITLE_RELAX",
+            "type": "features",
+            "props": {
+              "filterConfigKey": "relax"
+            }
+          },
+          {
+            "type": "price"
+          }
+        ],
         "layout": {
           "searchArea": {
             "mapOpen": {
