@@ -182,7 +182,7 @@
   },
   "search": {
     "collections": {
-      "rootCollectionDatabaseId": 296860
+      "rootCollectionDatabaseId": 0
     },
     "results": {
       "perPage": 12,
@@ -792,7 +792,7 @@
     "perPage": 20
   },
   "routePaths": {
-    "ROUTE_BASE_SEARCH": "homes",
+    "ROUTE_BASE_SEARCH": "rentals",
     "ROUTE_BASE_PROPERTY": "home",
     "ROUTE_BASE_CHECKOUT": "checkout",
     "ROUTE_BASE_CHECKOUT_REVIEW": "review",
@@ -865,7 +865,7 @@
         "screen-xl": "1200px",
         "screen-xxl": "1600px",
 
-        "layout-header-height": "60px",
+        "layout-header-height": "78px",
 
         "btn-border-radius-base": "0",
         "btn-border-radius-sm": "0",
@@ -1158,18 +1158,30 @@
       "link": "#188FBF",
       "linkHover": "#126D92",
       "primary": {
-        "50": "#F2FAFD",
-        "100": "#DBF2FB",
-        "200": "#AEE0F5",
-        "300": "#81CFEF",
-        "400": "#53BEEA",
-        "500": "#26ADE4",
-        "600": "#188FBF",
-        "700": "#126D92",
-        "800": "#0D4B64",
-        "900": "#072937"
+        "50": "#B7CBF6",
+        "100": "#A0BBF3",
+        "200": "#739AED",
+        "300": "#467AE7",
+        "400": "#1D5ADD",
+        "500": "#1748B0",
+        "600": "#113683",
+        "700": "#0B2356",
+        "800": "#051129",
+        "900": "#000000"
       },
       "secondary": {
+        "50": "#E6F0F8",
+        "100": "#D2E4F2",
+        "200": "#AACCE7",
+        "300": "#82B4DC",
+        "400": "#5B9BD0",
+        "500": "#3783C1",
+        "600": "#2C6899",
+        "700": "#204D72",
+        "800": "#15324A",
+        "900": "#0A1722"
+      },
+      "tertiary": {
         "50": "#FFFDF8",
         "100": "#FFFBF0",
         "200": "#FEF4DB",
@@ -1180,18 +1192,6 @@
         "700": "#977F41",
         "800": "#715F31",
         "900": "#4B4021"
-      },
-      "tertiary": {
-        "50": "#FFFFFF",
-        "100": "#FFFFFF",
-        "200": "#FFF3F3",
-        "300": "#FFC0C2",
-        "400": "#FF8D90",
-        "500": "#FF5A5F",
-        "600": "#FF272E",
-        "700": "#F30007",
-        "800": "#C00006",
-        "900": "#8D0004"
       }
     },
     "fontWeights": {
@@ -1279,8 +1279,8 @@
     "layerStyles": {
       "highlight": {
         "borderBottom": "2px solid",
-        "bg": "secondary.200",
-        "borderColor": "secondary.300",
+        "bg": "tertiary.200",
+        "borderColor": "tertiary.300",
         "color": "text",
         "fontSize": "sm",
         "display": "inline-block",
@@ -1343,20 +1343,19 @@
             }
           },
           "secondary": {
-            "border": "1px solid #FBD46D",
+            "borderColor": "secondary.500",
             "bg": "secondary.500",
-            "color": "text",
             "_hover": {
-              "bg": "text",
-              "border": "1px solid #030f17"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400"
             },
             "_focus": {
-              "bg": "text",
-              "border": "1px solid #030f17"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400"
             },
             "_active": {
-              "bg": "text",
-              "border": "1px solid #030f17"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400"
             }
           },
           "menuLight": {
@@ -1382,7 +1381,7 @@
         "baseStyle": {
           "type": "light",
           "header": {
-            "height": "60px",
+            "height": "78px",
             "boxShadow": "lg",
             "bg": "white"
           },

@@ -1,21 +1,21 @@
 {
-  "components.search.PageHeader.default.page.subtitle": "Stays have an extensive collection of holiday homes. Book online today and get a great deal!",
-  "components.search.PageHeader.default.page.title": "Self-Catering Holiday Cottages",
-  "components.search.PageHeader.default.seo.desc": "Stays have an extensive collection of holiday homes. Book online today and get a great deal!",
-  "components.search.PageHeader.default.seo.title": "Self-Catering Holiday Cottages | Stays.co.uk",
+  "components.search.PageHeader.default.page.subtitle": "Read views, check availability and book direct now for the best price guaranteed!",
+  "components.search.PageHeader.default.page.title": "Holiday Villas & Apartments in Lake Como, Lake Maggorie & Lake Lugano",
+  "components.search.PageHeader.default.seo.desc": "Villas & Apartments in Lake Como, Lake Lugano & Lake Maggorie. Read views, check availability and book direct now for the best price guaranteed!",
+  "components.search.PageHeader.default.seo.title": "Lake Como Villas & Apartments to rent {sep} {siteTitle}",
 
-  "components.search.PageHeader.place.page.subtitle": "Stays have an extensive collection of holiday homes throughout {placeName}. Book online today and get a great deal!",
-  "components.search.PageHeader.place.page.title": "{placeName} Holiday Cottages",
-  "components.search.PageHeader.place.seo.desc": "Stays have an extensive collection of holiday homes throughout {placeName}. Book online today and get a great deal!",
-  "components.search.PageHeader.place.seo.title": "{placeName} Holiday Cottages | Stays.co.uk",
+  "components.search.PageHeader.place.page.subtitle": "Read views, check availability and book direct now for the best price guaranteed!",
+  "components.search.PageHeader.place.page.title": "{placeName} Holiday Villas & Apartments",
+  "components.search.PageHeader.place.seo.desc": "Lake Como Homes have an extensive collection of holiday villas & apartments throughout {placeName}. Book direct today now for the best price guaranteed!",
+  "components.search.PageHeader.place.seo.title": "{placeName} Holiday Villas & Apartments {sep} {siteTitle}",
 
-  "components.search.PageHeader.collection.page.subtitle": "Stays have an extensive collection of holiday homes throughout {collectionName}. Book online today and get a great deal!",
-  "components.search.PageHeader.collection.page.title": "Self-Catering Holiday Cottages in {collectionName}",
-  "components.search.PageHeader.collection.seo.desc": "Stays have an extensive collection of holiday homes throughout {collectionName}. Book online today and get a great deal!",
-  "components.search.PageHeader.collection.seo.title": "Self-Catering Holiday Cottages in {collectionName} | Stays.co.uk",
+  "components.search.PageHeader.collection.page.subtitle": "Read views, check availability and book direct now for the best price guaranteed!",
+  "components.search.PageHeader.collection.page.title": "{collectionName} Holiday Villas & Apartments",
+  "components.search.PageHeader.collection.seo.desc": "Lake Como Homes have an extensive collection of holiday villas & apartments throughout {collectionName}. Book direct today now for the best price guaranteed!",
+  "components.search.PageHeader.collection.seo.title": "{collectionName} Holiday Villas & Apartments {sep} {siteTitle}",
 
   "components.property.PropertyHeader.page.subtitle": "{headline}, {bedrooms} bedroom {type} in {location}",
   "components.property.PropertyHeader.page.title": "{headline}",
-  "components.property.PropertyHead.seo.desc": "{headline}, holiday cottage located in {location}. Book online today and get a great deal!",
-  "components.property.PropertyHead.seo.title": "{headline}, {location} | Stays.co.uk"
+  "components.property.PropertyHead.seo.desc": "{headline}, holiday {type} located in {location}. Book direct today and get the best price guaranteed!",
+  "components.property.PropertyHead.seo.title": "{headline}, {location} {sep} {siteTitle}"
 }
