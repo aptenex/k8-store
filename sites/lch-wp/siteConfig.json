@@ -765,7 +765,7 @@
   },
   "routePaths": {
     "ROUTE_BASE_SEARCH": "rentals",
-    "ROUTE_BASE_PROPERTY": "home",
+    "ROUTE_BASE_PROPERTY": "rental",
     "ROUTE_BASE_CHECKOUT": "checkout",
     "ROUTE_BASE_CHECKOUT_REVIEW": "review",
     "ROUTE_BASE_CHECKOUT_GUEST_INFO": "info",
