@@ -44,10 +44,10 @@
         "host": "https://lycan.rentivo.com",
         "sendCurrencyOnPriceRequests": false
       },
-      "googleApiKey": "AIzaSyBpUyxFM1ORsk7scdoW54MtLiq1pfFYFMw",
+      "googleApiKey": "AIzaSyAHKtVjv9tNEOkVfe_p9hgyPdJfaGgEAy8",
       "tracking": {
         "debug": false,
-        "environments": ["production", "development"],
+        "environments": ["production"],
         "googleTagManager": {
           "active": false,
           "autoStart": true,
@@ -58,9 +58,9 @@
           "cookieFlags": "secure;samesite=none"
         },
         "googleAnalytics": {
-          "active": false,
+          "active": true,
           "head": true,
-          "trackingId": "UA-34358122-1",
+          "trackingId": "UA-8328647-3",
           "autoStart": true,
           "anonymize": true,
           "cookieFlags": "secure;samesite=none"
@@ -199,15 +199,15 @@
         "usePlaceNames": false
       },
       "isOpenOnLoad": true,
-      "defaultZoom": 3,
+      "defaultZoom": 8,
       "maxZoom": 19,
       "minZoom": 1,
       "useFuzzyRadius": false,
       "fuzzyRadius": 200,
       "searchMapOnMoveDefault": true,
       "defaultCenter": {
-        "lat": 38.941631,
-        "lng": -119.977219
+        "lat": 46.016048,
+        "lng": 9.257168
       }
     },
     "filters": {
@@ -362,7 +362,7 @@
             "value": "GENERAL_AIR_CONDITIONING"
           },
           {
-            "urlValue": "pool",
+            "urlValue": "private_pool",
             "value": "SPA_POOL_INDOOR_POOL|SPA_POOL_POOL_COMMUNAL|SPA_POOL_SWIMMING_POOL|SPA_POOL_POOL_HEATED|SPA_POOL_POOL_INDOOR|SPA_POOL_POOL_PRIVATE|SPA_POOL_POOL_UNHEATED"
           },
           {
