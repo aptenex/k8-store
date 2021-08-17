@@ -4,7 +4,7 @@
   "shortName": "Lake Como Homes",
   "websiteUrl": "https://www.lakecomohomes.com",
   "baseUrl": "https://lch-wp.k8.rentivo.com",
-  "dynamicPropertyPages": true,
+  "dynamicPropertyPages": false,
   "noIndex": false,
   "currency": {
     "defaultCurrency": "GBP",
