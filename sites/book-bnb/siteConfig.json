@@ -1446,19 +1446,16 @@
             "fontWeight": "normal",
             "textTransform": "uppercase",
             "_hover": {
-              "borderColor": "secondary.600",
-              "bg": "secondary.600",
-              "color": "white"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400"
             },
             "_focus": {
-              "borderColor": "secondary.600",
-              "bg": "secondary.600",
-              "color": "white"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400"
             },
             "_active": {
-              "borderColor": "secondary.600",
-              "bg": "secondary.600",
-              "color": "white"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400"
             }
           },
           "secondary": {
