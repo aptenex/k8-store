@@ -15,27 +15,27 @@
       "useImage": true,
       "text": "Book BnB",
       "image": {
-        "width": 132,
-        "height": 132,
+        "width": 404,
+        "height": 400,
         "types": {
-          "default": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/FVE-image.svg",
-          "defaultMobile": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/FVE-image.svg",
-          "light": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/FVE-image.svg",
-          "lightMobile": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/FVE-image.svg",
-          "dark": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/FVE-image.svg",
-          "darkMobile": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/FVE-image.svg"
+          "default": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
+          "defaultMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
+          "light": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
+          "lightMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
+          "dark": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
+          "darkMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png"
         }
       }
     },
     "icons": {
-      "16": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/fav.png",
-      "32": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/fav.png",
-      "48": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/FVE-image.svg",
-      "128": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/FVE-image.svg"
+      "16": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/app-icon.png",
+      "32": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/app-icon.png",
+      "48": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/app-icon.png",
+      "128": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/app-icon.png"
     },
     "cookies": {
       "active": false,
-      "policyUrl": "https://fivestarcapecod.com/terms/",
+      "policyUrl": "https://book-bnb.com/terms/",
       "position": "center"
     },
     "api": {
@@ -107,8 +107,8 @@
         "name": "Book BnB",
         "legalName": "Book BnB",
         "url": "https://book-bnb.com",
-        "logo": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/FVE-image.svg",
-        "foundingDate": "2008",
+        "logo": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
+        "foundingDate": "2021",
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "Customer Support",
@@ -119,7 +119,7 @@
       "brand": {
         "name": "Book BnB",
         "url": "https://book-bnb.com",
-        "logo": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/FVE-image.svg",
+        "logo": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
         "sameAs": []
       }
     },
@@ -133,8 +133,8 @@
       "fonts": {
         "google": [
           {
-            "family": "Karla",
-            "variants": ["300", "400", "600"],
+            "family": "Tenor Sans",
+            "variants": ["400"],
             "fontDisplay": "swap"
           },
           {
@@ -800,7 +800,7 @@
     "perPage": 20
   },
   "routePaths": {
-    "ROUTE_BASE_SEARCH": "destinations",
+    "ROUTE_BASE_SEARCH": "accommodations",
     "ROUTE_BASE_PROPERTY": "accommodation",
     "ROUTE_BASE_CHECKOUT": "checkout",
     "ROUTE_BASE_CHECKOUT_REVIEW": "review",
@@ -841,7 +841,7 @@
         "shadow-color": "rgba(0, 0, 0, 0.15)",
         "box-shadow-base": "0 0.23rem 1.09rem rgba(8,10,37,.03), 0 0.465rem 0.70rem rgba(8,10,37,.03), 0 0.125rem 0.265rem rgba(8,10,37,.05), 0 0.0625rem 0.0935rem rgba(8,10,37,.03)",
 
-        "font-family": "'Karla', sans-serif",
+        "font-family": "'Tenor Sans', sans-serif",
         "code-family": "'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace",
         "font-size-base": "15px",
         "font-size-lg": "17px",
@@ -873,7 +873,7 @@
         "screen-xl": "1200px",
         "screen-xxl": "1600px",
 
-        "layout-header-height": "80px",
+        "layout-header-height": "100px",
 
         "btn-border-radius-base": "6px",
         "btn-border-radius-sm": "4px",
@@ -1013,16 +1013,16 @@
 
         "heading-5-size": "17px",
 
-        "heading-1-font-weight": "700",
-        "heading-2-font-weight": "700",
-        "heading-3-font-weight": "700",
-        "heading-4-font-weight": "700",
-        "heading-5-font-weight": "700",
-        "heading-1-font-family": "'Karla', sans-serif",
-        "heading-2-font-family": "'Karla', sans-serif",
-        "heading-3-font-family": "'Karla', sans-serif",
-        "heading-4-font-family": "'Karla', sans-serif",
-        "heading-5-font-family": "'Karla', sans-serif",
+        "heading-1-font-weight": "400",
+        "heading-2-font-weight": "400",
+        "heading-3-font-weight": "400",
+        "heading-4-font-weight": "400",
+        "heading-5-font-weight": "400",
+        "heading-1-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
+        "heading-2-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
+        "heading-3-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
+        "heading-4-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
+        "heading-5-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
         "heading-1-letter-spacing": "0",
         "heading-2-letter-spacing": "0",
         "heading-3-letter-spacing": "0",
@@ -1033,7 +1033,7 @@
         "content-width-wide": "1200px",
         "content-line-height-base": "1.75",
         "content-font-size-base": "15px",
-        "content-font-family": "'Karla', sans-serif",
+        "content-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
         "content-letter-spacing": "0",
         "content-heading-1-size": "48px",
         "content-heading-2-size": "36px",
@@ -1044,11 +1044,11 @@
         "content-heading-3-font-weight": "700",
         "content-heading-4-font-weight": "700",
         "content-heading-5-font-weight": "700",
-        "content-heading-1-font-family": "'Karla', sans-serif",
-        "content-heading-2-font-family": "'Karla', sans-serif",
-        "content-heading-3-font-family": "'Karla', sans-serif",
-        "content-heading-4-font-family": "'Karla', sans-serif",
-        "content-heading-5-font-family": "'Karla', sans-serif",
+        "content-heading-1-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
+        "content-heading-2-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
+        "content-heading-3-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
+        "content-heading-4-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
+        "content-heading-5-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
         "content-heading-1-letter-spacing": "0",
         "content-heading-2-letter-spacing": "0",
         "content-heading-3-letter-spacing": "0",
@@ -1265,7 +1265,8 @@
         "900": "#7a3610"
       },
       "gray": {
-        "100": "#F6F6F6"
+        "100": "#f4efe5",
+        "200": "#eee8dd"
       }
     },
     "fontWeights": {
@@ -1280,8 +1281,9 @@
       "black": 700
     },
     "fonts": {
-      "heading": "'Karla', sans-serif",
-      "body": "'Nunito', sans-serif",
+      "heading": "'Tenor Sans', sans-serif",
+      "body": "'Tenor Sans', sans-serif",
+      "other": "'Nunito', sans-serif",
       "mono": "SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
     },
     "fontSizes": {
@@ -1301,97 +1303,111 @@
     },
     "typography": {
       "text": {
-        "fontFamily": "body"
+        "fontFamily": "body",
+        "fontWeight": "normal"
       },
       "textWriting": {
-        "fontFamily": "body"
+        "fontFamily": "body",
+        "fontWeight": "normal"
       },
       "heading": {
         "h1": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": { "base": "2xl", "lg": "3xl" },
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h2": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": { "base": "xl", "lg": "2xl" },
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h3": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": { "base": "lg", "lg": "xl" },
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h4": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": { "base": "lg", "lg": "lg" },
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h5": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": "md",
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h6": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": "md",
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         }
       },
       "writingHeading": {
         "h1": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": { "base": "3xl", "lg": "4xl" },
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h2": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": { "base": "2xl", "lg": "3xl" },
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h3": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": { "base": "xl", "lg": "2xl" },
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h4": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": { "base": "lg", "lg": "xl" },
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h5": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": "lg",
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h6": {
           "fontFamily": "heading",
-          "fontWeight": "light",
+          "fontWeight": "normal",
           "lineHeight": "shorter",
           "fontSize": "md",
-          "color": "text"
+          "color": "text",
+          "textTransform": "uppercase"
         }
       }
     },
@@ -1426,27 +1442,28 @@
           "primary": {
             "borderColor": "secondary.500",
             "bg": "secondary.500",
-            "color": "primary.500",
+            "color": "primary.600",
+            "fontWeight": "normal",
+            "textTransform": "uppercase",
             "_hover": {
-              "borderColor": "secondary.600",
-              "bg": "secondary.600",
-              "color": "primary.400"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400"
             },
             "_focus": {
-              "borderColor": "secondary.600",
-              "bg": "secondary.600",
-              "color": "primary.400"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400"
             },
             "_active": {
-              "borderColor": "secondary.600",
-              "bg": "secondary.600",
-              "color": "primary.400"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400"
             }
           },
           "secondary": {
             "borderColor": "primary.500",
             "bg": "primary.500",
             "color": "secondary.500",
+            "fontWeight": "normal",
+            "textTransform": "uppercase",
             "_hover": {
               "borderColor": "primary.600",
               "bg": "primary.600",
@@ -1461,6 +1478,24 @@
               "borderColor": "primary.600",
               "bg": "primary.600",
               "color": "secondary.400"
+            }
+          },
+          "menuLight": {
+            "bg:": "transparent",
+            "color": "text",
+            "fontWeight": "normal",
+            "textTransform": "uppercase",
+            "_focus": {
+              "bg:": "gray.200",
+              "color": "text"
+            },
+            "_active": {
+              "bg:": "gray.200",
+              "color": "text"
+            },
+            "_hover": {
+              "bg:": "gray.200",
+              "color": "text"
             }
           }
         }
@@ -1471,9 +1506,9 @@
           "type": "light",
           "layout": "CENTRAL_LOGO",
           "header": {
-            "height": "90px",
+            "height": "150px",
             "boxShadow": "0 0 5px 1px rgba(0, 0, 0, 0.05)",
-            "bg": "white"
+            "bg": "gray.100"
           },
           "container": {
             "maxW": "container.full"
