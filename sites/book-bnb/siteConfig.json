@@ -15,15 +15,15 @@
       "useImage": true,
       "text": "Book BnB",
       "image": {
-        "width": 404,
-        "height": 400,
+        "width": 150,
+        "height": 150,
         "types": {
-          "default": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
-          "defaultMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
-          "light": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
-          "lightMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
-          "dark": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
-          "darkMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png"
+          "default": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
+          "defaultMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
+          "light": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
+          "lightMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
+          "dark": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
+          "darkMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg"
         }
       }
     },
@@ -40,7 +40,7 @@
     },
     "api": {
       "lycan": {
-        "channelId": "5795b825-3241-4d24-a6b1-b4bcd225cadc",
+        "channelId": "9a300457-cd02-4a2c-93dd-863ec5e56477",
         "host": "https://lycan.rentivo.com",
         "sendCurrencyOnPriceRequests": false
       },
@@ -107,7 +107,7 @@
         "name": "Book BnB",
         "legalName": "Book BnB",
         "url": "https://book-bnb.com",
-        "logo": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
+        "logo": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
         "foundingDate": "2021",
         "contactPoint": {
           "@type": "ContactPoint",
@@ -119,7 +119,7 @@
       "brand": {
         "name": "Book BnB",
         "url": "https://book-bnb.com",
-        "logo": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/logo-cut.png",
+        "logo": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
         "sameAs": []
       }
     },
@@ -678,9 +678,9 @@
       }
     },
     "elasticSearch": {
-      "app": "lycan_main.cape_cod_five_star_rentals_lt.properties_7pd6vm",
-      "credentials": "five_star_rentals:password",
-      "url": "https://a35d247772564310960cc2dbc13eec13.eu-west-1.aws.found.io:9243",
+      "app": "lycan_main.leavetown_bookbnb.properties_4zwp1a",
+      "credentials": "bookbnb:password",
+      "url": "https://search.es.rentivo.com:9243",
       "size": 12
     }
   },
@@ -1224,33 +1224,33 @@
       }
     },
     "colors": {
-      "text": "#596E5C",
-      "textLight": "#708A74",
+      "text": "#334f44",
+      "textLight": "#596e5d",
       "link": "#E3A33D",
       "linkHover": "#CF8B1E",
       "primary": {
-        "50": "#D2DBD3",
-        "100": "#C4CFC5",
-        "200": "#A8B8AA",
-        "300": "#8BA28F",
-        "400": "#708A74",
-        "500": "#596E5C",
-        "600": "#425244",
-        "700": "#2B362D",
-        "800": "#151915",
+        "50": "#D1DAD3",
+        "100": "#C3CEC5",
+        "200": "#A6B8AB",
+        "300": "#8AA190",
+        "400": "#6F8975",
+        "500": "#596e5d",
+        "600": "#415145",
+        "700": "#2A352D",
+        "800": "#141815",
         "900": "#000000"
       },
       "secondary": {
         "50": "#FFFFFF",
-        "100": "#FDF8EF",
-        "200": "#F6E2C3",
-        "300": "#F0CD96",
-        "400": "#E9B86A",
-        "500": "#E3A33D",
-        "600": "#CF8B1E",
-        "700": "#A36D17",
-        "800": "#764F11",
-        "900": "#49310B"
+        "100": "#FDF7EE",
+        "200": "#F6E2C2",
+        "300": "#EFCD96",
+        "400": "#E9B869",
+        "500": "#E2A33D",
+        "600": "#CD8B1F",
+        "700": "#A16D18",
+        "800": "#754F11",
+        "900": "#48310B"
       },
       "tertiary": {
         "50":  "#f9f4e3",
@@ -1265,7 +1265,7 @@
         "900": "#7a3610"
       },
       "gray": {
-        "100": "#f4efe5",
+        "100": "#f5f0e5",
         "200": "#eee8dd"
       }
     },
@@ -1424,6 +1424,7 @@
         },
         "variants": {
           "default": {
+            "borderRadius": "none",
             "bg": "#ffffff",
             "color": "text",
             "borderColor": "gray.200",
@@ -1440,6 +1441,7 @@
             }
           },
           "primary": {
+            "borderRadius": "none",
             "borderColor": "secondary.500",
             "bg": "secondary.500",
             "color": "primary.600",
@@ -1447,18 +1449,22 @@
             "textTransform": "uppercase",
             "_hover": {
               "borderColor": "secondary.400",
-              "bg": "secondary.400"
+              "bg": "secondary.400",
+              "color": "primary.600"
             },
             "_focus": {
               "borderColor": "secondary.400",
-              "bg": "secondary.400"
+              "bg": "secondary.400",
+              "color": "primary.600"
             },
             "_active": {
               "borderColor": "secondary.400",
-              "bg": "secondary.400"
+              "bg": "secondary.400",
+              "color": "primary.600"
             }
           },
           "secondary": {
+            "borderRadius": "none",
             "borderColor": "primary.500",
             "bg": "primary.500",
             "color": "secondary.500",
@@ -1481,20 +1487,23 @@
             }
           },
           "menuLight": {
-            "bg:": "transparent",
+            "borderRadius": "none",
+            "background": "transparent",
             "color": "text",
             "fontWeight": "normal",
             "textTransform": "uppercase",
             "_focus": {
-              "bg:": "gray.200",
+              "borderColor": "gray.200",
+              "background": "gray.200",
               "color": "text"
             },
             "_active": {
-              "bg:": "gray.200",
+              "borderColor": "gray.200",
+              "background": "gray.200",
               "color": "text"
             },
             "_hover": {
-              "bg:": "gray.200",
+              "background": "gray.200",
               "color": "text"
             }
           }
