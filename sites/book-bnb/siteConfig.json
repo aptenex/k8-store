@@ -1,7 +1,7 @@
 {
   "id": "bookbnb",
-  "name": "Book BnB",
-  "shortName": "Book BnB",
+  "name": "BOOK-BNB.COM",
+  "shortName": "BOOK-BNB",
   "websiteUrl": "https://book-bnb.com",
   "baseUrl": "https://book-bnb-wp.k8.rentivo.com/graphql",
   "dynamicPropertyPages": true,
@@ -13,7 +13,7 @@
   "site": {
     "logo": {
       "useImage": true,
-      "text": "Book BnB",
+      "text": "BOOK-BNB",
       "image": {
         "width": 150,
         "height": 150,
@@ -49,12 +49,12 @@
         "debug": false,
         "environments": ["production"],
         "googleTagManager": {
-          "active": false,
+          "active": true,
           "autoStart": true,
           "defaultDataLayer": {
             "platform": "rentivo"
           },
-          "trackingId": "GTM-WBPTDMG",
+          "trackingId": "GTM-T7J8474",
           "cookieFlags": "secure;samesite=none"
         },
         "googleAnalytics": {
@@ -104,8 +104,8 @@
     },
     "structuredData": {
       "organization": {
-        "name": "Book BnB",
-        "legalName": "Book BnB",
+        "name": "BOOK-BNB",
+        "legalName": "BOOK-BNB",
         "url": "https://book-bnb.com",
         "logo": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
         "foundingDate": "2021",
@@ -126,7 +126,7 @@
     "content": {
       "variables": {
         "sep": "—",
-        "siteTitle": "Book BnB"
+        "siteTitle": "BOOK-BNB.COM"
       }
     },
     "design": {
@@ -192,8 +192,11 @@
     }
   },
   "search": {
+    "collections": {
+      "rootCollectionDatabaseId": 0
+    },
     "results": {
-      "perPage": 12,
+      "perPage": 36,
       "totalHits": 5000,
       "openInNewTab": true,
       "includeDiscounts": false
@@ -1415,6 +1418,63 @@
 
     },
     "components": {
+      "Select": {
+        "sizes": {
+          "sm": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "md": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "lg": {
+            "field": {
+              "borderRadius": "none"
+            }
+          }
+        }
+      },
+      "NumberInput": {
+        "sizes": {
+          "sm": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "md": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "lg": {
+            "field": {
+              "borderRadius": "none"
+            }
+          }
+        }
+      },
+      "Textarea": {
+        "sizes": {
+          "sm": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "md": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "lg": {
+            "field": {
+              "borderRadius": "none"
+            }
+          }
+        }
+      },
       "Button": {
         "sizes": {
           "lg": {
