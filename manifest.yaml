@@ -25,6 +25,10 @@ sites:
     enabled: true
     namespace: site-book-bnb
     labelSelector: app.kubernetes.io/instance=book-bnb-wordpress
+  - name: gordon-wp
+    enabled: true
+    namespace: site-gordon
+    labelSelector: app.kubernetes.io/instance=gordon-wordpress
 
 themes:
 
