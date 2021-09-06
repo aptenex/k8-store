@@ -15,8 +15,8 @@
       "useImage": true,
       "text": "BOOK-BNB",
       "image": {
-        "width": 150,
-        "height": 150,
+        "width": 140,
+        "height": 140,
         "types": {
           "default": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
           "defaultMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
@@ -60,7 +60,7 @@
         "googleAnalytics": {
           "active": false,
           "head": true,
-          "trackingId": "UA-34358122-1",
+          "trackingId": "G-7ZM90T0WD3",
           "autoStart": true,
           "anonymize": true,
           "cookieFlags": "secure;samesite=none"
@@ -1575,7 +1575,7 @@
           "type": "light",
           "layout": "CENTRAL_LOGO",
           "header": {
-            "height": "150px",
+            "height": "100px",
             "boxShadow": "0 0 5px 1px rgba(0, 0, 0, 0.05)",
             "bg": "gray.100"
           },
