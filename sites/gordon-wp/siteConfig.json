@@ -1,9 +1,9 @@
 {
-  "id": "bookbnb",
-  "name": "BOOK-BNB.COM",
-  "shortName": "BOOK-BNB",
-  "websiteUrl": "https://book-bnb.com",
-  "baseUrl": "https://book-bnb-wp.k8.rentivo.com/graphql",
+  "id": "gordon",
+  "name": "Gordon Property Management",
+  "shortName": "Gordon",
+  "websiteUrl": "https://gordonpropertymanagement.com",
+  "baseUrl": "https://gordon-wp.k8.rentivo.com/graphql",
   "dynamicPropertyPages": true,
   "noIndex": false,
   "currency": {
@@ -13,34 +13,34 @@
   "site": {
     "logo": {
       "useImage": true,
-      "text": "BOOK-BNB",
+      "text": "Gordon Property Management",
       "image": {
-        "width": 150,
-        "height": 150,
+        "width": 180,
+        "height": 96,
         "types": {
-          "default": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
-          "defaultMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
-          "light": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
-          "lightMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
-          "dark": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
-          "darkMobile": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg"
+          "default": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
+          "defaultMobile": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
+          "light": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
+          "lightMobile": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
+          "dark": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo-brand.png",
+          "darkMobile": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo-brand.png"
         }
       }
     },
     "icons": {
-      "16": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/app-icon.png",
-      "32": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/app-icon.png",
-      "48": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/app-icon.png",
-      "128": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/app-icon.png"
+      "16": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/fav-sm.png",
+      "32": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/fav-sm.png",
+      "48": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/fav.png",
+      "128": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/fav.png"
     },
     "cookies": {
       "active": false,
-      "policyUrl": "https://book-bnb.com/terms/",
+      "policyUrl": "https://gordonpropertymanagement.com/terms/",
       "position": "center"
     },
     "api": {
       "lycan": {
-        "channelId": "9a300457-cd02-4a2c-93dd-863ec5e56477",
+        "channelId": "060f5017-028f-4470-90f5-f47c66709f1a",
         "host": "https://lycan.rentivo.com",
         "sendCurrencyOnPriceRequests": false
       },
@@ -60,7 +60,7 @@
         "googleAnalytics": {
           "active": false,
           "head": true,
-          "trackingId": "UA-34358122-1",
+          "trackingId": "G-7ZM90T0WD3",
           "autoStart": true,
           "anonymize": true,
           "cookieFlags": "secure;samesite=none"
@@ -104,42 +104,42 @@
     },
     "structuredData": {
       "organization": {
-        "name": "BOOK-BNB",
-        "legalName": "BOOK-BNB",
-        "url": "https://book-bnb.com",
-        "logo": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
+        "name": "Gordon Property Management",
+        "legalName": "Gordon Property Management",
+        "url": "https://gordonpropertymanagement.com",
+        "logo": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
         "foundingDate": "2021",
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "Customer Support",
-          "email": "hello@book-bnb.com"
+          "email": "hello@gordonpropertymanagement.com"
         },
         "sameAs": []
       },
       "brand": {
-        "name": "Book BnB",
-        "url": "https://book-bnb.com",
-        "logo": "https://book-bnb-wp.k8.rentivo.com/wp-content/uploads/2021/08/bookbnb_1.svg",
+        "name": "Gordon Property Management",
+        "url": "https://gordonpropertymanagement.com",
+        "logo": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
         "sameAs": []
       }
     },
     "content": {
       "variables": {
         "sep": "—",
-        "siteTitle": "BOOK-BNB.COM"
+        "siteTitle": "Gordon Property Management"
       }
     },
     "design": {
       "fonts": {
         "google": [
           {
-            "family": "Tenor Sans",
-            "variants": ["400"],
+            "family": "Poppins",
+            "variants": ["400", "500"],
             "fontDisplay": "swap"
           },
           {
-            "family": "Nunito",
-            "variants": ["400", "600", "700"],
+            "family": "PT Serif",
+            "variants": ["400", "700"],
             "fontDisplay": "swap"
           }
         ]
@@ -681,10 +681,10 @@
       }
     },
     "elasticSearch": {
-      "app": "lycan_main.leavetown_bookbnb.properties_4zwp1a",
-      "credentials": "bookbnb:password",
+      "app": "lycan_main.leavetown_gordonrealestate.properties_xze8ls",
+      "credentials": "gordonrealestate:password",
       "url": "https://search.es.rentivo.com:9243",
-      "size": 12
+      "size": 36
     }
   },
   "property": {
@@ -826,14 +826,14 @@
       "base": {
         "body-background": "#fff",
         "component-background": "#fff",
-        "primary-color": "#c12126",
+        "primary-color": "#B38A2C",
         "error-color": "#ff8469",
         "info-color": "#28a59b",
         "success-color": "#52c41a",
         "text-color": "#1e3f5b",
         "text-color-secondary": "#2e4f6b",
         "heading-color": "#1e3f5b",
-        "link-color": "#c12126",
+        "link-color": "#B38A2C",
         "normal-color": "#d9d9d9",
         "item-hover-bg": "#f5f5f5",
         "background-color-light": "#f5f5f5",
@@ -844,7 +844,7 @@
         "shadow-color": "rgba(0, 0, 0, 0.15)",
         "box-shadow-base": "0 0.23rem 1.09rem rgba(8,10,37,.03), 0 0.465rem 0.70rem rgba(8,10,37,.03), 0 0.125rem 0.265rem rgba(8,10,37,.05), 0 0.0625rem 0.0935rem rgba(8,10,37,.03)",
 
-        "font-family": "'Tenor Sans', sans-serif",
+        "font-family": "'Poppins', sans-serif",
         "code-family": "'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace",
         "font-size-base": "15px",
         "font-size-lg": "17px",
@@ -876,7 +876,7 @@
         "screen-xl": "1200px",
         "screen-xxl": "1600px",
 
-        "layout-header-height": "100px",
+        "layout-header-height": "114px",
 
         "btn-border-radius-base": "6px",
         "btn-border-radius-sm": "4px",
@@ -915,7 +915,7 @@
         "select-selection-item-border-color": "#f0f0f0",
 
         "checkbox-size": "20px",
-        "checkbox-color": "#c12126",
+        "checkbox-color": "#B38A2C",
         "checkbox-check-color": "#ffffff",
         "checkbox-border-width": "2px",
 
@@ -1021,11 +1021,11 @@
         "heading-3-font-weight": "400",
         "heading-4-font-weight": "400",
         "heading-5-font-weight": "400",
-        "heading-1-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
-        "heading-2-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
-        "heading-3-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
-        "heading-4-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
-        "heading-5-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
+        "heading-1-font-family": "'Poppins', sans-serif",
+        "heading-2-font-family": "'Poppins', sans-serif",
+        "heading-3-font-family": "'Poppins', sans-serif",
+        "heading-4-font-family": "'Poppins', sans-serif",
+        "heading-5-font-family": "'Poppins', sans-serif",
         "heading-1-letter-spacing": "0",
         "heading-2-letter-spacing": "0",
         "heading-3-letter-spacing": "0",
@@ -1036,7 +1036,7 @@
         "content-width-wide": "1200px",
         "content-line-height-base": "1.75",
         "content-font-size-base": "15px",
-        "content-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
+        "content-font-family": "'Poppins', sans-serif",
         "content-letter-spacing": "0",
         "content-heading-1-size": "48px",
         "content-heading-2-size": "36px",
@@ -1047,11 +1047,11 @@
         "content-heading-3-font-weight": "700",
         "content-heading-4-font-weight": "700",
         "content-heading-5-font-weight": "700",
-        "content-heading-1-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
-        "content-heading-2-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
-        "content-heading-3-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
-        "content-heading-4-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
-        "content-heading-5-font-family": "''Tenor Sans', sans-serif Sans', sans-serif",
+        "content-heading-1-font-family": "'Poppins', sans-serif",
+        "content-heading-2-font-family": "'Poppins', sans-serif",
+        "content-heading-3-font-family": "'Poppins', sans-serif",
+        "content-heading-4-font-family": "'Poppins', sans-serif",
+        "content-heading-5-font-family": "'Poppins', sans-serif",
         "content-heading-1-letter-spacing": "0",
         "content-heading-2-letter-spacing": "0",
         "content-heading-3-letter-spacing": "0",
@@ -1088,8 +1088,8 @@
         "menu-horizontal-side-padding": "10px",
         "menu-item-font-weight": "500",
 
-        "fa-icon-primary": "#c12126",
-        "fa-icon-secondary": "#c12126"
+        "fa-icon-primary": "#B38A2C",
+        "fa-icon-secondary": "#B38A2C"
       },
       "theme": {
         "site-header-fluid": true,
@@ -1227,49 +1227,49 @@
       }
     },
     "colors": {
-      "text": "#334f44",
-      "textLight": "#596e5d",
-      "link": "#E3A33D",
-      "linkHover": "#CF8B1E",
+      "text": "#000000",
+      "textLight": "#444444",
+      "link": "#B38A2C",
+      "linkHover": "#8A6A22",
       "primary": {
-        "50": "#D1DAD3",
-        "100": "#C3CEC5",
-        "200": "#A6B8AB",
-        "300": "#8AA190",
-        "400": "#6F8975",
-        "500": "#596e5d",
-        "600": "#415145",
-        "700": "#2A352D",
-        "800": "#141815",
-        "900": "#000000"
+        "50": "#F4E9D1",
+        "100": "#EFDFBC",
+        "200": "#E5CC93",
+        "300": "#DAB86B",
+        "400": "#D0A542",
+        "500": "#B38A2C",
+        "600": "#8A6A22",
+        "700": "#614B18",
+        "800": "#382B0E",
+        "900": "#0F0C04"
       },
       "secondary": {
-        "50": "#FFFFFF",
-        "100": "#FDF7EE",
-        "200": "#F6E2C2",
-        "300": "#EFCD96",
-        "400": "#E9B869",
-        "500": "#E2A33D",
-        "600": "#CD8B1F",
-        "700": "#A16D18",
-        "800": "#754F11",
-        "900": "#48310B"
+        "50": "#CCCCCC",
+        "100": "#333333",
+        "200": "#666666",
+        "300": "#333333",
+        "400": "#1c1c1c",
+        "500": "#000000",
+        "600": "#000000",
+        "700": "#000000",
+        "800": "#000000",
+        "900": "#000000"
       },
       "tertiary": {
-        "50":  "#f9f4e3",
-        "100": "#faeebb",
-        "200": "#f6e57c",
-        "300": "#f1d239",
-        "400": "#ffad02",
-        "500": "#e49406",
-        "600": "#d47104",
-        "700": "#b45508",
-        "800": "#94420e",
-        "900": "#7a3610"
+        "50": "#F4E9D1",
+        "100": "#EFDFBC",
+        "200": "#E5CC93",
+        "300": "#DAB86B",
+        "400": "#D0A542",
+        "500": "#B38A2C",
+        "600": "#8A6A22",
+        "700": "#614B18",
+        "800": "#382B0E",
+        "900": "#0F0C04"
       },
       "gray": {
-        "100": "#f5f0e5",
-        "200": "#eee8dd"
+        "100": "#f2f2f2",
+        "200": "#e9e9e9"
       }
     },
     "fontWeights": {
@@ -1277,16 +1277,16 @@
       "thin": 300,
       "light": 300,
       "normal": 400,
-      "medium": 600,
+      "medium": 500,
       "semibold": 600,
       "bold": 700,
       "extrabold": 700,
       "black": 700
     },
     "fonts": {
-      "heading": "'Tenor Sans', sans-serif",
-      "body": "'Tenor Sans', sans-serif",
-      "other": "'Nunito', sans-serif",
+      "heading": "'Poppins', sans-serif",
+      "body": "'PT Serif', serif",
+      "other": "'PT Serif', serif",
       "mono": "SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
     },
     "fontSizes": {
@@ -1316,106 +1316,120 @@
       "heading": {
         "h1": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": { "base": "2xl", "lg": "3xl" },
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         },
         "h2": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": { "base": "xl", "lg": "2xl" },
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         },
         "h3": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": { "base": "lg", "lg": "xl" },
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         },
         "h4": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": { "base": "lg", "lg": "lg" },
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         },
         "h5": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": "md",
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         },
         "h6": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": "md",
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         }
       },
       "writingHeading": {
         "h1": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": { "base": "3xl", "lg": "4xl" },
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         },
         "h2": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": { "base": "2xl", "lg": "3xl" },
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         },
         "h3": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": { "base": "xl", "lg": "2xl" },
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         },
         "h4": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": { "base": "lg", "lg": "xl" },
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         },
         "h5": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": "lg",
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         },
         "h6": {
           "fontFamily": "heading",
-          "fontWeight": "normal",
+          "fontWeight": "medium",
           "lineHeight": "shorter",
           "fontSize": "md",
           "color": "text",
-          "textTransform": "uppercase"
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         }
       }
     },
     "layerStyles": {
-
+      "highlight": {
+        "color": "primary.500"
+      }
     },
     "components": {
       "Select": {
@@ -1502,48 +1516,50 @@
           },
           "primary": {
             "borderRadius": "none",
-            "borderColor": "secondary.500",
-            "bg": "secondary.500",
-            "color": "primary.600",
-            "fontWeight": "normal",
+            "borderColor": "primary.500",
+            "bg": "primary.500",
+            "color": "secondary.600",
+            "fontWeight": "medium",
+            "fontFamily": "heading",
             "textTransform": "uppercase",
             "_hover": {
               "borderColor": "secondary.400",
               "bg": "secondary.400",
-              "color": "primary.600"
+              "color": "primary.500"
             },
             "_focus": {
               "borderColor": "secondary.400",
               "bg": "secondary.400",
-              "color": "primary.600"
+              "color": "primary.500"
             },
             "_active": {
               "borderColor": "secondary.400",
               "bg": "secondary.400",
-              "color": "primary.600"
+              "color": "primary.500"
             }
           },
           "secondary": {
             "borderRadius": "none",
-            "borderColor": "primary.500",
-            "bg": "primary.500",
-            "color": "secondary.500",
-            "fontWeight": "normal",
+            "borderColor": "secondary.500",
+            "bg": "secondary.500",
+            "color": "white",
+            "fontWeight": "medium",
+            "fontFamily": "heading",
             "textTransform": "uppercase",
             "_hover": {
-              "borderColor": "primary.600",
-              "bg": "primary.600",
-              "color": "secondary.400"
+              "borderColor": "secondary.300",
+              "bg": "secondary.300",
+              "color": "white"
             },
             "_focus": {
-              "borderColor": "primary.600",
-              "bg": "primary.600",
-              "color": "secondary.400"
+              "borderColor": "secondary.300",
+              "bg": "secondary.300",
+              "color": "white"
             },
             "_active": {
-              "borderColor": "primary.600",
-              "bg": "primary.600",
-              "color": "secondary.400"
+              "borderColor": "secondary.300",
+              "bg": "secondary.300",
+              "color": "white"
             }
           },
           "menuLight": {
@@ -1566,18 +1582,38 @@
               "background": "gray.200",
               "color": "text"
             }
+          },
+          "menuDark": {
+            "borderRadius": "none",
+            "background": "transparent",
+            "color": "primary.500",
+            "fontWeight": "bold",
+            "fontFamily": "heading",
+            "textTransform": "uppercase",
+            "_focus": {
+              "background": "transparent",
+              "color": "primary.400"
+            },
+            "_active": {
+              "background": "transparent",
+              "color": "primary.400"
+            },
+            "_hover": {
+              "background": "transparent",
+              "color": "primary.400"
+            }
           }
         }
       },
       "HeaderNavbar": {
         "parts": ["header"],
         "baseStyle": {
-          "type": "light",
-          "layout": "CENTRAL_LOGO",
+          "type": "dark",
+          "layout": "LEFT_LOGO",
           "header": {
-            "height": "150px",
+            "height": "114px",
             "boxShadow": "0 0 5px 1px rgba(0, 0, 0, 0.05)",
-            "bg": "gray.100"
+            "bg": "secondary.500"
           },
           "container": {
             "maxW": "container.full"
