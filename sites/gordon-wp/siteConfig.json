@@ -54,7 +54,7 @@
           "defaultDataLayer": {
             "platform": "rentivo"
           },
-          "trackingId": "GTM-T7J8474",
+          "trackingId": "GTM-K2M4BLD",
           "cookieFlags": "secure;samesite=none"
         },
         "googleAnalytics": {
@@ -1247,8 +1247,8 @@
         "50": "#CCCCCC",
         "100": "#333333",
         "200": "#666666",
-        "300": "#333333",
-        "400": "#1c1c1c",
+        "300": "#999999",
+        "400": "#333333",
         "500": "#000000",
         "600": "#000000",
         "700": "#000000",
@@ -1547,18 +1547,18 @@
             "fontFamily": "heading",
             "textTransform": "uppercase",
             "_hover": {
-              "borderColor": "secondary.300",
-              "bg": "secondary.300",
+              "borderColor": "secondary.400",
+              "bg": "secondary.400",
               "color": "white"
             },
             "_focus": {
-              "borderColor": "secondary.300",
-              "bg": "secondary.300",
+              "borderColor": "secondary.400",
+              "bg": "secondary.400",
               "color": "white"
             },
             "_active": {
-              "borderColor": "secondary.300",
-              "bg": "secondary.300",
+              "borderColor": "secondary.400",
+              "bg": "secondary.400",
               "color": "white"
             }
           },
