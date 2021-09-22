@@ -29,61 +29,7 @@ sites:
     enabled: true
     namespace: site-gordon
     labelSelector: app.kubernetes.io/instance=gordon-wordpress
-
-themes:
-
-  - name: savanna
-    version: 1.0
-
-plugins:
-
-  - name: advanced-custom-fields-pro
-    version: 5.9.5
-
-  - name: acf-code-field
-    version: 1.8
-
-  - name: acf-to-rest-api
-    version: 3.3.2
-
-  - name: acf-map-bbox
-    version: 1.0.0
-
-  - name: polylang-pro
-    version: 3.0.3
-
-  - name: wp-graphql
-    version: 1.3.9
-
-  - name: wp-graphql-polylang-0.5.0
-    version: 0.5.0
-
-  - name: wp-graphql-gutenberg-develop
-    version: 0.3.8
-
-  - name: wp-graphql-acf-0.4.1
-    version: 0.4.1
-
-  - name: wp-graphql-meta-query-0.1.0
-    version: 0.1.0
-
-  - name: wp-graphiql-master
-    version: 1.0.1
-
-  - name: wp-gatsby
-    version: 1.0.10
-
-  - name: lazy-blocks
-    version: 2.3.1
-
-  - name: svg-support
-    version: 2.3.18
-
-  - name: duplicate-page
-    version: 4.4
-
-  - name: wordpress-importer
-    version: 0.7
-
-  - name: rentivo-simba
-    version: 1.0.5
+  - name: stays-wp
+    enabled: true
+    namespace: site-stays
+    labelSelector: app.kubernetes.io/instance=stays-wordpress
