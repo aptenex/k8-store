@@ -353,6 +353,14 @@
         "optionsToShow": 6,
         "options": [
           {
+            "urlValue": "car_unnecessary",
+            "value": "TRAVEL_CAR_NOT_NECESSARY"
+          },
+          {
+            "urlValue": "outdoor_dining",
+            "value": "OUTDOOR_OUTDOOR_DINING"
+          },
+          {
             "urlValue": "hot_tub",
             "value": "SPA_POOL_JACUZZI_HOT_TUB"
           },
@@ -763,8 +771,8 @@
       "showMarketingOptIn": false,
       "showTermsAndConditions": true,
       "showPrivacyPolicy": true,
-      "defaultPrivacyPolicy": "https://leavetown.netlify.app/privacy-policy/",
-      "defaultTermsAndConditions": "https://leavetown.netlify.app/terms-and-conditions/"
+      "defaultPrivacyPolicy": "/privacy/",
+      "defaultTermsAndConditions": "https://www.happyholidayhomes.net/terms-conditions"
     }
   },
   "blog": {
