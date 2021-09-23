@@ -35,7 +35,7 @@
     },
     "cookies": {
       "active": false,
-      "policyUrl": "https://www.stays.co.uk/terms/",
+      "policyUrl": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/TermsConditions.pdf",
       "position": "center"
     },
     "api": {
@@ -784,8 +784,8 @@
       "showMarketingOptIn": false,
       "showTermsAndConditions": true,
       "showPrivacyPolicy": true,
-      "defaultPrivacyPolicy": "https://leavetown.netlify.app/privacy-policy/",
-      "defaultTermsAndConditions": "https://leavetown.netlify.app/terms-and-conditions/"
+      "defaultPrivacyPolicy": "/privacy/",
+      "defaultTermsAndConditions": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/TermsConditions.pdf"
     }
   },
   "blog": {
