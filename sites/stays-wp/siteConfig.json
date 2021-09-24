@@ -15,23 +15,23 @@
       "useImage": true,
       "text": "Stays",
       "image": {
-        "width": 174,
-        "height": 32,
+        "width": 227,
+        "height": 38,
         "types": {
-          "default": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/stays-logo.svg",
-          "defaultMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/stays-logo.svg",
-          "light": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/stays-logo.svg",
-          "lightMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/stays-logo.svg",
-          "dark": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/stays-logo.svg",
-          "darkMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/stays-logo.svg"
+          "default": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+          "defaultMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+          "light": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+          "lightMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+          "dark": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+          "darkMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg"
         }
       }
     },
     "icons": {
       "16": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/fav.png",
       "32": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/fav.png",
-      "48": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/stays-logo.svg",
-      "128": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/stays-logo.svg"
+      "48": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+      "128": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg"
     },
     "cookies": {
       "active": false,
@@ -107,7 +107,7 @@
         "name": "Stays",
         "legalName": "Stays",
         "url": "https://www.stays.co.uk",
-        "logo": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/stays-logo.svg",
+        "logo": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
         "foundingDate": "2008",
         "contactPoint": {
           "@type": "ContactPoint",
@@ -119,7 +119,7 @@
       "brand": {
         "name": "Stays",
         "url": "https://www.stays.co.uk",
-        "logo": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/stays-logo.svg",
+        "logo": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
         "sameAs": []
       }
     },
