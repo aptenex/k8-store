@@ -44,7 +44,7 @@
         "host": "https://lycan.rentivo.com",
         "sendCurrencyOnPriceRequests": false
       },
-      "googleApiKey": "AIzaSyBpUyxFM1ORsk7scdoW54MtLiq1pfFYFMw",
+      "googleApiKey": "AIzaSyAHKtVjv9tNEOkVfe_p9hgyPdJfaGgEAy8",
       "tracking": {
         "debug": false,
         "environments": ["production", "development"],
