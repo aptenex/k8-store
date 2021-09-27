@@ -85,5 +85,7 @@
   "containers.LycanMessages.LISTING_TYPE_APARTMENT": "Apartment",
   "containers.LycanMessages.LISTING_TYPE_HOUSE|LISTING_TYPE_VILLA|LISTING_TYPE_TOWNHOUSE": "Villa / House",
   "containers.LycanMessages.LOCALITY_WATER_FRONT|LOCALITY_LAKE_FRONT|LOCALITY_LAKESIDE_TOWN": "Lake Front",
-  "containers.LycanMessages.LOCALITY_WATER_VIEWS|LOCALITY_LAKE_VIEWS": "Lake Views"
+  "containers.LycanMessages.LOCALITY_WATER_VIEWS|LOCALITY_LAKE_VIEWS": "Lake Views",
+  "containers.LycanMessages.TRAVEL_CAR_NOT_NECESSARY": "Car not necessary",
+  "containers.LycanMessages.OUTDOOR_OUTDOOR_DINING": "Outdoor dining"
 }
