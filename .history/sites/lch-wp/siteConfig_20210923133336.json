@@ -142,7 +142,50 @@
       "include": [],
       "exclude": []
     },
-    "cancellationPolicies": {}
+    "cancellationPolicies": {
+      "RELAXED": [
+        {
+          "daysBeforeArrival": 1,
+          "percentageRetained": 0.0
+        }
+      ],
+      "MODERATE": [
+        {
+          "daysBeforeArrival": 5,
+          "percentageRetained": 0.0
+        },
+        {
+          "daysBeforeArrival": 1,
+          "percentageRetained": 50.0
+        }
+      ],
+      "FIRM": [
+        {
+          "daysBeforeArrival": 14,
+          "percentageRetained": 0.0,
+          "graceHours": 48
+        },
+        {
+          "daysBeforeArrival": 7,
+          "percentageRetained": 50.0,
+          "graceHours": 48
+        }
+      ],
+      "STRICT": [
+        {
+         "daysBeforeArrival": 30,
+         "percentageRetained": 50.0,
+         "graceHours": 48
+        }
+      ],
+      "NO_REFUND": [
+        {
+          "daysBeforeArrival": 60,
+          "percentageRetained": 50.0,
+          "graceHours": 48
+        }
+      ]
+    }
   },
   "search": {
     "collections": {
