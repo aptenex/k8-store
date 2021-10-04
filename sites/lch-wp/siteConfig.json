@@ -35,7 +35,7 @@
     },
     "cookies": {
       "active": false,
-      "policyUrl": "https://www.lakecomohomes.com/terms/",
+      "policyUrl": "/privacy-policy/",
       "position": "center"
     },
     "api": {
@@ -728,8 +728,8 @@
       "showMarketingOptIn": false,
       "showTermsAndConditions": true,
       "showPrivacyPolicy": true,
-      "defaultPrivacyPolicy": "/privacy/",
-      "defaultTermsAndConditions": "https://www.happyholidayhomes.net/terms-conditions"
+      "defaultPrivacyPolicy": "/privacy-policy/",
+      "defaultTermsAndConditions": "/terms-conditions/"
     }
   },
   "blog": {
