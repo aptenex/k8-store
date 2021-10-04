@@ -7,7 +7,7 @@
   "dynamicPropertyPages": true,
   "noIndex": false,
   "currency": {
-    "defaultCurrency": "GBP",
+    "defaultCurrency": "EUR",
     "supportedCurrencies": ["GBP", "EUR", "USD"]
   },
   "site": {
