@@ -1394,19 +1394,6 @@
             "maxW": "container.full"
           }
         }
-      },
-      "TopBar": {
-        "parts": ["outer"],
-        "baseStyle": {
-          "type": "light",
-          "outer": {
-            "height": "50px",
-            "bg": "white"
-          },
-          "container": {
-            "maxW": "container.full"
-          }
-        }
       }
     }
   }

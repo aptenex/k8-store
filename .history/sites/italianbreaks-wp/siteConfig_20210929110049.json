@@ -1,46 +1,46 @@
 {
-  "id": "italianbreaks",
-  "name": "Italian Breaks",
-  "shortName": "Italian Breaks",
-  "websiteUrl": "https://www.italianbreaks.com",
-  "baseUrl": "https://italianbreaks-wp.k8.rentivo.com",
+  "id": "gordon",
+  "name": "Gordon Property Management",
+  "shortName": "Gordon",
+  "websiteUrl": "https://gordonpropertymanagement.com",
+  "baseUrl": "https://gordon-wp.k8.rentivo.com/graphql",
   "dynamicPropertyPages": true,
   "noIndex": false,
   "currency": {
-    "defaultCurrency": "EUR",
-    "supportedCurrencies": ["GBP", "EUR", "USD"]
+    "defaultCurrency": "USD",
+    "supportedCurrencies": ["GBP", "EUR", "USD", "CAD"]
   },
   "site": {
     "logo": {
       "useImage": true,
-      "text": "Italian Breaks",
+      "text": "Gordon Property Management",
       "image": {
-        "width": 260,
-        "height": 52,
+        "width": 180,
+        "height": 96,
         "types": {
-          "default": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "defaultMobile": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "light": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "lightMobile": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "dark": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "darkMobile": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png"
+          "default": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
+          "defaultMobile": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
+          "light": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
+          "lightMobile": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
+          "dark": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo-brand.png",
+          "darkMobile": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo-brand.png"
         }
       }
     },
     "icons": {
-      "16": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/IB-Fav.png",
-      "32": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/IB-Fav.png",
-      "48": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-      "128": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png"
+      "16": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/fav-sm.png",
+      "32": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/fav-sm.png",
+      "48": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/fav.png",
+      "128": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/fav.png"
     },
     "cookies": {
       "active": false,
-      "policyUrl": "https://www.italianbreaks.com/terms/",
+      "policyUrl": "https://gordonpropertymanagement.com/terms/",
       "position": "center"
     },
     "api": {
       "lycan": {
-        "channelId": "c3baf30d-090e-4243-932f-931c273264a1",
+        "channelId": "060f5017-028f-4470-90f5-f47c66709f1a",
         "host": "https://lycan.rentivo.com",
         "sendCurrencyOnPriceRequests": false
       },
@@ -49,18 +49,18 @@
         "debug": false,
         "environments": ["production"],
         "googleTagManager": {
-          "active": false,
+          "active": true,
           "autoStart": true,
           "defaultDataLayer": {
             "platform": "rentivo"
           },
-          "trackingId": "GTM-M4WLHWN",
+          "trackingId": "GTM-T7J8474",
           "cookieFlags": "secure;samesite=none"
         },
         "googleAnalytics": {
           "active": false,
           "head": true,
-          "trackingId": "UA-8328647-3",
+          "trackingId": "G-7ZM90T0WD3",
           "autoStart": true,
           "anonymize": true,
           "cookieFlags": "secure;samesite=none"
@@ -99,47 +99,47 @@
       }
     },
     "sharing": {
-      "ogImage": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2018/01/italian_breaks_3.jpg",
-      "twitterImage": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2018/01/italian_breaks_3.jpg"
+      "ogImage": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/portsmouth.jpg",
+      "twitterImage": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/portsmouth.jpg"
     },
     "structuredData": {
       "organization": {
-        "name": "Italian Breaks",
-        "legalName": "Italian Breaks",
-        "url": "https://www.italianbreaks.com",
-        "logo": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-        "foundingDate": "2008",
+        "name": "Gordon Property Management",
+        "legalName": "Gordon Property Management",
+        "url": "https://gordonpropertymanagement.com",
+        "logo": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
+        "foundingDate": "2021",
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "Customer Support",
-          "email": "hello@italianbreaks.com"
+          "email": "hello@gordonpropertymanagement.com"
         },
         "sameAs": []
       },
       "brand": {
-        "name": "Italian Breaks",
-        "url": "https://www.italianbreaks.com",
-        "logo": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
+        "name": "Gordon Property Management",
+        "url": "https://gordonpropertymanagement.com",
+        "logo": "https://gordon-wp.k8.rentivo.com/wp-content/uploads/2021/09/logo.svg",
         "sameAs": []
       }
     },
     "content": {
       "variables": {
         "sep": "—",
-        "siteTitle": "Italian Breaks"
+        "siteTitle": "Gordon Property Management"
       }
     },
     "design": {
       "fonts": {
         "google": [
           {
-            "family": "Crimson Text",
-            "variants": ["400", "600"],
+            "family": "Poppins",
+            "variants": ["400", "500"],
             "fontDisplay": "swap"
           },
           {
-            "family": "Open Sans",
-            "variants": ["400", "400i", "500", "600", "700"],
+            "family": "PT Serif",
+            "variants": ["400", "700"],
             "fontDisplay": "swap"
           }
         ]
@@ -149,11 +149,47 @@
       "fullDate": "Do MMM YY"
     },
     "countries": {
-      "important": ["IT", "GB", "US", "CA", "AU", "MX", "NZ", "BR", "JP", "CN"],
+      "important": ["GB", "US", "CA", "AU", "MX", "NZ", "BR", "JP", "CN"],
       "include": [],
       "exclude": []
     },
-    "cancellationPolicies": {}
+    "cancellationPolicies": {
+      "RELAXED": [{
+        "daysBeforeArrival": 1,
+        "percentageRetained": 0.0
+      }],
+      "MODERATE": [{
+        "daysBeforeArrival": 5,
+        "percentageRetained": 0.0
+      },
+        {
+          "daysBeforeArrival": 1,
+          "percentageRetained": 50.0
+        }
+      ],
+      "FIRM": [{
+        "daysBeforeArrival": 14,
+        "percentageRetained": 0.0,
+        "graceHours": 48
+      },
+        {
+          "daysBeforeArrival": 7,
+          "percentageRetained": 50.0,
+          "graceHours": 48
+        }
+      ],
+      "STRICT": [{
+        "daysBeforeArrival": 30,
+        "percentageRetained": 50.0,
+        "graceHours": 48
+      }],
+      "NO_REFUND": [{
+        "daysBeforeArrival": 60,
+        "percentageRetained": 50.0,
+        "graceHours": 48
+      }]
+
+    }
   },
   "search": {
     "collections": {
@@ -174,15 +210,15 @@
         "usePlaceNames": false
       },
       "isOpenOnLoad": true,
-      "defaultZoom": 8,
+      "defaultZoom": 3,
       "maxZoom": 19,
       "minZoom": 1,
       "useFuzzyRadius": false,
       "fuzzyRadius": 200,
       "searchMapOnMoveDefault": true,
       "defaultCenter": {
-        "lat": 46.016048,
-        "lng": 9.257168
+        "lat": 38.941631,
+        "lng": -119.977219
       }
     },
     "filters": {
@@ -321,14 +357,6 @@
         "optionsToShow": 6,
         "options": [
           {
-            "urlValue": "car_unnecessary",
-            "value": "TRAVEL_CAR_NOT_NECESSARY"
-          },
-          {
-            "urlValue": "outdoor_dining",
-            "value": "OUTDOOR_OUTDOOR_DINING"
-          },
-          {
             "urlValue": "hot_tub",
             "value": "SPA_POOL_JACUZZI_HOT_TUB"
           },
@@ -345,7 +373,7 @@
             "value": "GENERAL_AIR_CONDITIONING"
           },
           {
-            "urlValue": "private_pool",
+            "urlValue": "pool",
             "value": "SPA_POOL_INDOOR_POOL|SPA_POOL_POOL_COMMUNAL|SPA_POOL_SWIMMING_POOL|SPA_POOL_POOL_HEATED|SPA_POOL_POOL_INDOOR|SPA_POOL_POOL_PRIVATE|SPA_POOL_POOL_UNHEATED"
           },
           {
@@ -476,12 +504,32 @@
         "optionsToShow": 12,
         "options": [
           {
-            "urlValue": "apartment",
-            "value": "LISTING_TYPE_APARTMENT"
+            "urlValue": "cabin_chalet_cottage",
+            "value": "LISTING_TYPE_CABIN|LISTING_TYPE_CHALET|LISTING_TYPE_COTTAGE"
           },
           {
-            "urlValue": "villa",
-            "value": "LISTING_TYPE_HOUSE|LISTING_TYPE_VILLA|LISTING_TYPE_TOWNHOUSE"
+            "urlValue": "condo_apartment",
+            "value": "LISTING_TYPE_APARTMENT|LISTING_TYPE_CONDO|LISTING_TYPE_STUDIO"
+          },
+          {
+            "urlValue": "hotel",
+            "value": "LISTING_TYPE_HOTEL"
+          },
+          {
+            "urlValue": "house",
+            "value": "LISTING_TYPE_HOUSE|LISTING_TYPE_VILLA"
+          },
+          {
+            "urlValue": "townhome",
+            "value": "LISTING_TYPE_TOWNHOUSE"
+          },
+          {
+            "urlValue": "glamping",
+            "value": "LISTING_TYPE_CAMPER_VAN"
+          },
+          {
+            "urlValue": "on_water",
+            "value": "LISTING_TYPE_HOUSE_BOAT|LISTING_TYPE_BOAT"
           }
         ]
       },
@@ -495,19 +543,27 @@
         "optionsToShow": 6,
         "options": [
           {
-            "urlValue": "lakefront",
-            "value": "LOCALITY_WATER_FRONT|LOCALITY_LAKE_FRONT|LOCALITY_LAKESIDE_TOWN"
+            "urlValue": "waterfront",
+            "value": "LOCALITY_BEACH|LOCALITY_BEACH_FRONT|LOCAL_BEACH|LOCAL_BEACH_FRONT"
           },
           {
             "urlValue": "water_view",
-            "value": "LOCALITY_WATER_VIEWS|LOCALITY_LAKE_VIEWS"
+            "value": "LOCALITY_WATER_VIEWS"
           },
           {
-            "urlValue": "town",
+            "urlValue": "central",
             "value": "LOCALITY_TOWN_CENTRE"
           },
           {
-            "urlValue": "ski",
+            "urlValue": "slopeside",
+            "value": "LOCALITY_SKI_IN_SKI_OUT|LOCAL_SKIING"
+          },
+          {
+            "urlValue": "golf",
+            "value": "LOCAL_GOLF|LOCALITY_GOLF_COURSE"
+          },
+          {
+            "urlValue": "250m_ski",
             "value": "LOCAL_SKIING|LOCAL_SNOW_BOARDING"
           }
         ]
@@ -625,10 +681,10 @@
       }
     },
     "elasticSearch": {
-      "app": "lycan_main.lakecomohomescom.properties_vhc4nn",
-      "credentials": "lch:password",
+      "app": "lycan_main.leavetown_gordonrealestate.properties_xze8ls",
+      "credentials": "gordonrealestate:password",
       "url": "https://search.es.rentivo.com:9243",
-      "size": 12
+      "size": 36
     }
   },
   "property": {
@@ -739,16 +795,16 @@
       "showMarketingOptIn": false,
       "showTermsAndConditions": true,
       "showPrivacyPolicy": true,
-      "defaultPrivacyPolicy": "/privacy/",
-      "defaultTermsAndConditions": "https://www.happyholidayhomes.net/terms-conditions"
+      "defaultPrivacyPolicy": "https://leavetown.netlify.app/privacy-policy/",
+      "defaultTermsAndConditions": "https://leavetown.netlify.app/terms-and-conditions/"
     }
   },
   "blog": {
     "perPage": 20
   },
   "routePaths": {
-    "ROUTE_BASE_SEARCH": "rentals",
-    "ROUTE_BASE_PROPERTY": "rental",
+    "ROUTE_BASE_SEARCH": "accommodations",
+    "ROUTE_BASE_PROPERTY": "accommodation",
     "ROUTE_BASE_CHECKOUT": "checkout",
     "ROUTE_BASE_CHECKOUT_REVIEW": "review",
     "ROUTE_BASE_CHECKOUT_GUEST_INFO": "info",
@@ -770,14 +826,14 @@
       "base": {
         "body-background": "#fff",
         "component-background": "#fff",
-        "primary-color": "#108294",
+        "primary-color": "#B38A2C",
         "error-color": "#ff8469",
-        "info-color": "#fbd46d",
+        "info-color": "#28a59b",
         "success-color": "#52c41a",
-        "text-color": "#030f17",
-        "text-color-secondary": "#38343f",
-        "heading-color": "#030f17",
-        "link-color": "#108294",
+        "text-color": "#1e3f5b",
+        "text-color-secondary": "#2e4f6b",
+        "heading-color": "#1e3f5b",
+        "link-color": "#B38A2C",
         "normal-color": "#d9d9d9",
         "item-hover-bg": "#f5f5f5",
         "background-color-light": "#f5f5f5",
@@ -788,16 +844,16 @@
         "shadow-color": "rgba(0, 0, 0, 0.15)",
         "box-shadow-base": "0 0.23rem 1.09rem rgba(8,10,37,.03), 0 0.465rem 0.70rem rgba(8,10,37,.03), 0 0.125rem 0.265rem rgba(8,10,37,.05), 0 0.0625rem 0.0935rem rgba(8,10,37,.03)",
 
-        "font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+        "font-family": "'Poppins', sans-serif",
         "code-family": "'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace",
-        "font-size-base": "16px",
-        "font-size-lg": "19px",
-        "font-size-sm": "14px",
+        "font-size-base": "15px",
+        "font-size-lg": "17px",
+        "font-size-sm": "13px",
         "line-height-base": "1.5715",
-        "heading-1-size": "34px",
-        "heading-2-size": "28px",
-        "heading-3-size": "24px",
-        "heading-4-size": "20px",
+        "heading-1-size": "28px",
+        "heading-2-size": "24px",
+        "heading-3-size": "20px",
+        "heading-4-size": "18px",
 
         "typography-title-margin-top": "1.2em",
         "typography-title-margin-bottom": "0.5em",
@@ -820,11 +876,11 @@
         "screen-xl": "1200px",
         "screen-xxl": "1600px",
 
-        "layout-header-height": "78px",
+        "layout-header-height": "114px",
 
-        "btn-border-radius-base": "0",
-        "btn-border-radius-sm": "0",
-        "btn-font-weight": "600",
+        "btn-border-radius-base": "6px",
+        "btn-border-radius-sm": "4px",
+        "btn-font-weight": "500",
         "btn-shadow": "none",
         "btn-primary-shadow": "none",
         "btn-text-shadow": "none",
@@ -850,7 +906,7 @@
         "dropdown-line-height": "22px",
         "dropdown-selected-color": "#f5f5f5",
 
-        "select-item-selected-font-weight": "600",
+        "select-item-selected-font-weight": "500",
         "select-dropdown-bg": "#ffffff",
         "select-item-selected-bg": "#f5f5f5",
         "select-background": "#ffffff",
@@ -859,7 +915,7 @@
         "select-selection-item-border-color": "#f0f0f0",
 
         "checkbox-size": "20px",
-        "checkbox-color": "#108294",
+        "checkbox-color": "#B38A2C",
         "checkbox-check-color": "#ffffff",
         "checkbox-border-width": "2px",
 
@@ -896,16 +952,16 @@
         "menu-collapsed-width": "80px",
         "menu-bg": "#ffffff",
         "menu-popup-bg": "#ffffff",
-        "menu-item-color": "#030f17",
-        "menu-highlight-color": "#108294",
+        "menu-item-color": "rgba(255, 255, 255, 0.85)",
+        "menu-highlight-color": "#ffffff",
         "menu-item-active-bg": "#ebf9f9",
         "menu-item-active-border-width": "0",
         "menu-item-group-title-color": "#38343f",
         "menu-item-vertical-margin": "2px",
-        "menu-item-font-size": "17px",
+        "menu-item-font-size": "15px",
         "menu-item-boundary-margin": "0",
-        "menu-dark-color": "rgba(0,0,0,0.65)",
-        "menu-dark-bg": "#001529",
+        "menu-dark-color": "rgba(255,255,255,0.85)",
+        "menu-dark-bg": "#3d3d44",
         "menu-dark-arrow-color": "#fff",
         "menu-dark-submenu-bg": "#000c17",
         "menu-dark-highlight-color": "#fff",
@@ -917,16 +973,16 @@
 
 
 
-        "primary-hover-color": "#17a2b8",
-        "text-gray-color": "#38343f",
+        "primary-hover-color": "#a11d21",
+        "text-gray-color": "#2e4f6b",
 
-        "secondary-color": "#fbd46d",
-        "secondary-hover-color": "#030f17",
+        "secondary-color": "#1e3f5b",
+        "secondary-hover-color": "#15324b",
 
         "btn-primary-text-color": "#ffffff",
         "btn-primary-hover-text-color": "#ffffff",
-        "btn-secondary-text-color": "#030f17",
-        "btn-secondary-hover-text-color": "#fbd46d",
+        "btn-secondary-text-color": "#ffffff",
+        "btn-secondary-hover-text-color": "#ffffff",
 
         "btn-secondary-shadow": "none",
 
@@ -952,24 +1008,24 @@
         "padding-xxs": "4px",
 
         "typography-letter-spacing": "0",
-        "typography-font-weight": "400",
+        "typography-font-weight": "500",
         "typography-font-weight-thick": "600",
 
-        "heading-line-height-base": "1.2",
-        "content-heading-line-height-base": "1.35",
+        "heading-line-height-base": "1.6",
+        "content-heading-line-height-base": "1.75",
 
         "heading-5-size": "17px",
 
         "heading-1-font-weight": "400",
         "heading-2-font-weight": "400",
-        "heading-3-font-weight": "600",
-        "heading-4-font-weight": "600",
-        "heading-5-font-weight": "600",
-        "heading-1-font-family": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
-        "heading-2-font-family": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
-        "heading-3-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-        "heading-4-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-        "heading-5-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+        "heading-3-font-weight": "400",
+        "heading-4-font-weight": "400",
+        "heading-5-font-weight": "400",
+        "heading-1-font-family": "'Poppins', sans-serif",
+        "heading-2-font-family": "'Poppins', sans-serif",
+        "heading-3-font-family": "'Poppins', sans-serif",
+        "heading-4-font-family": "'Poppins', sans-serif",
+        "heading-5-font-family": "'Poppins', sans-serif",
         "heading-1-letter-spacing": "0",
         "heading-2-letter-spacing": "0",
         "heading-3-letter-spacing": "0",
@@ -979,23 +1035,23 @@
         "content-width": "992px",
         "content-width-wide": "1200px",
         "content-line-height-base": "1.75",
-        "content-font-size-base": "17px",
-        "content-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+        "content-font-size-base": "15px",
+        "content-font-family": "'Poppins', sans-serif",
         "content-letter-spacing": "0",
         "content-heading-1-size": "48px",
         "content-heading-2-size": "36px",
         "content-heading-3-size": "28px",
         "content-heading-4-size": "24px",
-        "content-heading-1-font-weight": "400",
-        "content-heading-2-font-weight": "400",
-        "content-heading-3-font-weight": "600",
-        "content-heading-4-font-weight": "600",
-        "content-heading-5-font-weight": "600",
-        "content-heading-1-font-family": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
-        "content-heading-2-font-family": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
-        "content-heading-3-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-        "content-heading-4-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-        "content-heading-5-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+        "content-heading-1-font-weight": "700",
+        "content-heading-2-font-weight": "700",
+        "content-heading-3-font-weight": "700",
+        "content-heading-4-font-weight": "700",
+        "content-heading-5-font-weight": "700",
+        "content-heading-1-font-family": "'Poppins', sans-serif",
+        "content-heading-2-font-family": "'Poppins', sans-serif",
+        "content-heading-3-font-family": "'Poppins', sans-serif",
+        "content-heading-4-font-family": "'Poppins', sans-serif",
+        "content-heading-5-font-family": "'Poppins', sans-serif",
         "content-heading-1-letter-spacing": "0",
         "content-heading-2-letter-spacing": "0",
         "content-heading-3-letter-spacing": "0",
@@ -1009,7 +1065,7 @@
 
         "dropdown-border-radius": "7px",
 
-        "input-border-radius": "0",
+        "input-border-radius": "6px",
         "input-border": "1px solid #d9d9d9",
         "input-box-shadow": "none",
 
@@ -1017,23 +1073,23 @@
 
         "calendar-default-bg-color": "#ffffff",
         "calendar-default-hover-bg-color": "#eeeeee",
-        "calendar-default-color": "#030f17",
-        "calendar-hovered-offset-bg-color": "#ffe3a8",
-        "calendar-hovered-offset-color": "#030f17",
-        "calendar-selected-span-bg-color": "#fbd46d",
-        "calendar-selected-span-color": "#030f17",
-        "calendar-selected-bg-color": "#fbd46d",
-        "calendar-selected-color": "#030f17",
+        "calendar-default-color": "#1e3f5b",
+        "calendar-hovered-offset-bg-color": "#bfecee",
+        "calendar-hovered-offset-color": "#1e3f5b",
+        "calendar-selected-span-bg-color": "#4dc9cf",
+        "calendar-selected-span-color": "#ffffff",
+        "calendar-selected-bg-color": "#00b2bb",
+        "calendar-selected-color": "#ffffff",
         "calendar-blocked-bg-color": "repeating-linear-gradient(-45deg, rgb(255, 255, 255), rgb(255, 255, 255) 3px, #e0e0e0 3px, #d2d2d2 4px)",
         "calendar-blocked-color": "#cccccc",
 
         "menu-horizontal-border-bottom": "1px solid transparent",
         "menu-horizontal-border-bottom-active": "1px solid transparent",
         "menu-horizontal-side-padding": "10px",
-        "menu-item-font-weight": "600",
+        "menu-item-font-weight": "500",
 
-        "fa-icon-primary": "#108294",
-        "fa-icon-secondary": "#108294"
+        "fa-icon-primary": "#B38A2C",
+        "fa-icon-secondary": "#B38A2C"
       },
       "theme": {
         "site-header-fluid": true,
@@ -1051,10 +1107,18 @@
     "barcelona": {
       "search": {
         "defaultType": "list",
-        "showViewButton": true,
+        "showViewButton": false,
         "moreFilters": [
           {
             "type": "keyword"
+          },
+          {
+            "type": "title",
+            "title": "FILTER_TITLE_ROOMS_BEDS",
+            "props": {
+              "as": "h5",
+              "mb": -2
+            }
           },
           {
             "type": "bedrooms"
@@ -1067,6 +1131,9 @@
           },
           {
             "type": "tagsFlags"
+          },
+          {
+            "type": "discounts"
           },
           {
             "title": "FILTER_TITLE_FEATURES",
@@ -1124,13 +1191,13 @@
               },
               "xl": {
                 "colSpan": 14,
-                "perRow": 2,
-                "type": "grid"
+                "perRow": 1,
+                "type": "list"
               },
               "xxl": {
                 "colSpan": 12,
-                "perRow": 2,
-                "type": "grid"
+                "perRow": 1,
+                "type": "list"
               }
             },
             "mapClosed": {
@@ -1151,7 +1218,7 @@
                 "type": "grid"
               },
               "xxl": {
-                "perRow": 4,
+                "perRow": 5,
                 "type": "grid"
               }
             }
@@ -1160,51 +1227,67 @@
       }
     },
     "colors": {
-      "text": "#000",
-      "textLight": "#666",
-      "link": "#405681",
-      "linkHover": "#2F3F5F",
+      "text": "#000000",
+      "textLight": "#444444",
+      "link": "#B38A2C",
+      "linkHover": "#8A6A22",
       "primary": {
-        "50": "#C5CEE2",
-        "100": "#B3C0DA",
-        "200": "#91A4C9",
-        "300": "#6F88B8",
-        "400": "#516DA3",
-        "500": "#405681",
-        "600": "#2F3F5F",
-        "700": "#1E293D",
-        "800": "#0D121B",
-        "900": "#000000"
+        "50": "#F4E9D1",
+        "100": "#EFDFBC",
+        "200": "#E5CC93",
+        "300": "#DAB86B",
+        "400": "#D0A542",
+        "500": "#B38A2C",
+        "600": "#8A6A22",
+        "700": "#614B18",
+        "800": "#382B0E",
+        "900": "#0F0C04"
       },
       "secondary": {
-        "50": "#F9F4E7",
-        "100": "#F5EAD2",
-        "200": "#EBD7A9",
-        "300": "#E2C47F",
-        "400": "#D8B156",
-        "500": "#CC9D2F",
-        "600": "#A37D25",
-        "700": "#795D1C",
-        "800": "#503D12",
-        "900": "#261D09"
+        "50": "#CCCCCC",
+        "100": "#333333",
+        "200": "#666666",
+        "300": "#333333",
+        "400": "#1c1c1c",
+        "500": "#000000",
+        "600": "#000000",
+        "700": "#000000",
+        "800": "#000000",
+        "900": "#000000"
+      },
+      "tertiary": {
+        "50": "#F4E9D1",
+        "100": "#EFDFBC",
+        "200": "#E5CC93",
+        "300": "#DAB86B",
+        "400": "#D0A542",
+        "500": "#B38A2C",
+        "600": "#8A6A22",
+        "700": "#614B18",
+        "800": "#382B0E",
+        "900": "#0F0C04"
+      },
+      "gray": {
+        "100": "#f2f2f2",
+        "200": "#e9e9e9"
       }
     },
     "fontWeights": {
       "hairline": 100,
-      "thin": 200,
+      "thin": 300,
       "light": 300,
       "normal": 400,
       "medium": 500,
       "semibold": 600,
       "bold": 700,
-      "extrabold": 800,
-      "black": 900
+      "extrabold": 700,
+      "black": 700
     },
     "fonts": {
-      "heading": "'Crimson Text', serif",
-      "body": "'Open Sans', sans-serif",
-      "button": "'Open Sans', sans-serif",
-      "mono": "'Open Sans', sans-serif"
+      "heading": "'Poppins', sans-serif",
+      "body": "'PT Serif', serif",
+      "other": "'PT Serif', serif",
+      "mono": "SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
     },
     "fontSizes": {
       "xs": "0.75rem",
@@ -1223,87 +1306,186 @@
     },
     "typography": {
       "text": {
-        "fontFamily": "body"
+        "fontFamily": "body",
+        "fontWeight": "normal"
       },
       "textWriting": {
-        "fontFamily": "body"
+        "fontFamily": "body",
+        "fontWeight": "normal"
       },
       "heading": {
         "h1": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "2xl", "lg": "3xl" },
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         },
         "h2": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "xl", "lg": "2xl" },
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         },
         "h3": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "lg", "lg": "xl" },
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         },
         "h4": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "lg", "lg": "lg" },
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         },
         "h5": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": "md",
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         },
         "h6": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": "md",
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.25px"
         }
       },
       "writingHeading": {
         "h1": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "3xl", "lg": "4xl" },
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         },
         "h2": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "2xl", "lg": "3xl" },
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         },
         "h3": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "xl", "lg": "2xl" },
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         },
         "h4": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "lg", "lg": "xl" },
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         },
         "h5": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": "lg",
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         },
         "h6": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium",
+          "lineHeight": "shorter",
+          "fontSize": "md",
+          "color": "text",
+          "textTransform": "uppercase",
+          "letterSpacing": "1.5px"
         }
       }
     },
     "layerStyles": {
       "highlight": {
-        "borderBottom": "2px solid",
-        "bg": "secondary.200",
-        "borderColor": "secondary.300",
-        "color": "text",
-        "fontSize": "sm",
-        "display": "inline-block",
-        "padding": "0 5px",
-        "margin-top": "4px",
-        "margin-bottom": "3px"
+        "color": "primary.500"
       }
     },
     "components": {
-      "Link": {
-        "baseStyle": {
-          "color": "primary.400",
-          "_hover": {
-            "textDecoration": "none",
-            "color": "primary.500"
+      "Select": {
+        "sizes": {
+          "sm": {
+            "field": {
+              "borderRadius": "none"
+            }
           },
-          "_focus": {
-            "boxShadow": "none"
+          "md": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "lg": {
+            "field": {
+              "borderRadius": "none"
+            }
+          }
+        }
+      },
+      "NumberInput": {
+        "sizes": {
+          "sm": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "md": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "lg": {
+            "field": {
+              "borderRadius": "none"
+            }
+          }
+        }
+      },
+      "Textarea": {
+        "sizes": {
+          "sm": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "md": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "lg": {
+            "field": {
+              "borderRadius": "none"
+            }
           }
         }
       },
@@ -1316,6 +1498,7 @@
         },
         "variants": {
           "default": {
+            "borderRadius": "none",
             "bg": "#ffffff",
             "color": "text",
             "borderColor": "gray.200",
@@ -1332,51 +1515,92 @@
             }
           },
           "primary": {
+            "borderRadius": "none",
             "borderColor": "primary.500",
             "bg": "primary.500",
+            "color": "secondary.600",
+            "fontWeight": "medium",
+            "fontFamily": "heading",
+            "textTransform": "uppercase",
             "_hover": {
-              "borderColor": "primary.400",
-              "bg": "primary.400"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400",
+              "color": "primary.500"
             },
             "_focus": {
-              "borderColor": "primary.400",
-              "bg": "primary.400"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400",
+              "color": "primary.500"
             },
             "_active": {
-              "borderColor": "primary.400",
-              "bg": "primary.400"
+              "borderColor": "secondary.400",
+              "bg": "secondary.400",
+              "color": "primary.500"
             }
           },
           "secondary": {
+            "borderRadius": "none",
             "borderColor": "secondary.500",
             "bg": "secondary.500",
+            "color": "white",
+            "fontWeight": "medium",
+            "fontFamily": "heading",
+            "textTransform": "uppercase",
             "_hover": {
-              "borderColor": "secondary.400",
-              "bg": "secondary.400"
+              "borderColor": "secondary.300",
+              "bg": "secondary.300",
+              "color": "white"
             },
             "_focus": {
-              "borderColor": "secondary.400",
-              "bg": "secondary.400"
+              "borderColor": "secondary.300",
+              "bg": "secondary.300",
+              "color": "white"
             },
             "_active": {
-              "borderColor": "secondary.400",
-              "bg": "secondary.400"
+              "borderColor": "secondary.300",
+              "bg": "secondary.300",
+              "color": "white"
             }
           },
           "menuLight": {
-            "bg:": "transparent",
+            "borderRadius": "none",
+            "background": "transparent",
             "color": "text",
+            "fontWeight": "normal",
+            "textTransform": "uppercase",
             "_focus": {
-              "bg:": "primary.100",
+              "borderColor": "gray.200",
+              "background": "gray.200",
               "color": "text"
             },
             "_active": {
-              "bg:": "primary.100",
+              "borderColor": "gray.200",
+              "background": "gray.200",
               "color": "text"
             },
             "_hover": {
-              "bg:": "primary.100",
+              "background": "gray.200",
               "color": "text"
+            }
+          },
+          "menuDark": {
+            "borderRadius": "none",
+            "background": "transparent",
+            "color": "primary.500",
+            "fontWeight": "bold",
+            "fontFamily": "heading",
+            "textTransform": "uppercase",
+            "_focus": {
+              "background": "transparent",
+              "color": "primary.400"
+            },
+            "_active": {
+              "background": "transparent",
+              "color": "primary.400"
+            },
+            "_hover": {
+              "background": "transparent",
+              "color": "primary.400"
             }
           }
         }
@@ -1384,24 +1608,12 @@
       "HeaderNavbar": {
         "parts": ["header"],
         "baseStyle": {
-          "type": "light",
+          "type": "dark",
+          "layout": "LEFT_LOGO",
           "header": {
-            "height": "78px",
-            "boxShadow": "lg",
-            "bg": "white"
-          },
-          "container": {
-            "maxW": "container.full"
-          }
-        }
-      },
-      "TopBar": {
-        "parts": ["outer"],
-        "baseStyle": {
-          "type": "light",
-          "outer": {
-            "height": "50px",
-            "bg": "white"
+            "height": "114px",
+            "boxShadow": "0 0 5px 1px rgba(0, 0, 0, 0.05)",
+            "bg": "secondary.500"
           },
           "container": {
             "maxW": "container.full"

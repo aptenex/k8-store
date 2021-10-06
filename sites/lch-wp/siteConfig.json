@@ -7,7 +7,7 @@
   "dynamicPropertyPages": true,
   "noIndex": false,
   "currency": {
-    "defaultCurrency": "GBP",
+    "defaultCurrency": "EUR",
     "supportedCurrencies": ["GBP", "EUR", "USD"]
   },
   "site": {
@@ -18,24 +18,24 @@
         "width": 237,
         "height": 72,
         "types": {
-          "default": "https://www.lakecomohomes.com/images/NewDesign/logo-brand.png",
-          "defaultMobile": "https://www.lakecomohomes.com/images/NewDesign/logo-brand.png",
-          "light": "https://www.lakecomohomes.com/images/NewDesign/logo-brand.png",
-          "lightMobile": "https://www.lakecomohomes.com/images/NewDesign/logo-brand.png",
-          "dark": "https://www.lakecomohomes.com/images/NewDesign/logo-brand.png",
-          "darkMobile": "https://www.lakecomohomes.com/images/NewDesign/logo-brand.png"
+          "default": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+          "defaultMobile": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+          "light": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+          "lightMobile": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+          "dark": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+          "darkMobile": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png"
         }
       }
     },
     "icons": {
       "16": "http://lch-wp.k8.rentivo.com/wp-content/uploads/2021/08/lch.png",
       "32": "http://lch-wp.k8.rentivo.com/wp-content/uploads/2021/08/lch.png",
-      "48": "https://www.lakecomohomes.com/images/NewDesign/logo-brand.png",
-      "128": "https://www.lakecomohomes.com/images/NewDesign/logo-brand.png"
+      "48": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+      "128": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png"
     },
     "cookies": {
       "active": false,
-      "policyUrl": "https://www.lakecomohomes.com/terms/",
+      "policyUrl": "/privacy-policy/",
       "position": "center"
     },
     "api": {
@@ -107,7 +107,7 @@
         "name": "Lake Como Homes",
         "legalName": "Lake Como Homes",
         "url": "https://www.lakecomohomes.com",
-        "logo": "https://www.lakecomohomes.com/images/NewDesign/logo-brand.png",
+        "logo": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
         "foundingDate": "2008",
         "contactPoint": {
           "@type": "ContactPoint",
@@ -119,7 +119,7 @@
       "brand": {
         "name": "Lake Como Homes",
         "url": "https://www.lakecomohomes.com",
-        "logo": "https://www.lakecomohomes.com/images/NewDesign/logo-brand.png",
+        "logo": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
         "sameAs": []
       }
     },
@@ -142,50 +142,7 @@
       "include": [],
       "exclude": []
     },
-    "cancellationPolicies": {
-      "RELAXED": [
-        {
-          "daysBeforeArrival": 1,
-          "percentageRetained": 0.0
-        }
-      ],
-      "MODERATE": [
-        {
-          "daysBeforeArrival": 5,
-          "percentageRetained": 0.0
-        },
-        {
-          "daysBeforeArrival": 1,
-          "percentageRetained": 50.0
-        }
-      ],
-      "FIRM": [
-        {
-          "daysBeforeArrival": 14,
-          "percentageRetained": 0.0,
-          "graceHours": 48
-        },
-        {
-          "daysBeforeArrival": 7,
-          "percentageRetained": 50.0,
-          "graceHours": 48
-        }
-      ],
-      "STRICT": [
-        {
-         "daysBeforeArrival": 30,
-         "percentageRetained": 50.0,
-         "graceHours": 48
-        }
-      ],
-      "NO_REFUND": [
-        {
-          "daysBeforeArrival": 60,
-          "percentageRetained": 50.0,
-          "graceHours": 48
-        }
-      ]
-    }
+    "cancellationPolicies": {}
   },
   "search": {
     "collections": {
@@ -771,8 +728,8 @@
       "showMarketingOptIn": false,
       "showTermsAndConditions": true,
       "showPrivacyPolicy": true,
-      "defaultPrivacyPolicy": "/privacy/",
-      "defaultTermsAndConditions": "https://www.happyholidayhomes.net/terms-conditions"
+      "defaultPrivacyPolicy": "/privacy-policy/",
+      "defaultTermsAndConditions": "/terms-conditions/"
     }
   },
   "blog": {

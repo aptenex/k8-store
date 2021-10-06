@@ -1,41 +1,41 @@
 {
-  "id": "italianbreaks",
-  "name": "Italian Breaks",
-  "shortName": "Italian Breaks",
-  "websiteUrl": "https://www.italianbreaks.com",
-  "baseUrl": "https://italianbreaks-wp.k8.rentivo.com",
+  "id": "lch",
+  "name": "Lake Como Homes",
+  "shortName": "Lake Como Homes",
+  "websiteUrl": "https://www.lakecomohomes.com",
+  "baseUrl": "https://lch-wp.k8.rentivo.com",
   "dynamicPropertyPages": true,
   "noIndex": false,
   "currency": {
-    "defaultCurrency": "EUR",
+    "defaultCurrency": "GBP",
     "supportedCurrencies": ["GBP", "EUR", "USD"]
   },
   "site": {
     "logo": {
       "useImage": true,
-      "text": "Italian Breaks",
+      "text": "Lake Como Homes",
       "image": {
-        "width": 260,
-        "height": 52,
+        "width": 237,
+        "height": 72,
         "types": {
-          "default": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "defaultMobile": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "light": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "lightMobile": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "dark": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "darkMobile": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png"
+          "default": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+          "defaultMobile": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+          "light": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+          "lightMobile": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+          "dark": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+          "darkMobile": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png"
         }
       }
     },
     "icons": {
-      "16": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/IB-Fav.png",
-      "32": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/IB-Fav.png",
-      "48": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-      "128": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png"
+      "16": "http://lch-wp.k8.rentivo.com/wp-content/uploads/2021/08/lch.png",
+      "32": "http://lch-wp.k8.rentivo.com/wp-content/uploads/2021/08/lch.png",
+      "48": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
+      "128": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png"
     },
     "cookies": {
       "active": false,
-      "policyUrl": "https://www.italianbreaks.com/terms/",
+      "policyUrl": "https://www.lakecomohomes.com/terms/",
       "position": "center"
     },
     "api": {
@@ -58,7 +58,7 @@
           "cookieFlags": "secure;samesite=none"
         },
         "googleAnalytics": {
-          "active": false,
+          "active": true,
           "head": true,
           "trackingId": "UA-8328647-3",
           "autoStart": true,
@@ -99,57 +99,46 @@
       }
     },
     "sharing": {
-      "ogImage": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2018/01/italian_breaks_3.jpg",
-      "twitterImage": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2018/01/italian_breaks_3.jpg"
+      "ogImage": "https://lch-wp.k8.rentivo.com/wp-content/uploads/sites/17/2021/07/shutterstock_271743734-1-scaled-e1626945134167.jpeg",
+      "twitterImage": "https://lch-wp.k8.rentivo.com/wp-content/uploads/sites/17/2021/07/shutterstock_271743734-1-scaled-e1626945134167.jpeg"
     },
     "structuredData": {
       "organization": {
-        "name": "Italian Breaks",
-        "legalName": "Italian Breaks",
-        "url": "https://www.italianbreaks.com",
-        "logo": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
+        "name": "Lake Como Homes",
+        "legalName": "Lake Como Homes",
+        "url": "https://www.lakecomohomes.com",
+        "logo": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
         "foundingDate": "2008",
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "Customer Support",
-          "email": "hello@italianbreaks.com"
+          "email": "hello@lakecomohomes.com"
         },
         "sameAs": []
       },
       "brand": {
-        "name": "Italian Breaks",
-        "url": "https://www.italianbreaks.com",
-        "logo": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
+        "name": "Lake Como Homes",
+        "url": "https://www.lakecomohomes.com",
+        "logo": "https://lch-wp.k8.rentivo.com/wp-content/uploads/2021/09/LCH_LOGO_CLEAN.png",
         "sameAs": []
       }
     },
     "content": {
       "variables": {
         "sep": "—",
-        "siteTitle": "Italian Breaks"
+        "siteTitle": "Lake Como Homes"
       }
     },
     "design": {
       "fonts": {
-        "google": [
-          {
-            "family": "Crimson Text",
-            "variants": ["400", "600"],
-            "fontDisplay": "swap"
-          },
-          {
-            "family": "Open Sans",
-            "variants": ["400", "400i", "500", "600", "700"],
-            "fontDisplay": "swap"
-          }
-        ]
+
       }
     },
     "formatting": {
       "fullDate": "Do MMM YY"
     },
     "countries": {
-      "important": ["IT", "GB", "US", "CA", "AU", "MX", "NZ", "BR", "JP", "CN"],
+      "important": ["GB", "US", "CA", "AU", "MX", "NZ", "BR", "JP", "CN"],
       "include": [],
       "exclude": []
     },
@@ -157,7 +146,7 @@
   },
   "search": {
     "collections": {
-      "rootCollectionDatabaseId": 0
+      "rootCollectionDatabaseId": 962
     },
     "results": {
       "perPage": 36,
@@ -1160,33 +1149,45 @@
       }
     },
     "colors": {
-      "text": "#000",
-      "textLight": "#666",
-      "link": "#405681",
-      "linkHover": "#2F3F5F",
+      "text": "#030f17",
+      "textLight": "#667488",
+      "link": "#188FBF",
+      "linkHover": "#126D92",
       "primary": {
-        "50": "#C5CEE2",
-        "100": "#B3C0DA",
-        "200": "#91A4C9",
-        "300": "#6F88B8",
-        "400": "#516DA3",
-        "500": "#405681",
-        "600": "#2F3F5F",
-        "700": "#1E293D",
-        "800": "#0D121B",
+        "50": "#B7CBF6",
+        "100": "#A0BBF3",
+        "200": "#739AED",
+        "300": "#467AE7",
+        "400": "#1D5ADD",
+        "500": "#1748B0",
+        "600": "#113683",
+        "700": "#0B2356",
+        "800": "#051129",
         "900": "#000000"
       },
       "secondary": {
-        "50": "#F9F4E7",
-        "100": "#F5EAD2",
-        "200": "#EBD7A9",
-        "300": "#E2C47F",
-        "400": "#D8B156",
-        "500": "#CC9D2F",
-        "600": "#A37D25",
-        "700": "#795D1C",
-        "800": "#503D12",
-        "900": "#261D09"
+        "50": "#E6F0F8",
+        "100": "#D2E4F2",
+        "200": "#AACCE7",
+        "300": "#82B4DC",
+        "400": "#5B9BD0",
+        "500": "#3783C1",
+        "600": "#2C6899",
+        "700": "#204D72",
+        "800": "#15324A",
+        "900": "#0A1722"
+      },
+      "tertiary": {
+        "50": "#FFFDF8",
+        "100": "#FFFBF0",
+        "200": "#FEF4DB",
+        "300": "#FDEEC5",
+        "400": "#FCE199",
+        "500": "#FBD46D",
+        "600": "#E2BF62",
+        "700": "#977F41",
+        "800": "#715F31",
+        "900": "#4B4021"
       }
     },
     "fontWeights": {
@@ -1201,10 +1202,10 @@
       "black": 900
     },
     "fonts": {
-      "heading": "'Crimson Text', serif",
-      "body": "'Open Sans', sans-serif",
-      "button": "'Open Sans', sans-serif",
-      "mono": "'Open Sans', sans-serif"
+      "heading": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
+      "body": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+      "button": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+      "mono": "SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
     },
     "fontSizes": {
       "xs": "0.75rem",
@@ -1230,62 +1231,52 @@
       },
       "heading": {
         "h1": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontFamily": "body"
         },
         "h2": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontFamily": "body"
         },
         "h3": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontFamily": "body"
         },
         "h4": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontFamily": "body"
         },
         "h5": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontFamily": "body"
         },
         "h6": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontFamily": "body"
         }
       },
       "writingHeading": {
         "h1": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium"
         },
         "h2": {
           "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontWeight": "medium"
         },
         "h3": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontFamily": "body"
         },
         "h4": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontFamily": "body"
         },
         "h5": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontFamily": "body"
         },
         "h6": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
+          "fontFamily": "body"
         }
       }
     },
     "layerStyles": {
       "highlight": {
         "borderBottom": "2px solid",
-        "bg": "secondary.200",
-        "borderColor": "secondary.300",
+        "bg": "tertiary.200",
+        "borderColor": "tertiary.300",
         "color": "text",
         "fontSize": "sm",
         "display": "inline-block",
@@ -1388,19 +1379,6 @@
           "header": {
             "height": "78px",
             "boxShadow": "lg",
-            "bg": "white"
-          },
-          "container": {
-            "maxW": "container.full"
-          }
-        }
-      },
-      "TopBar": {
-        "parts": ["outer"],
-        "baseStyle": {
-          "type": "light",
-          "outer": {
-            "height": "50px",
             "bg": "white"
           },
           "container": {
