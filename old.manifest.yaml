@@ -1,3 +1,29 @@
+sites:
+  - name: lch-wp
+    enabled: true
+    namespace: site-lch
+    labelSelector: app.kubernetes.io/instance=lch-wordpress
+  - name: book-bnb-wp
+    enabled: true
+    namespace: site-book-bnb
+    labelSelector: app.kubernetes.io/instance=book-bnb-wordpress
+  - name: gordon-wp
+    enabled: true
+    namespace: site-gordon
+    labelSelector: app.kubernetes.io/instance=gordon-wordpress
+  - name: stays-wp
+    enabled: true
+    namespace: site-stays
+    labelSelector: app.kubernetes.io/instance=stays-wordpress
+  - name: passpawt-wp
+    enabled: true
+    namespace: site-passpawt
+    labelSelector: app.kubernetes.io/instance=passpawt-wordpress
+  - name: italianbreaks-wp
+    enabled: true
+    namespace: site-italianbreaks
+    labelSelector: app.kubernetes.io/instance=italianbreaks-wordpress
+
 themes:
 
   - name: savanna
