@@ -87,5 +87,10 @@
   "containers.LycanMessages.LOCALITY_WATER_FRONT|LOCALITY_LAKE_FRONT|LOCALITY_LAKESIDE_TOWN": "Lake Front",
   "containers.LycanMessages.LOCALITY_WATER_VIEWS|LOCALITY_LAKE_VIEWS": "Lake Views",
   "containers.LycanMessages.TRAVEL_CAR_NOT_NECESSARY": "Car not necessary",
-  "containers.LycanMessages.OUTDOOR_OUTDOOR_DINING": "Outdoor dining"
+  "containers.LycanMessages.OUTDOOR_OUTDOOR_DINING": "Outdoor dining",
+  "containers.PricingProvider.PricingActions.buttonEnquireWithPrice.label" : "Enquire",
+  "app.components.forms.BusinessEnquiryForm.enquirySuccessMessage": "Thanks for your enquiry. Please make sure to check both inbox and junk mail for a response.",
+  "app.components.forms.EnquiryForm.enquiryButtonText": "Send Enquiry",
+  "app.components.forms.EnquiryForm.enquirySuccessMessage": "Thanks for your enquiry. Please make sure to check both inbox and junk mail for a response.",
+  "components.property.Price.price.enquireOnly.label": "Enquire only"
 }
