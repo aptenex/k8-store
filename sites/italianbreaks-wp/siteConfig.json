@@ -8,7 +8,7 @@
   "noIndex": false,
   "currency": {
     "defaultCurrency": "EUR",
-    "supportedCurrencies": ["GBP", "EUR", "USD"]
+    "supportedCurrencies": ["GBP", "EUR", "USD", "CHF"]
   },
   "site": {
     "logo": {
@@ -625,8 +625,8 @@
       }
     },
     "elasticSearch": {
-      "app": "lycan_main.lakecomohomescom.properties_vhc4nn",
-      "credentials": "lch:password",
+      "app": "lycan_main.italian_breaks_gatsby.properties_n7qwrw",
+      "credentials": "italianbreaks:password",
       "url": "https://search.es.rentivo.com:9243",
       "size": 12
     }
