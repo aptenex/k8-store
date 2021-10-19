@@ -88,6 +88,13 @@
   "containers.LycanMessages.LOCALITY_WATER_VIEWS|LOCALITY_LAKE_VIEWS": "Lake Views",
   "containers.LycanMessages.TRAVEL_CAR_NOT_NECESSARY": "Car not necessary",
   "containers.LycanMessages.OUTDOOR_OUTDOOR_DINING": "Outdoor dining",
+<<<<<<< HEAD
+  "containers.PricingProvider.PricingActions.buttonEnquireWithPrice.label" : "Enquire",
+  "app.components.forms.BusinessEnquiryForm.enquirySuccessMessage": "Thanks for your enquiry. Please make sure to check both inbox and junk mail for a response.",
+  "app.components.forms.EnquiryForm.enquiryButtonText": "Send Enquiry",
+  "app.components.forms.EnquiryForm.enquirySuccessMessage": "Thanks for your enquiry. Please make sure to check both inbox and junk mail for a response.",
+  "components.property.Price.price.enquireOnly.label": "Enquire only"
+=======
 
   "containers.LycanMessages.GENERAL_COIN_LAUNDRY": "Coin Laundry",
   "components.generic.Logo.url": "/",
@@ -1088,4 +1095,5 @@
   "intl.moment.weekdays": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday",
   "intl.moment.weekdaysMin": "Su, Mo, Tu, We, Th, Fr, Sa",
   "intl.moment.weekdaysShort": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+>>>>>>> 3cfcd43524fe46cf07521d3bbd694c8af1c43d24
 }
