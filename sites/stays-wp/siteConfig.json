@@ -670,7 +670,7 @@
       }
     },
     "elasticSearch": {
-      "app": "lycan_main.stays_uk_gatsby_website.properties_n7zpdu",
+      "app": "lycan_main.stays_uk_ltd_website.properties_lkvqt4",
       "credentials": "stays:password",
       "url": "https://search.es.rentivo.com:9243",
       "size": 12
