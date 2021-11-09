@@ -186,7 +186,7 @@
     },
     "results": {
       "perPage": 12,
-      "totalHits": 5000,
+      "totalHits": 25000,
       "openInNewTab": true,
       "includeDiscounts": false
     },
