@@ -2,7 +2,7 @@
   "id": "gordon",
   "name": "Gordon Property Management",
   "shortName": "Gordon",
-  "websiteUrl": "https://gordonpropertymanagement.com",
+  "websiteUrl": "https://gordon.k8.rentivo.com",
   "baseUrl": "https://gordon-wp.k8.rentivo.com/graphql",
   "dynamicPropertyPages": true,
   "noIndex": false,

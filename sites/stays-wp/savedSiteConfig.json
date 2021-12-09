@@ -1,41 +1,41 @@
 {
-  "id": "italianbreaks",
-  "name": "Italian Breaks",
-  "shortName": "Italian Breaks",
-  "websiteUrl": "https://www.italianbreaks.com",
-  "baseUrl": "https://italianbreaks-wp.k8.rentivo.com",
-  "dynamicPropertyPages": true,
+  "id": "stays",
+  "name": "Stays",
+  "shortName": "stays",
+  "websiteUrl": "https://stays.co.uk",
+  "baseUrl": "https://stays-wp.k8.rentivo.com/graphql",
+  "dynamicPropertyPages": false,
   "noIndex": false,
   "currency": {
-    "defaultCurrency": "EUR",
-    "supportedCurrencies": ["GBP", "EUR", "USD"]
+    "defaultCurrency": "GBP",
+    "supportedCurrencies": ["GBP", "EUR", "USD", "CHF"]
   },
   "site": {
     "logo": {
       "useImage": true,
-      "text": "Italian Breaks",
+      "text": "Stays",
       "image": {
-        "width": 260,
-        "height": 52,
+        "width": 227,
+        "height": 38,
         "types": {
-          "default": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "defaultMobile": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "light": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "lightMobile": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "dark": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-          "darkMobile": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png"
+          "default": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+          "defaultMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+          "light": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+          "lightMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+          "dark": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+          "darkMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg"
         }
       }
     },
     "icons": {
-      "16": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/IB-Fav.png",
-      "32": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/IB-Fav.png",
-      "48": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
-      "128": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png"
+      "16": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/fav.png",
+      "32": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/fav.png",
+      "48": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+      "128": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg"
     },
     "cookies": {
-      "active": false,
-      "policyUrl": "https://www.italianbreaks.com/terms/",
+      "active": true,
+      "policyUrl": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/TermsConditions.pdf",
       "position": "center"
     },
     "api": {
@@ -47,20 +47,18 @@
       "googleApiKey": "AIzaSyAHKtVjv9tNEOkVfe_p9hgyPdJfaGgEAy8",
       "tracking": {
         "debug": false,
-        "environments": ["production"],
+        "environments": ["production", "development"],
         "googleTagManager": {
-          "active": false,
+          "active": true,
           "autoStart": true,
-          "defaultDataLayer": {
-            "platform": "rentivo"
-          },
-          "trackingId": "GTM-M4WLHWN",
+          "defaultDataLayer": { "platform": "rentivo" },
+          "trackingId": "GTM-PW46QWB",
           "cookieFlags": "secure;samesite=none"
         },
         "googleAnalytics": {
           "active": false,
           "head": true,
-          "trackingId": "UA-8328647-3",
+          "trackingId": "UA-34358122-1",
           "autoStart": true,
           "anonymize": true,
           "cookieFlags": "secure;samesite=none"
@@ -99,98 +97,82 @@
       }
     },
     "sharing": {
-      "ogImage": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2018/01/italian_breaks_3.jpg",
-      "twitterImage": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2018/01/italian_breaks_3.jpg"
+      "ogImage": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/shutterstock_271743734-1-scaled-e1626945134167.jpeg",
+      "twitterImage": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/shutterstock_271743734-1-scaled-e1626945134167.jpeg"
     },
     "structuredData": {
       "organization": {
-        "name": "Italian Breaks",
-        "legalName": "Italian Breaks",
-        "url": "https://www.italianbreaks.com",
-        "logo": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
+        "name": "Stays",
+        "legalName": "Stays",
+        "url": "https://www.stays.co.uk",
+        "logo": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
         "foundingDate": "2008",
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "Customer Support",
-          "email": "hello@italianbreaks.com"
+          "email": "hello@stays.co.uk"
         },
-        "sameAs": []
+        "sameAs": ["https://www.instagram.com/stays.co.uk/"]
       },
       "brand": {
-        "name": "Italian Breaks",
-        "url": "https://www.italianbreaks.com",
-        "logo": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
+        "name": "Stays",
+        "url": "https://www.stays.co.uk",
+        "logo": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
         "sameAs": []
       }
     },
-    "content": {
-      "variables": {
-        "sep": "—",
-        "siteTitle": "Italian Breaks"
-      }
-    },
-    "design": {
-      "fonts": {
-        "google": [
-          {
-            "family": "Crimson Text",
-            "variants": ["400", "600"],
-            "fontDisplay": "swap"
-          },
-          {
-            "family": "Open Sans",
-            "variants": ["400", "400i", "500", "600", "700"],
-            "fontDisplay": "swap"
-          }
-        ]
-      }
-    },
-    "formatting": {
-      "fullDate": "Do MMM YY"
-    },
+    "content": { "variables": { "sep": "—", "siteTitle": "Stays" } },
+    "design": { "fonts": {} },
+    "formatting": { "fullDate": "Do MMM YY" },
     "countries": {
-      "important": ["IT", "GB", "US", "CA", "AU", "MX", "NZ", "BR", "JP", "CN"],
+      "important": ["GB", "US", "CA", "AU", "MX", "NZ", "BR", "JP", "CN"],
       "include": [],
       "exclude": []
     },
-    "cancellationPolicies": {}
+    "cancellationPolicies": {
+      "RELAXED": [{ "daysBeforeArrival": 1, "percentageRetained": 0 }],
+      "MODERATE": [
+        { "daysBeforeArrival": 5, "percentageRetained": 0 },
+        { "daysBeforeArrival": 1, "percentageRetained": 50 }
+      ],
+      "FIRM": [
+        { "daysBeforeArrival": 14, "percentageRetained": 0, "graceHours": 48 },
+        { "daysBeforeArrival": 7, "percentageRetained": 50, "graceHours": 48 }
+      ],
+      "STRICT": [
+        { "daysBeforeArrival": 30, "percentageRetained": 50, "graceHours": 48 }
+      ],
+      "NO_REFUND": [
+        { "daysBeforeArrival": 60, "percentageRetained": 50, "graceHours": 48 }
+      ]
+    }
   },
   "search": {
-    "collections": {
-      "rootCollectionDatabaseId": 0
-    },
+    "collections": { "rootCollectionDatabaseId": 0 },
     "results": {
-      "perPage": 36,
-      "totalHits": 5000,
+      "perPage": "36",
+      "totalHits": 25000,
       "openInNewTab": true,
       "includeDiscounts": false
     },
     "map": {
-      "experiences": {
-        "include": true,
-        "showByDefault": true
-      },
-      "placeNames": {
-        "usePlaceNames": false
-      },
+      "experiences": { "include": true, "showByDefault": true },
+      "placeNames": { "usePlaceNames": false },
       "isOpenOnLoad": true,
-      "defaultZoom": 8,
+      "defaultZoom": 3,
       "maxZoom": 19,
       "minZoom": 1,
       "useFuzzyRadius": false,
       "fuzzyRadius": 200,
       "searchMapOnMoveDefault": true,
-      "defaultCenter": {
-        "lat": 46.016048,
-        "lng": 9.257168
-      }
+      "defaultCenter": { "lat": 55.378052, "lng": -3.435973 }
     },
     "filters": {
       "los": {
         "active": true,
         "showFilter": false,
         "urlParam": "los",
-        "defaultValue": "no"
+        "defaultValue": "yes"
       },
       "availability": {
         "active": true,
@@ -213,11 +195,7 @@
         "defaultValue": null,
         "showFilter": true,
         "type": "COLLECTION_CASCADE",
-        "bias": {
-          "countries": ["IT", "GB", "ES"],
-          "types": null,
-          "radius": 0
-        }
+        "bias": { "countries": ["GB", "US"], "types": null, "radius": 0 }
       },
       "bedrooms": {
         "active": true,
@@ -292,7 +270,7 @@
       "price": {
         "active": true,
         "urlParam": "price",
-        "defaultValue": [0, 999],
+        "defaultValue": [0, 500],
         "showFilter": true,
         "sliderStep": 5,
         "histogramInterval": 50,
@@ -303,12 +281,7 @@
         "active": true,
         "showFilter": true,
         "urlParam": "flags",
-        "options": [
-          {
-            "urlValue": "featured",
-            "value": "isFeatured"
-          }
-        ],
+        "options": [{ "urlValue": "featured", "value": "isFeatured" }],
         "defaultValue": []
       },
       "features": {
@@ -321,149 +294,19 @@
         "optionsToShow": 6,
         "options": [
           {
-            "urlValue": "car_unnecessary",
-            "value": "TRAVEL_CAR_NOT_NECESSARY"
-          },
-          {
-            "urlValue": "outdoor_dining",
-            "value": "OUTDOOR_OUTDOOR_DINING"
-          },
-          {
-            "urlValue": "hot_tub",
-            "value": "SPA_POOL_JACUZZI_HOT_TUB"
-          },
-          {
-            "urlValue": "fireplace",
-            "value": "GENERAL_FIREPLACE"
-          },
-          {
             "urlValue": "wifi",
             "value": "COMMUNICATION_INTERNET|COMMUNICATION_INTERNET_CABLED|COMMUNICATION_INTERNET_DONGLE|COMMUNICATION_INTERNET_HIGHSPEED|COMMUNICATION_INTERNET_WIFI"
           },
+          { "urlValue": "parking", "value": "GENERAL_PARKING" },
           {
-            "urlValue": "aircon",
-            "value": "GENERAL_AIR_CONDITIONING"
+            "urlValue": "garden_outside",
+            "value": "GENERAL_GARDEN|OUTDOOR_DECK_PATIO|OUTDOOR_BALCONY"
           },
           {
-            "urlValue": "private_pool",
-            "value": "SPA_POOL_INDOOR_POOL|SPA_POOL_POOL_COMMUNAL|SPA_POOL_SWIMMING_POOL|SPA_POOL_POOL_HEATED|SPA_POOL_POOL_INDOOR|SPA_POOL_POOL_PRIVATE|SPA_POOL_POOL_UNHEATED"
+            "urlValue": "enclosed_garden",
+            "value": "SAFETY_GARDEN_ENCLOSED|OUTDOOR_GARDEN"
           },
-          {
-            "urlValue": "pets",
-            "value": "GENERAL_PET_FRIENDLY"
-          },
-          {
-            "urlValue": "kitchen",
-            "value": "KITCHEN_KITCHENETTE|KITCHEN_STOVE"
-          },
-          {
-            "urlValue": "fitness",
-            "value": "LOCAL_GYM"
-          },
-          {
-            "urlValue": "stove",
-            "value": "KITCHEN_STOVE"
-          },
-          {
-            "urlValue": "oven",
-            "value": "KITCHEN_OVEN"
-          },
-          {
-            "urlValue": "dryer",
-            "value": "GENERAL_TUMBLE_DRYER"
-          },
-          {
-            "urlValue": "washer",
-            "value": "GENERAL_WASHING_MACHINE"
-          },
-          {
-            "urlValue": "ironing",
-            "value": "GENERAL_IRON_IRONING_BOARD"
-          },
-          {
-            "urlValue": "hair_dryer",
-            "value": "GENERAL_HAIRDRYER"
-          },
-          {
-            "urlValue": "parking",
-            "value": "GENERAL_PARKING"
-          },
-          {
-            "urlValue": "tv",
-            "value": "ENTERTAINMENT_TV|ENTERTAINMENT_CABLE_TV|ENTERTAINMENT_HIGH_DEFINITION_TV|ENTERTAINMENT_SATELLITE_TV|ENTERTAINMENT_STANDARD_DEFINITION_TV"
-          },
-          {
-            "urlValue": "balcony",
-            "value": "OUTDOOR_BALCONY"
-          },
-          {
-            "urlValue": "patio_deck",
-            "value": "OUTDOOR_DECK_PATIO"
-          },
-          {
-            "urlValue": "dishwasher",
-            "value": "KITCHEN_DISHWASHER"
-          },
-          {
-            "urlValue": "microwave",
-            "value": "KITCHEN_MICROWAVE"
-          },
-          {
-            "urlValue": "fridge",
-            "value": "KITCHEN_FRIDGE_FREEZER|KITCHEN_AMERICAN_FRIDGE|KITCHEN_FRIDGE_STANDALONE"
-          },
-          {
-            "urlValue": "toaster",
-            "value": "KITCHEN_TOASTER"
-          },
-          {
-            "urlValue": "coffee_machine",
-            "value": "KITCHEN_COFFEE_MACHINE"
-          },
-          {
-            "urlValue": "dishes_utensils",
-            "value": "KITCHEN_FULL_CUTLERY_UTENSIL_KIT"
-          },
-          {
-            "urlValue": "bbq",
-            "value": "OUTDOOR_BARBECUE"
-          },
-          {
-            "urlValue": "garden",
-            "value": "GENERAL_GARDEN"
-          },
-          {
-            "urlValue": "cot",
-            "value": "CHILDREN_BABY_COT"
-          },
-          {
-            "urlValue": "games_room",
-            "value": "ENTERTAINMENT_GAMES_ROOM"
-          },
-          {
-            "urlValue": "tennis",
-            "value": "LOCAL_TENNIS_COURT"
-          },
-          {
-            "urlValue": "water_parks",
-            "value": "ATTRACTIONS_WATER_THEME_PARK"
-          },
-          {
-            "urlValue": "private_beach",
-            "value": "LOCALITY_BEACH|LOCALITY_BEACH_FRONT|LOCAL_BEACH|LOCAL_BEACH_FRONT"
-          },
-          {
-            "urlValue": "boat_mooring",
-            "value": "LOCAL_BOATING"
-          },
-          {
-            "urlValue": "housekeeping",
-            "value": "ACCOMMODATIONS_HOUSE_CLEANING_INCLUDED"
-          },
-          {
-            "urlValue": "breakfast",
-            "value": "ACCOMMODATIONS_BREAKFAST_INCLUDED_IN_PRICE"
-          }
+          { "urlValue": "pets", "value": "GENERAL_PET_FRIENDLY" }
         ]
       },
       "type": {
@@ -476,18 +319,60 @@
         "optionsToShow": 12,
         "options": [
           {
-            "urlValue": "apartment",
-            "value": "LISTING_TYPE_APARTMENT"
+            "urlValue": "house",
+            "value": "LISTING_TYPE_HOUSE|LISTING_TYPE_VILLA"
+          },
+          { "urlValue": "apartment", "value": "LISTING_TYPE_APARTMENT" },
+          { "urlValue": "townhome", "value": "LISTING_TYPE_TOWNHOUSE" },
+          { "urlValue": "glamping", "value": "LISTING_TYPE_CAMPER_VAN" }
+        ]
+      },
+      "kitchenAppliances": {
+        "active": true,
+        "urlParam": "kitchen_appliances",
+        "defaultValue": [],
+        "showFilter": true,
+        "nestedField": "features",
+        "field": "features.type.keyword",
+        "optionsToShow": 6,
+        "options": [
+          { "urlValue": "dishwasher", "value": "KITCHEN_DISHWASHER" },
+          {
+            "urlValue": "washing_machine",
+            "value": "GENERAL_WASHING_MACHINE|GENERAL_WASHER_DRYER"
           },
           {
-            "urlValue": "villa",
-            "value": "LISTING_TYPE_HOUSE|LISTING_TYPE_VILLA|LISTING_TYPE_TOWNHOUSE"
+            "urlValue": "tumble_dryer",
+            "value": "GENERAL_TUMBLE_DRYER|GENERAL_WASHER_DRYER"
+          },
+          { "urlValue": "microwave", "value": "KITCHEN_MICROWAVE" },
+          {
+            "urlValue": "fridge",
+            "value": "KITCHEN_FRIDGE_FREEZER|KITCHEN_AMERICAN_FRIDGE|KITCHEN_FRIDGE_STANDALONE"
+          },
+          {
+            "urlValue": "freezer",
+            "value": "KITCHEN_FRIDGE_FREEZER|KITCHEN_FREEZER_STANDALONE"
           }
         ]
       },
-      "locationFeatures": {
+      "familyFriendly": {
         "active": true,
-        "urlParam": "location_features",
+        "urlParam": "family_friendly",
+        "defaultValue": [],
+        "showFilter": true,
+        "nestedField": "features",
+        "field": "features.type.keyword",
+        "optionsToShow": 6,
+        "options": [
+          { "urlValue": "high_chair", "value": "CHILDREN_BABY_HIGHCHAIR" },
+          { "urlValue": "travel_cot", "value": "CHILDREN_BABY_COT" },
+          { "urlValue": "stairgate", "value": "CHILDREN_BABY_STAIRGATE" }
+        ]
+      },
+      "specialFeatures": {
+        "active": true,
+        "urlParam": "special_features",
         "defaultValue": [],
         "showFilter": true,
         "nestedField": "features",
@@ -495,20 +380,49 @@
         "optionsToShow": 6,
         "options": [
           {
-            "urlValue": "lakefront",
-            "value": "LOCALITY_WATER_FRONT|LOCALITY_LAKE_FRONT|LOCALITY_LAKESIDE_TOWN"
+            "urlValue": "fireplace_woodburner",
+            "value": "GENERAL_FIREPLACE|GENERAL_WOOD_BURNING_STOVE"
+          },
+          { "urlValue": "pool", "value": "SPA_POOL_SWIMMING_POOL" },
+          {
+            "urlValue": "sea_views",
+            "value": "LOCALITY_BEACH_VIEWS|LOCALITY_OCEAN_VIEWS|LOCALITY_SEA_WATERFRONT|LOCALITY_BEACH_FRONT|LOCALITY_COASTAL"
+          },
+          { "urlValue": "hot_tub", "value": "SPA_POOL_JACUZZI_HOT_TUB" },
+          {
+            "urlValue": "electric_car_charger",
+            "value": "GENERAL_ELECTRIC_VEHICLE_CHARGER"
           },
           {
-            "urlValue": "water_view",
-            "value": "LOCALITY_WATER_VIEWS|LOCALITY_LAKE_VIEWS"
+            "urlValue": "lake_views",
+            "value": "LOCALITY_LAKE_VIEWS|LOCALITY_LAKE_FRONT"
+          }
+        ]
+      },
+      "accessibilityFeatures": {
+        "active": true,
+        "urlParam": "accessibility_features",
+        "defaultValue": [],
+        "showFilter": true,
+        "nestedField": "features",
+        "field": "features.type.keyword",
+        "optionsToShow": 6,
+        "options": [
+          {
+            "urlValue": "on_one_level",
+            "value": "ACCESSIBILITY_SINGLE_LEVEL_HOME"
           },
           {
-            "urlValue": "town",
-            "value": "LOCALITY_TOWN_CENTRE"
+            "urlValue": "ground_floor_wc",
+            "value": "ACCESSIBILITY_GROUNDFLOOR_TOILET"
           },
           {
-            "urlValue": "ski",
-            "value": "LOCAL_SKIING|LOCAL_SNOW_BOARDING"
+            "urlValue": "ground_floor_bathroom",
+            "value": "ACCESSIBILITY_GROUNDFLOOR_BATHROOM"
+          },
+          {
+            "urlValue": "ground_floor_bedroom",
+            "value": "ACCESSIBILITY_GROUNDFLOOR_BEDROOM"
           }
         ]
       },
@@ -525,37 +439,8 @@
             "urlValue": "disabled_access",
             "value": "SUITABILITY_ACCESSIBILITY_WHEELCHAIR_GREAT"
           },
-          {
-            "urlValue": "elevator",
-            "value": "GENERAL_LIFT_ELEVATOR"
-          },
-          {
-            "urlValue": "smoking",
-            "value": "SUITABILITY_SMOKING_ALLOWED"
-          }
-        ]
-      },
-      "relax": {
-        "active": true,
-        "urlParam": "relax_features",
-        "defaultValue": [],
-        "showFilter": true,
-        "nestedField": "features",
-        "field": "features.type.keyword",
-        "optionsToShow": 6,
-        "options": [
-          {
-            "urlValue": "sauna",
-            "value": "SPA_POOL_SAUNA"
-          },
-          {
-            "urlValue": "spa",
-            "value": "SPA_POOL_HEALTH_FACILITIES"
-          },
-          {
-            "urlValue": "bathtub",
-            "value": "GENERAL_BATHTUB"
-          }
+          { "urlValue": "elevator", "value": "GENERAL_LIFT_ELEVATOR" },
+          { "urlValue": "smoking", "value": "SUITABILITY_SMOKING_ALLOWED" }
         ]
       },
       "safety": {
@@ -567,10 +452,7 @@
         "field": "safety.type.keyword",
         "optionsToShow": 6,
         "options": [
-          {
-            "urlValue": "smoke_detector",
-            "value": "SAFETY_SMOKE_DETECTOR"
-          },
+          { "urlValue": "smoke_detector", "value": "SAFETY_SMOKE_DETECTOR" },
           {
             "urlValue": "carbon_monoxide_detector",
             "value": "SAFETY_CARBON_MONOXIDE_DETECTOR"
@@ -589,30 +471,12 @@
         "showFilter": true,
         "defaultValue": "RELEVANCE_ASC",
         "options": [
-          {
-            "urlValue": "relevance",
-            "value": "RELEVANCE_ASC"
-          },
-          {
-            "urlValue": "nightly_price_asc",
-            "value": "NIGHTLY_PRICE_ASC"
-          },
-          {
-            "urlValue": "nightly_price_desc",
-            "value": "NIGHTLY_PRICE_DESC"
-          },
-          {
-            "urlValue": "sleeps_asc",
-            "value": "SLEEPS_ASC"
-          },
-          {
-            "urlValue": "sleeps_desc",
-            "value": "SLEEPS_DESC"
-          },
-          {
-            "urlValue": "latest",
-            "value": "CREATED_AT_DESC"
-          }
+          { "urlValue": "relevance", "value": "RELEVANCE_ASC" },
+          { "urlValue": "nightly_price_asc", "value": "NIGHTLY_PRICE_ASC" },
+          { "urlValue": "nightly_price_desc", "value": "NIGHTLY_PRICE_DESC" },
+          { "urlValue": "sleeps_asc", "value": "SLEEPS_ASC" },
+          { "urlValue": "sleeps_desc", "value": "SLEEPS_DESC" },
+          { "urlValue": "latest", "value": "CREATED_AT_DESC" }
         ]
       },
       "page": {
@@ -625,20 +489,15 @@
       }
     },
     "elasticSearch": {
-      "app": "lycan_main.lakecomohomescom.properties_vhc4nn",
-      "credentials": "lch:password",
+      "app": "lycan_main.stays_uk_ltd_website.properties_lkvqt4",
+      "credentials": "stays:password",
       "url": "https://search.es.rentivo.com:9243",
       "size": 12
     }
   },
   "property": {
-    "headline": {
-      "showSubtitle": true
-    },
-    "price": {
-      "type": "PRICE_RANGE",
-      "period": "WEEKLY"
-    },
+    "headline": { "showSubtitle": true },
+    "price": { "type": "PRICE_RANGE", "period": "WEEKLY" },
     "pricing": {
       "actions": {
         "enquiryDisplayMode": "ON_ANY_RESPONSE",
@@ -687,22 +546,13 @@
           "min": 0,
           "max": 10
         },
-        "startDate": {
-          "urlParam": "check_in"
-        },
-        "endDate": {
-          "urlParam": "check_out"
-        },
-        "nights": {
-          "urlParam": "nights"
-        }
+        "startDate": { "urlParam": "check_in" },
+        "endDate": { "urlParam": "check_out" },
+        "nights": { "urlParam": "nights" }
       }
     },
     "map": {
-      "experiences": {
-        "include": true,
-        "showByDefault": true
-      },
+      "experiences": { "include": true, "showByDefault": true },
       "defaultZoom": 14,
       "maxZoom": 20,
       "minZoom": 1,
@@ -722,33 +572,24 @@
     "payment": {
       "defaultAcceptedPaymentBrands": ["visa", "mastercard", "amex"]
     },
-    "info": {
-      "phoneRequired": false
-    },
+    "info": { "phoneRequired": false },
     "success": {
       "reservationIdPath": "reservationExternalConnections[0].externalReservationId"
     },
-    "messageToAgent": {
-      "active": true,
-      "required": false
-    },
-    "enquiryModal": {
-      "active": true
-    },
+    "messageToAgent": { "active": true, "required": false },
+    "enquiryModal": { "active": true },
     "checkboxes": {
       "showMarketingOptIn": false,
       "showTermsAndConditions": true,
       "showPrivacyPolicy": true,
       "defaultPrivacyPolicy": "/privacy/",
-      "defaultTermsAndConditions": "https://www.happyholidayhomes.net/terms-conditions"
+      "defaultTermsAndConditions": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/TermsConditions.pdf"
     }
   },
-  "blog": {
-    "perPage": 20
-  },
+  "blog": { "perPage": 20 },
   "routePaths": {
-    "ROUTE_BASE_SEARCH": "rentals",
-    "ROUTE_BASE_PROPERTY": "rental",
+    "ROUTE_BASE_SEARCH": "homes",
+    "ROUTE_BASE_PROPERTY": "home",
     "ROUTE_BASE_CHECKOUT": "checkout",
     "ROUTE_BASE_CHECKOUT_REVIEW": "review",
     "ROUTE_BASE_CHECKOUT_GUEST_INFO": "info",
@@ -762,7 +603,8 @@
     "ROUTE_BASE_NOT_FOUND": "404",
     "ROUTE_BASE_CUSTOMER_CONTACT": "contact",
     "ROUTE_BASE_BUSINESS_CONTACT": "contact/business",
-    "ROUTE_BASE_DEDICATED_POST": "post"
+    "ROUTE_BASE_DEDICATED_POST": "post",
+    "ROUTE_BASE_HUB": "area"
   },
   "theme": {
     "id": "barcelona",
@@ -784,10 +626,8 @@
         "background-color-base": "#fafafa",
         "link-decoration": "none",
         "link-hover-decoration": "none",
-
         "shadow-color": "rgba(0, 0, 0, 0.15)",
         "box-shadow-base": "0 0.23rem 1.09rem rgba(8,10,37,.03), 0 0.465rem 0.70rem rgba(8,10,37,.03), 0 0.125rem 0.265rem rgba(8,10,37,.05), 0 0.0625rem 0.0935rem rgba(8,10,37,.03)",
-
         "font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
         "code-family": "'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace",
         "font-size-base": "16px",
@@ -798,37 +638,30 @@
         "heading-2-size": "28px",
         "heading-3-size": "24px",
         "heading-4-size": "20px",
-
         "typography-title-margin-top": "1.2em",
         "typography-title-margin-bottom": "0.5em",
-
         "border-radius-base": "6px",
         "border-width-base": "1px",
         "border-color-base": "#d9d9d9",
         "border-color-split": "#d9d9d9",
         "border-color-inverse": "#ffffff",
-
         "padding-lg": "24px",
         "padding-md": "16px",
         "padding-sm": "12px",
         "padding-xs": "8px",
-
         "screen-xs": "480px",
         "screen-sm": "576px",
         "screen-md": "768px",
         "screen-lg": "992px",
         "screen-xl": "1200px",
         "screen-xxl": "1600px",
-
-        "layout-header-height": "78px",
-
+        "layout-header-height": "60px",
         "btn-border-radius-base": "0",
         "btn-border-radius-sm": "0",
         "btn-font-weight": "600",
         "btn-shadow": "none",
         "btn-primary-shadow": "none",
         "btn-text-shadow": "none",
-
         "btn-padding-horizontal-base": "16px",
         "btn-padding-horizontal-lg": "16px",
         "btn-padding-horizontal-sm": "8px",
@@ -836,20 +669,16 @@
         "btn-height-lg": "48px",
         "btn-height-sm": "30px",
         "btn-font-size-sm": "15px",
-
         "popover-bg": "#ffffff",
         "popover-min-width": "200px",
         "popover-arrow-width": "14px",
         "popover-arrow-color": "#ffffff",
         "popover-arrow-outer-color": "#ffffff",
         "popover-distance": "16px",
-
-
         "dropdown-vertical-padding": "5px",
         "dropdown-edge-child-vertical-padding": "4px",
         "dropdown-line-height": "22px",
         "dropdown-selected-color": "#f5f5f5",
-
         "select-item-selected-font-weight": "600",
         "select-dropdown-bg": "#ffffff",
         "select-item-selected-bg": "#f5f5f5",
@@ -857,12 +686,10 @@
         "select-clear-background": "#ffffff",
         "select-selection-item-bg": "#f5f5f5",
         "select-selection-item-border-color": "#f0f0f0",
-
         "checkbox-size": "20px",
         "checkbox-color": "#108294",
         "checkbox-check-color": "#ffffff",
         "checkbox-border-width": "2px",
-
         "input-height-base": "40px",
         "input-height-lg": "48px",
         "input-height-sm": "30px",
@@ -872,7 +699,6 @@
         "input-padding-horizontal-lg": "16px",
         "input-placeholder-color": "#aaaaaa",
         "input-bg": "#ffffff",
-
         "animation-duration-slow": "0.2s",
         "animation-duration-base": "0.3s",
         "animation-duration-fast": "0.1s",
@@ -890,7 +716,6 @@
         "ease-out-quint": "cubic-bezier(0.23, 1, 0.32, 1)",
         "ease-in-quint": "cubic-bezier(0.755, 0.05, 0.855, 0.06)",
         "ease-in-out-quint": "cubic-bezier(0.86, 0, 0.07, 1)",
-
         "menu-inline-toplevel-item-height": "36px",
         "menu-item-height": "36px",
         "menu-collapsed-width": "80px",
@@ -913,25 +738,16 @@
         "menu-dark-selected-item-icon-color": "#ffffff",
         "menu-dark-selected-item-text-color": "#ffffff",
         "menu-dark-item-hover-bg": "transparent",
-
-
-
-
         "primary-hover-color": "#17a2b8",
         "text-gray-color": "#38343f",
-
         "secondary-color": "#fbd46d",
         "secondary-hover-color": "#030f17",
-
         "btn-primary-text-color": "#ffffff",
         "btn-primary-hover-text-color": "#ffffff",
         "btn-secondary-text-color": "#030f17",
         "btn-secondary-hover-text-color": "#fbd46d",
-
         "btn-secondary-shadow": "none",
-
         "box-shadow-lg": "0 0.46875rem 2.1875rem rgba(8,10,37,.03), 0 0.9375rem 1.40625rem rgba(8,10,37,.03), 0 0.25rem 0.53125rem rgba(8,10,37,.05), 0 0.125rem 0.1875rem rgba(8,10,37,.03)",
-
         "gray-1": "#fff",
         "gray-2": "#fafafa",
         "gray-3": "#f5f5f5",
@@ -945,21 +761,16 @@
         "gray-11": "#1f1f1f",
         "gray-12": "#141414",
         "gray-13": "#000",
-
         "padding-xl": "32px",
         "padding-xxl": "64px",
         "padding-xxxl": "128px",
         "padding-xxs": "4px",
-
         "typography-letter-spacing": "0",
         "typography-font-weight": "400",
         "typography-font-weight-thick": "600",
-
         "heading-line-height-base": "1.2",
         "content-heading-line-height-base": "1.35",
-
         "heading-5-size": "17px",
-
         "heading-1-font-weight": "400",
         "heading-2-font-weight": "400",
         "heading-3-font-weight": "600",
@@ -975,7 +786,6 @@
         "heading-3-letter-spacing": "0",
         "heading-4-letter-spacing": "0",
         "heading-5-letter-spacing": "0",
-
         "content-width": "992px",
         "content-width-wide": "1200px",
         "content-line-height-base": "1.75",
@@ -1001,20 +811,15 @@
         "content-heading-3-letter-spacing": "0",
         "content-heading-4-letter-spacing": "0",
         "content-heading-5-letter-spacing": "0",
-
         "popover-arrow-top-distance": "6px",
         "popover-arrow-bottom-distance": "10px",
         "popover-padding": "16px 24px",
         "popover-shadow": "0 0 16px rgba(0, 0, 0, 0.15)",
-
         "dropdown-border-radius": "7px",
-
         "input-border-radius": "0",
         "input-border": "1px solid #d9d9d9",
         "input-box-shadow": "none",
-
         "btn-primary-shadow-lg": "none",
-
         "calendar-default-bg-color": "#ffffff",
         "calendar-default-hover-bg-color": "#eeeeee",
         "calendar-default-color": "#030f17",
@@ -1026,12 +831,10 @@
         "calendar-selected-color": "#030f17",
         "calendar-blocked-bg-color": "repeating-linear-gradient(-45deg, rgb(255, 255, 255), rgb(255, 255, 255) 3px, #e0e0e0 3px, #d2d2d2 4px)",
         "calendar-blocked-color": "#cccccc",
-
         "menu-horizontal-border-bottom": "1px solid transparent",
         "menu-horizontal-border-bottom-active": "1px solid transparent",
         "menu-horizontal-side-padding": "10px",
         "menu-item-font-weight": "600",
-
         "fa-icon-primary": "#108294",
         "fa-icon-secondary": "#108294"
       },
@@ -1053,140 +856,101 @@
         "defaultType": "list",
         "showViewButton": true,
         "moreFilters": [
-          {
-            "type": "keyword"
-          },
-          {
-            "type": "bedrooms"
-          },
-          {
-            "type": "beds"
-          },
-          {
-            "type": "bathrooms"
-          },
-          {
-            "type": "tagsFlags"
-          },
-          {
-            "title": "FILTER_TITLE_FEATURES",
-            "type": "features"
-          },
+          { "type": "keyword" },
+          { "type": "bedrooms" },
+          { "type": "beds" },
+          { "type": "bathrooms" },
+          { "title": "FILTER_TITLE_FEATURES", "type": "features" },
           {
             "title": "FILTER_TITLE_TYPE",
             "type": "features",
-            "props": {
-              "filterConfigKey": "type"
-            }
+            "props": { "filterConfigKey": "type" }
           },
           {
-            "title": "FILTER_TITLE_LOCATION_FILTERS",
+            "title": "FILTER_TITLE_KITCHEN_APPLIANCES",
+            "type": "kitchenAppliances"
+          },
+          { "title": "FILTER_TITLE_FAMILY_FRIENDLY", "type": "familyFriendly" },
+          {
+            "title": "FILTER_TITLE_SPECIAL_FEATURES",
+            "type": "specialFeatures"
+          },
+          {
+            "title": "FILTER_TITLE_ACCESSIBILITY",
+            "type": "accessibilityFeatures"
+          },
+          {
+            "title": "FILTER_TITLE_SAFETY",
             "type": "features",
-            "props": {
-              "filterConfigKey": "locationFeatures"
-            }
+            "props": { "filterConfigKey": "safety" }
           },
           {
             "title": "FILTER_TITLE_SUITABILITY",
             "type": "features",
-            "props": {
-              "filterConfigKey": "suitability"
-            }
+            "props": { "filterConfigKey": "suitability" }
           },
-          {
-            "title": "FILTER_TITLE_RELAX",
-            "type": "features",
-            "props": {
-              "filterConfigKey": "relax"
-            }
-          },
-          {
-            "type": "price"
-          }
+          { "type": "price" }
         ],
         "layout": {
           "searchArea": {
             "mapOpen": {
-              "base": {
-                "colSpan": 24,
-                "perRow": 1,
-                "type": "grid"
-              },
-              "md": {
-                "colSpan": 14,
-                "perRow": 1,
-                "type": "grid"
-              },
-              "lg": {
-                "colSpan": 16,
-                "perRow": 2,
-                "type": "grid"
-              },
-              "xl": {
-                "colSpan": 14,
-                "perRow": 2,
-                "type": "grid"
-              },
-              "xxl": {
-                "colSpan": 12,
-                "perRow": 2,
-                "type": "grid"
-              }
+              "base": { "colSpan": 24, "perRow": 1, "type": "grid" },
+              "md": { "colSpan": 14, "perRow": 1, "type": "grid" },
+              "lg": { "colSpan": 16, "perRow": 2, "type": "grid" },
+              "xl": { "colSpan": 14, "perRow": 2, "type": "grid" },
+              "xxl": { "colSpan": 12, "perRow": 2, "type": "grid" }
             },
             "mapClosed": {
-              "base": {
-                "perRow": 1,
-                "type": "grid"
-              },
-              "md": {
-                "perRow": 2,
-                "type": "grid"
-              },
-              "lg": {
-                "perRow": 3,
-                "type": "grid"
-              },
-              "xl": {
-                "perRow": 4,
-                "type": "grid"
-              },
-              "xxl": {
-                "perRow": 4,
-                "type": "grid"
-              }
+              "base": { "perRow": 1, "type": "grid" },
+              "md": { "perRow": 2, "type": "grid" },
+              "lg": { "perRow": 3, "type": "grid" },
+              "xl": { "perRow": 4, "type": "grid" },
+              "xxl": { "perRow": 4, "type": "grid" }
             }
           }
         }
       }
     },
     "colors": {
-      "text": "#000",
-      "textLight": "#666",
-      "link": "#405681",
-      "linkHover": "#2F3F5F",
+      "text": "#030f17",
+      "textLight": "#667488",
+      "link": "#188FBF",
+      "linkHover": "#126D92",
       "primary": {
-        "50": "#C5CEE2",
-        "100": "#B3C0DA",
-        "200": "#91A4C9",
-        "300": "#6F88B8",
-        "400": "#516DA3",
-        "500": "#405681",
-        "600": "#2F3F5F",
-        "700": "#1E293D",
-        "800": "#0D121B",
-        "900": "#000000"
+        "50": "#F2FAFD",
+        "100": "#DBF2FB",
+        "200": "#AEE0F5",
+        "300": "#81CFEF",
+        "400": "#53BEEA",
+        "500": "#26ADE4",
+        "600": "#188FBF",
+        "700": "#126D92",
+        "800": "#0D4B64",
+        "900": "#072937"
       },
       "secondary": {
-        "50": "#F9F4E7",
-        "100": "#F5EAD2",
-        "200": "#EBD7A9",
-        "300": "#E2C47F",
-        "400": "#D8B156",
-        "500": "#CC9D2F",
-        "600": "#A37D25",
-        "700": "#795D1C",
-        "800": "#503D12",
-        "900": "#261D09"
+        "50": "#FFFDF8",
+        "100": "#FFFBF0",
+        "200": "#FEF4DB",
+        "300": "#FDEEC5",
+        "400": "#FCE199",
+        "500": "#FBD46D",
+        "600": "#E2BF62",
+        "700": "#977F41",
+        "800": "#715F31",
+        "900": "#4B4021"
+      },
+      "tertiary": {
+        "50": "#FFFFFF",
+        "100": "#FFFFFF",
+        "200": "#FFF3F3",
+        "300": "#FFC0C2",
+        "400": "#FF8D90",
+        "500": "#FF5A5F",
+        "600": "#FF272E",
+        "700": "#F30007",
+        "800": "#C00006",
+        "900": "#8D0004"
       }
     },
     "fontWeights": {
@@ -1201,10 +965,10 @@
       "black": 900
     },
     "fonts": {
-      "heading": "'Crimson Text', serif",
-      "body": "'Open Sans', sans-serif",
-      "button": "'Open Sans', sans-serif",
-      "mono": "'Open Sans', sans-serif"
+      "heading": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
+      "body": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+      "button": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+      "mono": "SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
     },
     "fontSizes": {
       "xs": "0.75rem",
@@ -1222,63 +986,23 @@
       "9xl": "8rem"
     },
     "typography": {
-      "text": {
-        "fontFamily": "body"
-      },
-      "textWriting": {
-        "fontFamily": "body"
-      },
+      "text": { "fontFamily": "body" },
+      "textWriting": { "fontFamily": "body" },
       "heading": {
-        "h1": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        },
-        "h2": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        },
-        "h3": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        },
-        "h4": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        },
-        "h5": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        },
-        "h6": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        }
+        "h1": { "fontFamily": "body" },
+        "h2": { "fontFamily": "body" },
+        "h3": { "fontFamily": "body" },
+        "h4": { "fontFamily": "body" },
+        "h5": { "fontFamily": "body" },
+        "h6": { "fontFamily": "body" }
       },
       "writingHeading": {
-        "h1": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        },
-        "h2": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        },
-        "h3": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        },
-        "h4": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        },
-        "h5": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        },
-        "h6": {
-          "fontFamily": "heading",
-          "fontWeight": "semibold"
-        }
+        "h1": { "fontFamily": "heading", "fontWeight": "medium" },
+        "h2": { "fontFamily": "heading", "fontWeight": "medium" },
+        "h3": { "fontFamily": "body" },
+        "h4": { "fontFamily": "body" },
+        "h5": { "fontFamily": "body" },
+        "h6": { "fontFamily": "body" }
       }
     },
     "layerStyles": {
@@ -1298,86 +1022,42 @@
       "Link": {
         "baseStyle": {
           "color": "primary.400",
-          "_hover": {
-            "textDecoration": "none",
-            "color": "primary.500"
-          },
-          "_focus": {
-            "boxShadow": "none"
-          }
+          "_hover": { "textDecoration": "none", "color": "primary.500" },
+          "_focus": { "boxShadow": "none" }
         }
       },
       "Button": {
-        "sizes": {
-          "lg": {
-            "fontSize": "xl",
-            "px": "32px"
-          }
-        },
+        "sizes": { "lg": { "fontSize": "xl", "px": "32px" } },
         "variants": {
           "default": {
             "bg": "#ffffff",
             "color": "text",
             "borderColor": "gray.200",
-            "_hover": {
-              "borderColor": "text"
-            },
-            "_focus": {
-              "borderColor": "text",
-              "boxShadow": "none"
-            },
-            "_active": {
-              "borderColor": "text",
-              "boxShadow": "none"
-            }
+            "_hover": { "borderColor": "text" },
+            "_focus": { "borderColor": "text", "boxShadow": "none" },
+            "_active": { "borderColor": "text", "boxShadow": "none" }
           },
           "primary": {
             "borderColor": "primary.500",
             "bg": "primary.500",
-            "_hover": {
-              "borderColor": "primary.400",
-              "bg": "primary.400"
-            },
-            "_focus": {
-              "borderColor": "primary.400",
-              "bg": "primary.400"
-            },
-            "_active": {
-              "borderColor": "primary.400",
-              "bg": "primary.400"
-            }
+            "_hover": { "borderColor": "primary.400", "bg": "primary.400" },
+            "_focus": { "borderColor": "primary.400", "bg": "primary.400" },
+            "_active": { "borderColor": "primary.400", "bg": "primary.400" }
           },
           "secondary": {
-            "borderColor": "secondary.500",
+            "border": "1px solid #FBD46D",
             "bg": "secondary.500",
-            "_hover": {
-              "borderColor": "secondary.400",
-              "bg": "secondary.400"
-            },
-            "_focus": {
-              "borderColor": "secondary.400",
-              "bg": "secondary.400"
-            },
-            "_active": {
-              "borderColor": "secondary.400",
-              "bg": "secondary.400"
-            }
+            "color": "text",
+            "_hover": { "bg": "text", "border": "1px solid #030f17" },
+            "_focus": { "bg": "text", "border": "1px solid #030f17" },
+            "_active": { "bg": "text", "border": "1px solid #030f17" }
           },
           "menuLight": {
             "bg:": "transparent",
             "color": "text",
-            "_focus": {
-              "bg:": "primary.100",
-              "color": "text"
-            },
-            "_active": {
-              "bg:": "primary.100",
-              "color": "text"
-            },
-            "_hover": {
-              "bg:": "primary.100",
-              "color": "text"
-            }
+            "_focus": { "bg:": "primary.100", "color": "text" },
+            "_active": { "bg:": "primary.100", "color": "text" },
+            "_hover": { "bg:": "primary.100", "color": "text" }
           }
         }
       },
@@ -1385,14 +1065,8 @@
         "parts": ["header"],
         "baseStyle": {
           "type": "light",
-          "header": {
-            "height": "78px",
-            "boxShadow": "lg",
-            "bg": "white"
-          },
-          "container": {
-            "maxW": "container.full"
-          }
+          "header": { "height": "60px", "boxShadow": "lg", "bg": "white" },
+          "container": { "maxW": "container.full" }
         }
       }
     }

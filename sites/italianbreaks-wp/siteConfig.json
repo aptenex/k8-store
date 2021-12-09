@@ -15,11 +15,7 @@
       "useImage": true,
       "text": "Italian Breaks",
       "image": {
-<<<<<<< HEAD
-        "width": 250,
-=======
         "width": 260,
->>>>>>> 3cfcd43524fe46cf07521d3bbd694c8af1c43d24
         "height": 52,
         "types": {
           "default": "https://italianbreaks-wp.k8.rentivo.com/wp-content/uploads/2017/12/logo-1.png",
@@ -315,6 +311,124 @@
         ],
         "defaultValue": []
       },
+      "tagsFlags": {
+        "active": true,
+        "showFilter": true,
+        "urlParam": "tags",
+        "options": [
+          {
+            "urlValue": "tuscany",
+            "value": "TU",
+            "type": "tag"
+          },
+          {
+            "urlValue": "umbria",
+            "value": "UM",
+            "type": "tag"
+          },
+          {
+            "urlValue": "le_marche",
+            "value": "LM",
+            "type": "tag"
+          },
+          {
+            "urlValue": "latium",
+            "value": "LA",
+            "type": "tag"
+          },
+          {
+            "urlValue": "lake_garda",
+            "value": "LG",
+            "type": "tag"
+          },
+          {
+            "urlValue": "lake_como",
+            "value": "LC",
+            "type": "tag"
+          },
+          {
+            "urlValue": "lake_maggiore",
+            "value": "MA",
+            "type": "tag"
+          },
+          {
+            "urlValue": "lake_orta",
+            "value": "OR",
+            "type": "tag"
+          },
+          {
+            "urlValue": "sorrento_and_amalfi",
+            "value": "NR",
+            "type": "tag"
+          },
+          {
+            "urlValue": "puglia",
+            "value": "AP",
+            "type": "tag"
+          },
+          {
+            "urlValue": "calabria",
+            "value": "CA",
+            "type": "tag"
+          },
+          {
+            "urlValue": "basilicata",
+            "value": "BA",
+            "type": "tag"
+          },
+          {
+            "urlValue": "piedmont",
+            "value": "PI",
+            "type": "tag"
+          },
+          {
+            "urlValue": "veneto",
+            "value": "VT",
+            "type": "tag"
+          },
+          {
+            "urlValue": "liguria",
+            "value": "LI",
+            "type": "tag"
+          },
+          {
+            "urlValue": "emilia_romagna",
+            "value": "ER",
+            "type": "tag"
+          },
+          {
+            "urlValue": "sicily",
+            "value": "SI",
+            "type": "tag"
+          },
+          {
+            "urlValue": "sardinia",
+            "value": "SA",
+            "type": "tag"
+          },
+          {
+            "urlValue": "rome",
+            "value": "RO",
+            "type": "tag"
+          },
+          {
+            "urlValue": "capri_and_ischia",
+            "value": "CP",
+            "type": "tag"
+          },
+          {
+            "urlValue": "florence",
+            "value": "FL",
+            "type": "tag"
+          },
+          {
+            "urlValue": "venice",
+            "value": "VE",
+            "type": "tag"
+          }
+        ],
+        "defaultValue": []
+      },
       "features": {
         "active": true,
         "urlParam": "features",
@@ -325,44 +439,64 @@
         "optionsToShow": 6,
         "options": [
           {
-            "urlValue": "car_unnecessary",
-            "value": "TRAVEL_CAR_NOT_NECESSARY"
+            "urlValue": "luxury",
+            "value": "THEMES_LUXURY"
           },
           {
-            "urlValue": "outdoor_dining",
-            "value": "OUTDOOR_OUTDOOR_DINING"
+            "urlValue": "historic",
+            "value": "THEMES_HISTORIC|ATTRACTIONS_HISTORICAL_MONUMENTS|ATTRACTIONS_HISTORICAL_RUINS"
           },
           {
-            "urlValue": "hot_tub",
-            "value": "SPA_POOL_JACUZZI_HOT_TUB"
+            "urlValue": "spa",
+            "value": "SPA_POOL_JACUZZI_HOT_TUB|SPA_POOL_HEALTH_FACILITIES|SPA_POOL_MASSAGE|SPA_POOL_SAUNA|SPA_POOL_SWIMMING_POOL|THEMES_SPA"
           },
           {
-            "urlValue": "fireplace",
-            "value": "GENERAL_FIREPLACE"
+            "urlValue": "family",
+            "value": "THEMES_FAMILY_FUN"
           },
           {
-            "urlValue": "wifi",
-            "value": "COMMUNICATION_INTERNET|COMMUNICATION_INTERNET_CABLED|COMMUNICATION_INTERNET_DONGLE|COMMUNICATION_INTERNET_HIGHSPEED|COMMUNICATION_INTERNET_WIFI"
+            "urlValue": "romance",
+            "value": "THEMES_ROMANCE"
           },
           {
-            "urlValue": "aircon",
-            "value": "GENERAL_AIR_CONDITIONING"
+            "urlValue": "lakeside",
+            "value": "LOCALITY_LAKE_FRONT|LOCALITY_LAKE_VIEWS|LOCALITY_LAKESIDE_TOWN"
           },
           {
             "urlValue": "private_pool",
             "value": "SPA_POOL_INDOOR_POOL|SPA_POOL_POOL_COMMUNAL|SPA_POOL_SWIMMING_POOL|SPA_POOL_POOL_HEATED|SPA_POOL_POOL_INDOOR|SPA_POOL_POOL_PRIVATE|SPA_POOL_POOL_UNHEATED"
           },
           {
-            "urlValue": "pets",
-            "value": "GENERAL_PET_FRIENDLY"
+            "urlValue": "heated_pool",
+            "value": "SPA_POOL_POOL_HEATED|SPA_POOL_POOL_INDOOR"
+          },
+          {
+            "urlValue": "horse_riding",
+            "value": "LOCAL_HORSEBACK_RIDING"
+          },
+          {
+            "urlValue": "golf",
+            "value": "LOCALITY_GOLF_COURSE"
+          },
+          {
+            "urlValue": "cooking",
+            "value": "GENERAL_COOK"
           },
           {
             "urlValue": "kitchen",
             "value": "KITCHEN_KITCHENETTE|KITCHEN_STOVE"
           },
           {
-            "urlValue": "fitness",
-            "value": "LOCAL_GYM"
+            "urlValue": "tennis",
+            "value": "LOCAL_TENNIS_COURT"
+          },
+          {
+            "urlValue": "pets",
+            "value": "GENERAL_PET_FRIENDLY"
+          },
+          {
+            "urlValue": "aircon",
+            "value": "GENERAL_AIR_CONDITIONING"
           },
           {
             "urlValue": "stove",
@@ -445,16 +579,8 @@
             "value": "ENTERTAINMENT_GAMES_ROOM"
           },
           {
-            "urlValue": "tennis",
-            "value": "LOCAL_TENNIS_COURT"
-          },
-          {
             "urlValue": "water_parks",
             "value": "ATTRACTIONS_WATER_THEME_PARK"
-          },
-          {
-            "urlValue": "private_beach",
-            "value": "LOCALITY_BEACH|LOCALITY_BEACH_FRONT|LOCAL_BEACH|LOCAL_BEACH_FRONT"
           },
           {
             "urlValue": "boat_mooring",
@@ -463,10 +589,6 @@
           {
             "urlValue": "housekeeping",
             "value": "ACCOMMODATIONS_HOUSE_CLEANING_INCLUDED"
-          },
-          {
-            "urlValue": "breakfast",
-            "value": "ACCOMMODATIONS_BREAKFAST_INCLUDED_IN_PRICE"
           }
         ]
       },
@@ -525,6 +647,14 @@
         "showFilter": true,
         "optionsToShow": 6,
         "options": [
+          {
+            "urlValue": "child_friendly",
+            "value": "SUITABILITY_CHILDREN_WELCOME"
+          },
+          {
+            "urlValue": "weddings",
+            "value": "SUITABILITY_WEDDINGS_WELCOME"
+          },
           {
             "urlValue": "disabled_access",
             "value": "SUITABILITY_ACCESSIBILITY_WHEELCHAIR_GREAT"
@@ -1070,7 +1200,8 @@
             "type": "bathrooms"
           },
           {
-            "type": "tagsFlags"
+            "type": "tagsFlags",
+            "title": "FILTER_TITLE_LOCATIONS"
           },
           {
             "title": "FILTER_TITLE_FEATURES",
@@ -1084,24 +1215,10 @@
             }
           },
           {
-            "title": "FILTER_TITLE_LOCATION_FILTERS",
-            "type": "features",
-            "props": {
-              "filterConfigKey": "locationFeatures"
-            }
-          },
-          {
             "title": "FILTER_TITLE_SUITABILITY",
             "type": "features",
             "props": {
               "filterConfigKey": "suitability"
-            }
-          },
-          {
-            "title": "FILTER_TITLE_RELAX",
-            "type": "features",
-            "props": {
-              "filterConfigKey": "relax"
             }
           },
           {
@@ -1393,8 +1510,6 @@
             "height": "78px",
             "boxShadow": "lg",
             "bg": "white"
-<<<<<<< HEAD
-=======
           },
           "container": {
             "maxW": "container.full"
@@ -1408,7 +1523,6 @@
           "outer": {
             "height": "50px",
             "bg": "white"
->>>>>>> 3cfcd43524fe46cf07521d3bbd694c8af1c43d24
           },
           "container": {
             "maxW": "container.full"

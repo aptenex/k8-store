@@ -1,7 +1,7 @@
 {
   "id": "stays",
   "name": "Stays",
-  "shortName": "Stays",
+  "shortName": "stays",
   "websiteUrl": "https://stays.co.uk",
   "baseUrl": "https://stays-wp.k8.rentivo.com/graphql",
   "dynamicPropertyPages": false,
@@ -34,7 +34,7 @@
       "128": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg"
     },
     "cookies": {
-      "active": false,
+      "active": true,
       "policyUrl": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/TermsConditions.pdf",
       "position": "center"
     },
@@ -49,12 +49,12 @@
         "debug": false,
         "environments": ["production", "development"],
         "googleTagManager": {
-          "active": false,
+          "active": true,
           "autoStart": true,
           "defaultDataLayer": {
             "platform": "rentivo"
           },
-          "trackingId": "GTM-M4WLHWN",
+          "trackingId": "GTM-PW46QWB",
           "cookieFlags": "secure;samesite=none"
         },
         "googleAnalytics": {
@@ -114,7 +114,7 @@
           "contactType": "Customer Support",
           "email": "hello@stays.co.uk"
         },
-        "sameAs": []
+        "sameAs": ["https://www.instagram.com/stays.co.uk/"]
       },
       "brand": {
         "name": "Stays",
@@ -130,9 +130,7 @@
       }
     },
     "design": {
-      "fonts": {
-
-      }
+      "fonts": {}
     },
     "formatting": {
       "fullDate": "Do MMM YY"
@@ -143,49 +141,56 @@
       "exclude": []
     },
     "cancellationPolicies": {
-      "RELAXED": [{
-        "daysBeforeArrival": 1,
-        "percentageRetained": 0.0
-      }],
-      "MODERATE": [{
-        "daysBeforeArrival": 5,
-        "percentageRetained": 0.0
-      },
+      "RELAXED": [
         {
           "daysBeforeArrival": 1,
-          "percentageRetained": 50.0
+          "percentageRetained": 0
         }
       ],
-      "FIRM": [{
-        "daysBeforeArrival": 14,
-        "percentageRetained": 0.0,
-        "graceHours": 48
-      },
+      "MODERATE": [
+        {
+          "daysBeforeArrival": 5,
+          "percentageRetained": 0
+        },
+        {
+          "daysBeforeArrival": 1,
+          "percentageRetained": 50
+        }
+      ],
+      "FIRM": [
+        {
+          "daysBeforeArrival": 14,
+          "percentageRetained": 0,
+          "graceHours": 48
+        },
         {
           "daysBeforeArrival": 7,
-          "percentageRetained": 50.0,
+          "percentageRetained": 50,
           "graceHours": 48
         }
       ],
-      "STRICT": [{
-        "daysBeforeArrival": 30,
-        "percentageRetained": 50.0,
-        "graceHours": 48
-      }],
-      "NO_REFUND": [{
-        "daysBeforeArrival": 60,
-        "percentageRetained": 50.0,
-        "graceHours": 48
-      }]
-
+      "STRICT": [
+        {
+          "daysBeforeArrival": 30,
+          "percentageRetained": 50,
+          "graceHours": 48
+        }
+      ],
+      "NO_REFUND": [
+        {
+          "daysBeforeArrival": 60,
+          "percentageRetained": 50,
+          "graceHours": 48
+        }
+      ]
     }
   },
   "search": {
     "collections": {
-      "rootCollectionDatabaseId": 296860
+      "rootCollectionDatabaseId": 0
     },
     "results": {
-      "perPage": 12,
+      "perPage": 48,
       "totalHits": 25000,
       "openInNewTab": true,
       "includeDiscounts": false
@@ -346,140 +351,24 @@
         "optionsToShow": 6,
         "options": [
           {
-            "urlValue": "hot_tub",
-            "value": "SPA_POOL_JACUZZI_HOT_TUB"
-          },
-          {
-            "urlValue": "fireplace",
-            "value": "GENERAL_FIREPLACE"
-          },
-          {
             "urlValue": "wifi",
             "value": "COMMUNICATION_INTERNET|COMMUNICATION_INTERNET_CABLED|COMMUNICATION_INTERNET_DONGLE|COMMUNICATION_INTERNET_HIGHSPEED|COMMUNICATION_INTERNET_WIFI"
-          },
-          {
-            "urlValue": "aircon",
-            "value": "GENERAL_AIR_CONDITIONING"
-          },
-          {
-            "urlValue": "pool",
-            "value": "SPA_POOL_INDOOR_POOL|SPA_POOL_POOL_COMMUNAL|SPA_POOL_SWIMMING_POOL|SPA_POOL_POOL_HEATED|SPA_POOL_POOL_INDOOR|SPA_POOL_POOL_PRIVATE|SPA_POOL_POOL_UNHEATED"
-          },
-          {
-            "urlValue": "pets",
-            "value": "GENERAL_PET_FRIENDLY"
-          },
-          {
-            "urlValue": "kitchen",
-            "value": "KITCHEN_KITCHENETTE|KITCHEN_STOVE"
-          },
-          {
-            "urlValue": "fitness",
-            "value": "LOCAL_GYM"
-          },
-          {
-            "urlValue": "stove",
-            "value": "KITCHEN_STOVE"
-          },
-          {
-            "urlValue": "oven",
-            "value": "KITCHEN_OVEN"
-          },
-          {
-            "urlValue": "dryer",
-            "value": "GENERAL_TUMBLE_DRYER"
-          },
-          {
-            "urlValue": "washer",
-            "value": "GENERAL_WASHING_MACHINE"
-          },
-          {
-            "urlValue": "ironing",
-            "value": "GENERAL_IRON_IRONING_BOARD"
-          },
-          {
-            "urlValue": "hair_dryer",
-            "value": "GENERAL_HAIRDRYER"
           },
           {
             "urlValue": "parking",
             "value": "GENERAL_PARKING"
           },
           {
-            "urlValue": "tv",
-            "value": "ENTERTAINMENT_TV|ENTERTAINMENT_CABLE_TV|ENTERTAINMENT_HIGH_DEFINITION_TV|ENTERTAINMENT_SATELLITE_TV|ENTERTAINMENT_STANDARD_DEFINITION_TV"
+            "urlValue": "garden_outside",
+            "value": "GENERAL_GARDEN|OUTDOOR_DECK_PATIO|OUTDOOR_BALCONY"
           },
           {
-            "urlValue": "balcony",
-            "value": "OUTDOOR_BALCONY"
+            "urlValue": "enclosed_garden",
+            "value": "SAFETY_GARDEN_ENCLOSED|OUTDOOR_GARDEN"
           },
           {
-            "urlValue": "patio_deck",
-            "value": "OUTDOOR_DECK_PATIO"
-          },
-          {
-            "urlValue": "dishwasher",
-            "value": "KITCHEN_DISHWASHER"
-          },
-          {
-            "urlValue": "microwave",
-            "value": "KITCHEN_MICROWAVE"
-          },
-          {
-            "urlValue": "fridge",
-            "value": "KITCHEN_FRIDGE_FREEZER|KITCHEN_AMERICAN_FRIDGE|KITCHEN_FRIDGE_STANDALONE"
-          },
-          {
-            "urlValue": "toaster",
-            "value": "KITCHEN_TOASTER"
-          },
-          {
-            "urlValue": "coffee_machine",
-            "value": "KITCHEN_COFFEE_MACHINE"
-          },
-          {
-            "urlValue": "dishes_utensils",
-            "value": "KITCHEN_FULL_CUTLERY_UTENSIL_KIT"
-          },
-          {
-            "urlValue": "bbq",
-            "value": "OUTDOOR_BARBECUE"
-          },
-          {
-            "urlValue": "garden",
-            "value": "GENERAL_GARDEN"
-          },
-          {
-            "urlValue": "cot",
-            "value": "CHILDREN_BABY_COT"
-          },
-          {
-            "urlValue": "games_room",
-            "value": "ENTERTAINMENT_GAMES_ROOM"
-          },
-          {
-            "urlValue": "tennis",
-            "value": "LOCAL_TENNIS_COURT"
-          },
-          {
-            "urlValue": "water_parks",
-            "value": "ATTRACTIONS_WATER_THEME_PARK"
-          },
-          {
-            "urlValue": "private_beach",
-            "value": "LOCALITY_BEACH|LOCALITY_BEACH_FRONT|LOCAL_BEACH|LOCAL_BEACH_FRONT"
-          },
-          {
-            "urlValue": "boat_mooring",
-            "value": "LOCAL_BOATING"
-          },
-          {
-            "urlValue": "housekeeping",
-            "value": "ACCOMMODATIONS_HOUSE_CLEANING_INCLUDED"
-          },
-          {
-            "urlValue": "breakfast",
-            "value": "ACCOMMODATIONS_BREAKFAST_INCLUDED_IN_PRICE"
+            "urlValue": "pets",
+            "value": "GENERAL_PET_FRIENDLY"
           }
         ]
       },
@@ -493,20 +382,12 @@
         "optionsToShow": 12,
         "options": [
           {
-            "urlValue": "cabin_chalet_cottage",
-            "value": "LISTING_TYPE_CABIN|LISTING_TYPE_CHALET|LISTING_TYPE_COTTAGE"
-          },
-          {
-            "urlValue": "condo_apartment",
-            "value": "LISTING_TYPE_APARTMENT|LISTING_TYPE_CONDO|LISTING_TYPE_STUDIO"
-          },
-          {
-            "urlValue": "hotel",
-            "value": "LISTING_TYPE_HOTEL"
-          },
-          {
             "urlValue": "house",
             "value": "LISTING_TYPE_HOUSE|LISTING_TYPE_VILLA"
+          },
+          {
+            "urlValue": "apartment",
+            "value": "LISTING_TYPE_APARTMENT"
           },
           {
             "urlValue": "townhome",
@@ -515,16 +396,12 @@
           {
             "urlValue": "glamping",
             "value": "LISTING_TYPE_CAMPER_VAN"
-          },
-          {
-            "urlValue": "on_water",
-            "value": "LISTING_TYPE_HOUSE_BOAT|LISTING_TYPE_BOAT"
           }
         ]
       },
-      "locationFeatures": {
+      "kitchenAppliances": {
         "active": true,
-        "urlParam": "location_features",
+        "urlParam": "kitchen_appliances",
         "defaultValue": [],
         "showFilter": true,
         "nestedField": "features",
@@ -532,28 +409,113 @@
         "optionsToShow": 6,
         "options": [
           {
-            "urlValue": "waterfront",
-            "value": "LOCALITY_BEACH|LOCALITY_BEACH_FRONT|LOCAL_BEACH|LOCAL_BEACH_FRONT"
+            "urlValue": "dishwasher",
+            "value": "KITCHEN_DISHWASHER"
           },
           {
-            "urlValue": "water_view",
-            "value": "LOCALITY_WATER_VIEWS"
+            "urlValue": "washing_machine",
+            "value": "GENERAL_WASHING_MACHINE|GENERAL_WASHER_DRYER"
           },
           {
-            "urlValue": "central",
-            "value": "LOCALITY_TOWN_CENTRE"
+            "urlValue": "tumble_dryer",
+            "value": "GENERAL_TUMBLE_DRYER|GENERAL_WASHER_DRYER"
           },
           {
-            "urlValue": "slopeside",
-            "value": "LOCALITY_SKI_IN_SKI_OUT|LOCAL_SKIING"
+            "urlValue": "microwave",
+            "value": "KITCHEN_MICROWAVE"
           },
           {
-            "urlValue": "golf",
-            "value": "LOCAL_GOLF|LOCALITY_GOLF_COURSE"
+            "urlValue": "fridge",
+            "value": "KITCHEN_FRIDGE_FREEZER|KITCHEN_AMERICAN_FRIDGE|KITCHEN_FRIDGE_STANDALONE"
           },
           {
-            "urlValue": "250m_ski",
-            "value": "LOCAL_SKIING|LOCAL_SNOW_BOARDING"
+            "urlValue": "freezer",
+            "value": "KITCHEN_FRIDGE_FREEZER|KITCHEN_FREEZER_STANDALONE"
+          }
+        ]
+      },
+      "familyFriendly": {
+        "active": true,
+        "urlParam": "family_friendly",
+        "defaultValue": [],
+        "showFilter": true,
+        "nestedField": "features",
+        "field": "features.type.keyword",
+        "optionsToShow": 6,
+        "options": [
+          {
+            "urlValue": "high_chair",
+            "value": "CHILDREN_BABY_HIGHCHAIR"
+          },
+          {
+            "urlValue": "travel_cot",
+            "value": "CHILDREN_BABY_COT"
+          },
+          {
+            "urlValue": "stairgate",
+            "value": "CHILDREN_BABY_STAIRGATE"
+          }
+        ]
+      },
+      "specialFeatures": {
+        "active": true,
+        "urlParam": "special_features",
+        "defaultValue": [],
+        "showFilter": true,
+        "nestedField": "features",
+        "field": "features.type.keyword",
+        "optionsToShow": 6,
+        "options": [
+          {
+            "urlValue": "fireplace_woodburner",
+            "value": "GENERAL_FIREPLACE|GENERAL_WOOD_BURNING_STOVE"
+          },
+          {
+            "urlValue": "pool",
+            "value": "SPA_POOL_SWIMMING_POOL"
+          },
+          {
+            "urlValue": "sea_views",
+            "value": "LOCALITY_BEACH_VIEWS|LOCALITY_OCEAN_VIEWS|LOCALITY_SEA_WATERFRONT|LOCALITY_BEACH_FRONT|LOCALITY_COASTAL"
+          },
+          {
+            "urlValue": "hot_tub",
+            "value": "SPA_POOL_JACUZZI_HOT_TUB"
+          },
+          {
+            "urlValue": "electric_car_charger",
+            "value": "GENERAL_ELECTRIC_VEHICLE_CHARGER"
+          },
+          {
+            "urlValue": "lake_views",
+            "value": "LOCALITY_LAKE_VIEWS|LOCALITY_LAKE_FRONT"
+          }
+        ]
+      },
+      "accessibilityFeatures": {
+        "active": true,
+        "urlParam": "accessibility_features",
+        "defaultValue": [],
+        "showFilter": true,
+        "nestedField": "features",
+        "field": "features.type.keyword",
+        "optionsToShow": 6,
+        "options": [
+          {
+            "urlValue": "on_one_level",
+            "value": "ACCESSIBILITY_SINGLE_LEVEL_HOME"
+          },
+          {
+            "urlValue": "ground_floor_wc",
+            "value": "ACCESSIBILITY_GROUNDFLOOR_TOILET"
+          },
+          {
+            "urlValue": "ground_floor_bathroom",
+            "value": "ACCESSIBILITY_GROUNDFLOOR_BATHROOM"
+          },
+          {
+            "urlValue": "ground_floor_bedroom",
+            "value": "ACCESSIBILITY_GROUNDFLOOR_BEDROOM"
           }
         ]
       },
@@ -577,29 +539,6 @@
           {
             "urlValue": "smoking",
             "value": "SUITABILITY_SMOKING_ALLOWED"
-          }
-        ]
-      },
-      "relax": {
-        "active": true,
-        "urlParam": "relax_features",
-        "defaultValue": [],
-        "showFilter": true,
-        "nestedField": "features",
-        "field": "features.type.keyword",
-        "optionsToShow": 6,
-        "options": [
-          {
-            "urlValue": "sauna",
-            "value": "SPA_POOL_SAUNA"
-          },
-          {
-            "urlValue": "spa",
-            "value": "SPA_POOL_HEALTH_FACILITIES"
-          },
-          {
-            "urlValue": "bathtub",
-            "value": "GENERAL_BATHTUB"
           }
         ]
       },
@@ -830,10 +769,8 @@
         "background-color-base": "#fafafa",
         "link-decoration": "none",
         "link-hover-decoration": "none",
-
         "shadow-color": "rgba(0, 0, 0, 0.15)",
         "box-shadow-base": "0 0.23rem 1.09rem rgba(8,10,37,.03), 0 0.465rem 0.70rem rgba(8,10,37,.03), 0 0.125rem 0.265rem rgba(8,10,37,.05), 0 0.0625rem 0.0935rem rgba(8,10,37,.03)",
-
         "font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
         "code-family": "'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace",
         "font-size-base": "16px",
@@ -844,37 +781,30 @@
         "heading-2-size": "28px",
         "heading-3-size": "24px",
         "heading-4-size": "20px",
-
         "typography-title-margin-top": "1.2em",
         "typography-title-margin-bottom": "0.5em",
-
         "border-radius-base": "6px",
         "border-width-base": "1px",
         "border-color-base": "#d9d9d9",
         "border-color-split": "#d9d9d9",
         "border-color-inverse": "#ffffff",
-
         "padding-lg": "24px",
         "padding-md": "16px",
         "padding-sm": "12px",
         "padding-xs": "8px",
-
         "screen-xs": "480px",
         "screen-sm": "576px",
         "screen-md": "768px",
         "screen-lg": "992px",
         "screen-xl": "1200px",
         "screen-xxl": "1600px",
-
         "layout-header-height": "60px",
-
         "btn-border-radius-base": "0",
         "btn-border-radius-sm": "0",
         "btn-font-weight": "600",
         "btn-shadow": "none",
         "btn-primary-shadow": "none",
         "btn-text-shadow": "none",
-
         "btn-padding-horizontal-base": "16px",
         "btn-padding-horizontal-lg": "16px",
         "btn-padding-horizontal-sm": "8px",
@@ -882,20 +812,16 @@
         "btn-height-lg": "48px",
         "btn-height-sm": "30px",
         "btn-font-size-sm": "15px",
-
         "popover-bg": "#ffffff",
         "popover-min-width": "200px",
         "popover-arrow-width": "14px",
         "popover-arrow-color": "#ffffff",
         "popover-arrow-outer-color": "#ffffff",
         "popover-distance": "16px",
-
-
         "dropdown-vertical-padding": "5px",
         "dropdown-edge-child-vertical-padding": "4px",
         "dropdown-line-height": "22px",
         "dropdown-selected-color": "#f5f5f5",
-
         "select-item-selected-font-weight": "600",
         "select-dropdown-bg": "#ffffff",
         "select-item-selected-bg": "#f5f5f5",
@@ -903,12 +829,10 @@
         "select-clear-background": "#ffffff",
         "select-selection-item-bg": "#f5f5f5",
         "select-selection-item-border-color": "#f0f0f0",
-
         "checkbox-size": "20px",
         "checkbox-color": "#108294",
         "checkbox-check-color": "#ffffff",
         "checkbox-border-width": "2px",
-
         "input-height-base": "40px",
         "input-height-lg": "48px",
         "input-height-sm": "30px",
@@ -918,7 +842,6 @@
         "input-padding-horizontal-lg": "16px",
         "input-placeholder-color": "#aaaaaa",
         "input-bg": "#ffffff",
-
         "animation-duration-slow": "0.2s",
         "animation-duration-base": "0.3s",
         "animation-duration-fast": "0.1s",
@@ -936,7 +859,6 @@
         "ease-out-quint": "cubic-bezier(0.23, 1, 0.32, 1)",
         "ease-in-quint": "cubic-bezier(0.755, 0.05, 0.855, 0.06)",
         "ease-in-out-quint": "cubic-bezier(0.86, 0, 0.07, 1)",
-
         "menu-inline-toplevel-item-height": "36px",
         "menu-item-height": "36px",
         "menu-collapsed-width": "80px",
@@ -959,25 +881,16 @@
         "menu-dark-selected-item-icon-color": "#ffffff",
         "menu-dark-selected-item-text-color": "#ffffff",
         "menu-dark-item-hover-bg": "transparent",
-
-
-
-
         "primary-hover-color": "#17a2b8",
         "text-gray-color": "#38343f",
-
         "secondary-color": "#fbd46d",
         "secondary-hover-color": "#030f17",
-
         "btn-primary-text-color": "#ffffff",
         "btn-primary-hover-text-color": "#ffffff",
         "btn-secondary-text-color": "#030f17",
         "btn-secondary-hover-text-color": "#fbd46d",
-
         "btn-secondary-shadow": "none",
-
         "box-shadow-lg": "0 0.46875rem 2.1875rem rgba(8,10,37,.03), 0 0.9375rem 1.40625rem rgba(8,10,37,.03), 0 0.25rem 0.53125rem rgba(8,10,37,.05), 0 0.125rem 0.1875rem rgba(8,10,37,.03)",
-
         "gray-1": "#fff",
         "gray-2": "#fafafa",
         "gray-3": "#f5f5f5",
@@ -991,21 +904,16 @@
         "gray-11": "#1f1f1f",
         "gray-12": "#141414",
         "gray-13": "#000",
-
         "padding-xl": "32px",
         "padding-xxl": "64px",
         "padding-xxxl": "128px",
         "padding-xxs": "4px",
-
         "typography-letter-spacing": "0",
         "typography-font-weight": "400",
         "typography-font-weight-thick": "600",
-
         "heading-line-height-base": "1.2",
         "content-heading-line-height-base": "1.35",
-
         "heading-5-size": "17px",
-
         "heading-1-font-weight": "400",
         "heading-2-font-weight": "400",
         "heading-3-font-weight": "600",
@@ -1021,7 +929,6 @@
         "heading-3-letter-spacing": "0",
         "heading-4-letter-spacing": "0",
         "heading-5-letter-spacing": "0",
-
         "content-width": "992px",
         "content-width-wide": "1200px",
         "content-line-height-base": "1.75",
@@ -1047,20 +954,15 @@
         "content-heading-3-letter-spacing": "0",
         "content-heading-4-letter-spacing": "0",
         "content-heading-5-letter-spacing": "0",
-
         "popover-arrow-top-distance": "6px",
         "popover-arrow-bottom-distance": "10px",
         "popover-padding": "16px 24px",
         "popover-shadow": "0 0 16px rgba(0, 0, 0, 0.15)",
-
         "dropdown-border-radius": "7px",
-
         "input-border-radius": "0",
         "input-border": "1px solid #d9d9d9",
         "input-box-shadow": "none",
-
         "btn-primary-shadow-lg": "none",
-
         "calendar-default-bg-color": "#ffffff",
         "calendar-default-hover-bg-color": "#eeeeee",
         "calendar-default-color": "#030f17",
@@ -1072,12 +974,10 @@
         "calendar-selected-color": "#030f17",
         "calendar-blocked-bg-color": "repeating-linear-gradient(-45deg, rgb(255, 255, 255), rgb(255, 255, 255) 3px, #e0e0e0 3px, #d2d2d2 4px)",
         "calendar-blocked-color": "#cccccc",
-
         "menu-horizontal-border-bottom": "1px solid transparent",
         "menu-horizontal-border-bottom-active": "1px solid transparent",
         "menu-horizontal-side-padding": "10px",
         "menu-item-font-weight": "600",
-
         "fa-icon-primary": "#108294",
         "fa-icon-secondary": "#108294"
       },
@@ -1098,6 +998,76 @@
       "search": {
         "defaultType": "list",
         "showViewButton": true,
+        "moreFilters": [
+          {
+            "type": "keyword"
+          },
+          {
+            "type": "bedrooms"
+          },
+          {
+            "type": "beds"
+          },
+          {
+            "type": "bathrooms"
+          },
+          {
+            "title": "FILTER_TITLE_FEATURES",
+            "type": "features"
+          },
+          {
+            "title": "FILTER_TITLE_TYPE",
+            "type": "features",
+            "props": {
+              "filterConfigKey": "type"
+            }
+          },
+          {
+            "title": "FILTER_TITLE_KITCHEN_APPLIANCES",
+            "type": "kitchenAppliances",
+            "props": {
+              "filterConfigKey": "features"
+            }
+          },
+          {
+            "title": "FILTER_TITLE_FAMILY_FRIENDLY",
+            "type": "familyFriendly",
+            "props": {
+              "filterConfigKey": "features"
+            }
+          },
+          {
+            "title": "FILTER_TITLE_SPECIAL_FEATURES",
+            "type": "specialFeatures",
+            "props": {
+              "filterConfigKey": "features"
+            }
+          },
+          {
+            "title": "FILTER_TITLE_ACCESSIBILITY",
+            "type": "accessibilityFeatures",
+            "props": {
+              "filterConfigKey": "features"
+            }
+          },
+          {
+            "title": "FILTER_TITLE_SAFETY",
+            "type": "features",
+            "props": {
+              "filterConfigKey": "safety"
+            }
+          },
+          {
+            "title": "FILTER_TITLE_SUITABILITY",
+            "type": "features",
+            "props": {
+              "filterConfigKey": "suitability"
+            }
+          },
+          {
+            "type": "price"
+          }
+        ],
         "layout": {
           "searchArea": {
             "mapOpen": {
