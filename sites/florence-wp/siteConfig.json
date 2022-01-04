@@ -1,66 +1,66 @@
 {
-  "id": "stays",
-  "name": "Stays",
-  "shortName": "stays",
-  "websiteUrl": "https://stays.co.uk",
-  "baseUrl": "https://stays-wp.k8.rentivo.com/graphql",
+  "id": "florence",
+  "name": "Florence",
+  "shortName": "Florence",
+  "websiteUrl": "https://florence.k8.rentivo.com",
+  "baseUrl": "https://florence-wp.k8.rentivo.com/graphql",
   "dynamicPropertyPages": true,
   "noIndex": false,
   "currency": {
-    "defaultCurrency": "GBP",
-    "supportedCurrencies": ["GBP", "EUR", "USD", "CHF"]
+    "defaultCurrency": "USD",
+    "supportedCurrencies": ["GBP", "EUR", "USD", "CAD"]
   },
   "site": {
     "logo": {
       "useImage": true,
-      "text": "Stays",
+      "text": "Florence",
       "image": {
-        "width": 227,
-        "height": 38,
+        "width": 268,
+        "height": 50,
         "types": {
-          "default": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
-          "defaultMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
-          "light": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
-          "lightMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
-          "dark": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
-          "darkMobile": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg"
+          "default": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/logo.svg",
+          "defaultMobile": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/logo.svg",
+          "light": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/logo.svg",
+          "lightMobile": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/logo.svg",
+          "dark": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/logo.svg",
+          "darkMobile": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/logo.svg"
         }
       }
     },
     "icons": {
-      "16": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/fav.png",
-      "32": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/fav.png",
-      "48": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
-      "128": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg"
+      "16": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/fav-sm.png",
+      "32": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/fav-sm.png",
+      "48": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/fav.png",
+      "128": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/fav.png"
     },
     "cookies": {
-      "active": true,
-      "policyUrl": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/TermsConditions.pdf",
+      "active": false,
+      "policyUrl": "https://florence.k8.rentivo.com/terms/",
       "position": "center"
     },
     "api": {
       "lycan": {
-        "channelId": "c3baf30d-090e-4243-932f-931c273264a1",
+        "channelId": "9a300457-cd02-4a2c-93dd-863ec5e56477",
         "host": "https://lycan.rentivo.com",
         "sendCurrencyOnPriceRequests": false
       },
-      "googleApiKey": "AIzaSyAHKtVjv9tNEOkVfe_p9hgyPdJfaGgEAy8",
+      "googleApiKey": "AIzaSyAWpSWV7ekkAfT6CBfQcrGs4qwi8_hM3nA",
       "tracking": {
         "debug": false,
-        "environments": ["production", "development"],
+        "environments": ["production"],
         "googleTagManager": {
           "active": true,
           "autoStart": true,
           "defaultDataLayer": {
             "platform": "rentivo"
           },
-          "trackingId": "GTM-PW46QWB",
+          "trackingId": "GTM-T7J8474",
           "cookieFlags": "secure;samesite=none"
         },
         "googleAnalytics": {
-          "active": true,
+          "active": false,
           "head": true,
-          "trackingId": "UA-86675644-1",
+          "trackingId": "G-7ZM90T0WD3",
           "autoStart": true,
           "anonymize": true,
           "cookieFlags": "secure;samesite=none"
@@ -79,10 +79,10 @@
           "snippetVersion": "6"
         },
         "facebookPixel": {
-          "active": true,
+          "active": false,
           "head": true,
           "autoStart": true,
-          "trackingId": "648788519464770"
+          "trackingId": ""
         }
       },
       "cdn": {
@@ -99,46 +99,103 @@
       }
     },
     "sharing": {
-      "ogImage": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/shutterstock_271743734-1-scaled-e1626945134167.jpeg",
-      "twitterImage": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/07/shutterstock_271743734-1-scaled-e1626945134167.jpeg"
+      "ogImage": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/portsmouth.jpg",
+      "twitterImage": "https://capecod.rentivo-domains.com/wp-content/uploads/sites/15/2021/06/portsmouth.jpg"
     },
     "structuredData": {
       "organization": {
-        "name": "Stays",
-        "legalName": "Stays",
-        "url": "https://www.stays.co.uk",
-        "logo": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
-        "foundingDate": "2008",
+        "name": "Florence",
+        "legalName": "Florence",
+        "url": "https://florence.k8.rentivo.com",
+        "logo": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/logo.svg",
+        "foundingDate": "2021",
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "Customer Support",
-          "email": "hello@stays.co.uk"
+          "email": "hello@leavetown.com"
         },
-        "sameAs": ["https://www.instagram.com/stays.co.uk/"]
+        "sameAs": []
       },
       "brand": {
-        "name": "Stays",
-        "url": "https://www.stays.co.uk",
-        "logo": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/stays-logo.svg",
+        "name": "Florence",
+        "url": "https://florence.k8.rentivo.com",
+        "logo": "https://florence-wp.k8.rentivo.com/wp-content/uploads/2021/12/logo.svg",
         "sameAs": []
       }
     },
     "content": {
       "variables": {
         "sep": "—",
-        "siteTitle": "Stays"
+        "siteTitle": "Florence"
       }
     },
     "design": {
-      "fonts": {}
+      "fonts": {
+        "google": [
+          {
+            "family": "Lato",
+            "variants": ["400", "700"],
+            "fontDisplay": "swap"
+          },
+          {
+            "family": "Nunito",
+            "variants": ["400", "600", "700"],
+            "fontDisplay": "swap"
+          }
+        ]
+      }
     },
     "formatting": {
       "fullDate": "Do MMM YY"
     },
     "countries": {
-      "important": ["GB", "US", "CA", "AU", "MX", "NZ", "BR", "JP", "CN"],
+      "important": ["US", "CA", "GB", "AU", "MX", "NZ", "BR", "JP", "CN"],
       "include": [],
       "exclude": []
+    },
+    "cancellationPolicies": {
+      "RELAXED": [
+        {
+          "daysBeforeArrival": 1,
+          "percentageRetained": 0.0
+        }
+      ],
+      "MODERATE": [
+        {
+          "daysBeforeArrival": 5,
+          "percentageRetained": 0.0
+        },
+        {
+          "daysBeforeArrival": 1,
+          "percentageRetained": 50.0
+        }
+      ],
+      "FIRM": [
+        {
+          "daysBeforeArrival": 14,
+          "percentageRetained": 0.0,
+          "graceHours": 48
+        },
+        {
+          "daysBeforeArrival": 7,
+          "percentageRetained": 50.0,
+          "graceHours": 48
+        }
+      ],
+      "STRICT": [
+        {
+          "daysBeforeArrival": 30,
+          "percentageRetained": 50.0,
+          "graceHours": 48
+        }
+      ],
+      "NO_REFUND": [
+        {
+          "daysBeforeArrival": 60,
+          "percentageRetained": 50.0,
+          "graceHours": 48
+        }
+      ]
     }
   },
   "search": {
@@ -146,8 +203,8 @@
       "rootCollectionDatabaseId": 0
     },
     "results": {
-      "perPage": 48,
-      "totalHits": 25000,
+      "perPage": 36,
+      "totalHits": 5000,
       "openInNewTab": true,
       "includeDiscounts": false
     },
@@ -167,8 +224,8 @@
       "fuzzyRadius": 200,
       "searchMapOnMoveDefault": true,
       "defaultCenter": {
-        "lat": 55.378052,
-        "lng": -3.435973
+        "lat": 38.941631,
+        "lng": -119.977219
       }
     },
     "filters": {
@@ -176,7 +233,7 @@
         "active": true,
         "showFilter": false,
         "urlParam": "los",
-        "defaultValue": "yes"
+        "defaultValue": "no"
       },
       "availability": {
         "active": true,
@@ -200,7 +257,7 @@
         "showFilter": true,
         "type": "COLLECTION_CASCADE",
         "bias": {
-          "countries": ["GB", "US"],
+          "countries": ["IT", "GB", "ES"],
           "types": null,
           "radius": 0
         }
@@ -278,7 +335,7 @@
       "price": {
         "active": true,
         "urlParam": "price",
-        "defaultValue": [0, 500],
+        "defaultValue": [0, 999],
         "showFilter": true,
         "sliderStep": 5,
         "histogramInterval": 50,
@@ -307,24 +364,140 @@
         "optionsToShow": 6,
         "options": [
           {
+            "urlValue": "hot_tub",
+            "value": "SPA_POOL_JACUZZI_HOT_TUB"
+          },
+          {
+            "urlValue": "fireplace",
+            "value": "GENERAL_FIREPLACE"
+          },
+          {
             "urlValue": "wifi",
             "value": "COMMUNICATION_INTERNET|COMMUNICATION_INTERNET_CABLED|COMMUNICATION_INTERNET_DONGLE|COMMUNICATION_INTERNET_HIGHSPEED|COMMUNICATION_INTERNET_WIFI"
+          },
+          {
+            "urlValue": "aircon",
+            "value": "GENERAL_AIR_CONDITIONING"
+          },
+          {
+            "urlValue": "pool",
+            "value": "SPA_POOL_INDOOR_POOL|SPA_POOL_POOL_COMMUNAL|SPA_POOL_SWIMMING_POOL|SPA_POOL_POOL_HEATED|SPA_POOL_POOL_INDOOR|SPA_POOL_POOL_PRIVATE|SPA_POOL_POOL_UNHEATED"
+          },
+          {
+            "urlValue": "pets",
+            "value": "GENERAL_PET_FRIENDLY"
+          },
+          {
+            "urlValue": "kitchen",
+            "value": "KITCHEN_KITCHENETTE|KITCHEN_STOVE"
+          },
+          {
+            "urlValue": "fitness",
+            "value": "LOCAL_GYM"
+          },
+          {
+            "urlValue": "stove",
+            "value": "KITCHEN_STOVE"
+          },
+          {
+            "urlValue": "oven",
+            "value": "KITCHEN_OVEN"
+          },
+          {
+            "urlValue": "dryer",
+            "value": "GENERAL_TUMBLE_DRYER"
+          },
+          {
+            "urlValue": "washer",
+            "value": "GENERAL_WASHING_MACHINE"
+          },
+          {
+            "urlValue": "ironing",
+            "value": "GENERAL_IRON_IRONING_BOARD"
+          },
+          {
+            "urlValue": "hair_dryer",
+            "value": "GENERAL_HAIRDRYER"
           },
           {
             "urlValue": "parking",
             "value": "GENERAL_PARKING"
           },
           {
-            "urlValue": "garden_outside",
-            "value": "GENERAL_GARDEN|OUTDOOR_DECK_PATIO|OUTDOOR_BALCONY"
+            "urlValue": "tv",
+            "value": "ENTERTAINMENT_TV|ENTERTAINMENT_CABLE_TV|ENTERTAINMENT_HIGH_DEFINITION_TV|ENTERTAINMENT_SATELLITE_TV|ENTERTAINMENT_STANDARD_DEFINITION_TV"
           },
           {
-            "urlValue": "enclosed_garden",
-            "value": "SAFETY_GARDEN_ENCLOSED|OUTDOOR_GARDEN"
+            "urlValue": "balcony",
+            "value": "OUTDOOR_BALCONY"
           },
           {
-            "urlValue": "pets",
-            "value": "GENERAL_PET_FRIENDLY"
+            "urlValue": "patio_deck",
+            "value": "OUTDOOR_DECK_PATIO"
+          },
+          {
+            "urlValue": "dishwasher",
+            "value": "KITCHEN_DISHWASHER"
+          },
+          {
+            "urlValue": "microwave",
+            "value": "KITCHEN_MICROWAVE"
+          },
+          {
+            "urlValue": "fridge",
+            "value": "KITCHEN_FRIDGE_FREEZER|KITCHEN_AMERICAN_FRIDGE|KITCHEN_FRIDGE_STANDALONE"
+          },
+          {
+            "urlValue": "toaster",
+            "value": "KITCHEN_TOASTER"
+          },
+          {
+            "urlValue": "coffee_machine",
+            "value": "KITCHEN_COFFEE_MACHINE"
+          },
+          {
+            "urlValue": "dishes_utensils",
+            "value": "KITCHEN_FULL_CUTLERY_UTENSIL_KIT"
+          },
+          {
+            "urlValue": "bbq",
+            "value": "OUTDOOR_BARBECUE"
+          },
+          {
+            "urlValue": "garden",
+            "value": "GENERAL_GARDEN"
+          },
+          {
+            "urlValue": "cot",
+            "value": "CHILDREN_BABY_COT"
+          },
+          {
+            "urlValue": "games_room",
+            "value": "ENTERTAINMENT_GAMES_ROOM"
+          },
+          {
+            "urlValue": "tennis",
+            "value": "LOCAL_TENNIS_COURT"
+          },
+          {
+            "urlValue": "water_parks",
+            "value": "ATTRACTIONS_WATER_THEME_PARK"
+          },
+          {
+            "urlValue": "private_beach",
+            "value": "LOCALITY_BEACH|LOCALITY_BEACH_FRONT|LOCAL_BEACH|LOCAL_BEACH_FRONT"
+          },
+          {
+            "urlValue": "boat_mooring",
+            "value": "LOCAL_BOATING"
+          },
+          {
+            "urlValue": "housekeeping",
+            "value": "ACCOMMODATIONS_HOUSE_CLEANING_INCLUDED"
+          },
+          {
+            "urlValue": "breakfast",
+            "value": "ACCOMMODATIONS_BREAKFAST_INCLUDED_IN_PRICE"
           }
         ]
       },
@@ -338,12 +511,20 @@
         "optionsToShow": 12,
         "options": [
           {
-            "urlValue": "house",
-            "value": "LISTING_TYPE_HOUSE|LISTING_TYPE_VILLA"
+            "urlValue": "cabin_chalet_cottage",
+            "value": "LISTING_TYPE_CABIN|LISTING_TYPE_CHALET|LISTING_TYPE_COTTAGE"
           },
           {
-            "urlValue": "apartment",
-            "value": "LISTING_TYPE_APARTMENT"
+            "urlValue": "condo_apartment",
+            "value": "LISTING_TYPE_APARTMENT|LISTING_TYPE_CONDO|LISTING_TYPE_STUDIO"
+          },
+          {
+            "urlValue": "hotel",
+            "value": "LISTING_TYPE_HOTEL"
+          },
+          {
+            "urlValue": "house",
+            "value": "LISTING_TYPE_HOUSE|LISTING_TYPE_VILLA"
           },
           {
             "urlValue": "townhome",
@@ -352,12 +533,16 @@
           {
             "urlValue": "glamping",
             "value": "LISTING_TYPE_CAMPER_VAN"
+          },
+          {
+            "urlValue": "on_water",
+            "value": "LISTING_TYPE_HOUSE_BOAT|LISTING_TYPE_BOAT"
           }
         ]
       },
-      "kitchenAppliances": {
+      "locationFeatures": {
         "active": true,
-        "urlParam": "kitchen_appliances",
+        "urlParam": "location_features",
         "defaultValue": [],
         "showFilter": true,
         "nestedField": "features",
@@ -365,113 +550,28 @@
         "optionsToShow": 6,
         "options": [
           {
-            "urlValue": "dishwasher",
-            "value": "KITCHEN_DISHWASHER"
+            "urlValue": "waterfront",
+            "value": "LOCALITY_BEACH|LOCALITY_BEACH_FRONT|LOCAL_BEACH|LOCAL_BEACH_FRONT"
           },
           {
-            "urlValue": "washing_machine",
-            "value": "GENERAL_WASHING_MACHINE|GENERAL_WASHER_DRYER"
+            "urlValue": "water_view",
+            "value": "LOCALITY_WATER_VIEWS"
           },
           {
-            "urlValue": "tumble_dryer",
-            "value": "GENERAL_TUMBLE_DRYER|GENERAL_WASHER_DRYER"
+            "urlValue": "central",
+            "value": "LOCALITY_TOWN_CENTRE"
           },
           {
-            "urlValue": "microwave",
-            "value": "KITCHEN_MICROWAVE"
+            "urlValue": "slopeside",
+            "value": "LOCALITY_SKI_IN_SKI_OUT|LOCAL_SKIING"
           },
           {
-            "urlValue": "fridge",
-            "value": "KITCHEN_FRIDGE_FREEZER|KITCHEN_AMERICAN_FRIDGE|KITCHEN_FRIDGE_STANDALONE"
+            "urlValue": "golf",
+            "value": "LOCAL_GOLF|LOCALITY_GOLF_COURSE"
           },
           {
-            "urlValue": "freezer",
-            "value": "KITCHEN_FRIDGE_FREEZER|KITCHEN_FREEZER_STANDALONE"
-          }
-        ]
-      },
-      "familyFriendly": {
-        "active": true,
-        "urlParam": "family_friendly",
-        "defaultValue": [],
-        "showFilter": true,
-        "nestedField": "features",
-        "field": "features.type.keyword",
-        "optionsToShow": 6,
-        "options": [
-          {
-            "urlValue": "high_chair",
-            "value": "CHILDREN_BABY_HIGHCHAIR"
-          },
-          {
-            "urlValue": "travel_cot",
-            "value": "CHILDREN_BABY_COT"
-          },
-          {
-            "urlValue": "stairgate",
-            "value": "CHILDREN_BABY_STAIRGATE"
-          }
-        ]
-      },
-      "specialFeatures": {
-        "active": true,
-        "urlParam": "special_features",
-        "defaultValue": [],
-        "showFilter": true,
-        "nestedField": "features",
-        "field": "features.type.keyword",
-        "optionsToShow": 6,
-        "options": [
-          {
-            "urlValue": "fireplace_woodburner",
-            "value": "GENERAL_FIREPLACE|GENERAL_WOOD_BURNING_STOVE"
-          },
-          {
-            "urlValue": "pool",
-            "value": "SPA_POOL_SWIMMING_POOL"
-          },
-          {
-            "urlValue": "sea_views",
-            "value": "LOCALITY_BEACH_VIEWS|LOCALITY_OCEAN_VIEWS|LOCALITY_SEA_WATERFRONT|LOCALITY_BEACH_FRONT|LOCALITY_COASTAL"
-          },
-          {
-            "urlValue": "hot_tub",
-            "value": "SPA_POOL_JACUZZI_HOT_TUB"
-          },
-          {
-            "urlValue": "electric_car_charger",
-            "value": "GENERAL_ELECTRIC_VEHICLE_CHARGER"
-          },
-          {
-            "urlValue": "lake_views",
-            "value": "LOCALITY_LAKE_VIEWS|LOCALITY_LAKE_FRONT"
-          }
-        ]
-      },
-      "accessibilityFeatures": {
-        "active": true,
-        "urlParam": "accessibility_features",
-        "defaultValue": [],
-        "showFilter": true,
-        "nestedField": "features",
-        "field": "features.type.keyword",
-        "optionsToShow": 6,
-        "options": [
-          {
-            "urlValue": "on_one_level",
-            "value": "ACCESSIBILITY_SINGLE_LEVEL_HOME"
-          },
-          {
-            "urlValue": "ground_floor_wc",
-            "value": "ACCESSIBILITY_GROUNDFLOOR_TOILET"
-          },
-          {
-            "urlValue": "ground_floor_bathroom",
-            "value": "ACCESSIBILITY_GROUNDFLOOR_BATHROOM"
-          },
-          {
-            "urlValue": "ground_floor_bedroom",
-            "value": "ACCESSIBILITY_GROUNDFLOOR_BEDROOM"
+            "urlValue": "250m_ski",
+            "value": "LOCAL_SKIING|LOCAL_SNOW_BOARDING"
           }
         ]
       },
@@ -495,6 +595,29 @@
           {
             "urlValue": "smoking",
             "value": "SUITABILITY_SMOKING_ALLOWED"
+          }
+        ]
+      },
+      "relax": {
+        "active": true,
+        "urlParam": "relax_features",
+        "defaultValue": [],
+        "showFilter": true,
+        "nestedField": "features",
+        "field": "features.type.keyword",
+        "optionsToShow": 6,
+        "options": [
+          {
+            "urlValue": "sauna",
+            "value": "SPA_POOL_SAUNA"
+          },
+          {
+            "urlValue": "spa",
+            "value": "SPA_POOL_HEALTH_FACILITIES"
+          },
+          {
+            "urlValue": "bathtub",
+            "value": "GENERAL_BATHTUB"
           }
         ]
       },
@@ -565,8 +688,8 @@
       }
     },
     "elasticSearch": {
-      "app": "lycan_main.stays_uk_ltd_website.properties_lkvqt4",
-      "credentials": "stays:password",
+      "app": "lycan_main.leavetown_florence.properties_mlsvlc",
+      "credentials": "florence:password",
       "url": "https://search.es.rentivo.com:9243",
       "size": 12
     }
@@ -679,16 +802,16 @@
       "showMarketingOptIn": false,
       "showTermsAndConditions": true,
       "showPrivacyPolicy": true,
-      "defaultPrivacyPolicy": "/privacy/",
-      "defaultTermsAndConditions": "https://stays-wp.k8.rentivo.com/wp-content/uploads/2021/09/TermsConditions.pdf"
+      "defaultPrivacyPolicy": "https://leavetown.netlify.app/privacy-policy/",
+      "defaultTermsAndConditions": "https://leavetown.netlify.app/terms-and-conditions/"
     }
   },
   "blog": {
     "perPage": 20
   },
   "routePaths": {
-    "ROUTE_BASE_SEARCH": "homes",
-    "ROUTE_BASE_PROPERTY": "home",
+    "ROUTE_BASE_SEARCH": "accommodations",
+    "ROUTE_BASE_PROPERTY": "accommodation",
     "ROUTE_BASE_CHECKOUT": "checkout",
     "ROUTE_BASE_CHECKOUT_REVIEW": "review",
     "ROUTE_BASE_CHECKOUT_GUEST_INFO": "info",
@@ -711,56 +834,65 @@
       "base": {
         "body-background": "#fff",
         "component-background": "#fff",
-        "primary-color": "#108294",
+        "primary-color": "#c12126",
         "error-color": "#ff8469",
-        "info-color": "#fbd46d",
+        "info-color": "#28a59b",
         "success-color": "#52c41a",
-        "text-color": "#030f17",
-        "text-color-secondary": "#38343f",
-        "heading-color": "#030f17",
-        "link-color": "#108294",
+        "text-color": "#1e3f5b",
+        "text-color-secondary": "#2e4f6b",
+        "heading-color": "#1e3f5b",
+        "link-color": "#c12126",
         "normal-color": "#d9d9d9",
         "item-hover-bg": "#f5f5f5",
         "background-color-light": "#f5f5f5",
         "background-color-base": "#fafafa",
         "link-decoration": "none",
         "link-hover-decoration": "none",
+
         "shadow-color": "rgba(0, 0, 0, 0.15)",
         "box-shadow-base": "0 0.23rem 1.09rem rgba(8,10,37,.03), 0 0.465rem 0.70rem rgba(8,10,37,.03), 0 0.125rem 0.265rem rgba(8,10,37,.05), 0 0.0625rem 0.0935rem rgba(8,10,37,.03)",
-        "font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+
+        "font-family": "'Lato', sans-serif",
         "code-family": "'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace",
-        "font-size-base": "16px",
-        "font-size-lg": "19px",
-        "font-size-sm": "14px",
+        "font-size-base": "15px",
+        "font-size-lg": "17px",
+        "font-size-sm": "13px",
         "line-height-base": "1.5715",
-        "heading-1-size": "34px",
-        "heading-2-size": "28px",
-        "heading-3-size": "24px",
-        "heading-4-size": "20px",
+        "heading-1-size": "28px",
+        "heading-2-size": "24px",
+        "heading-3-size": "20px",
+        "heading-4-size": "18px",
+
         "typography-title-margin-top": "1.2em",
         "typography-title-margin-bottom": "0.5em",
+
         "border-radius-base": "6px",
         "border-width-base": "1px",
         "border-color-base": "#d9d9d9",
         "border-color-split": "#d9d9d9",
         "border-color-inverse": "#ffffff",
+
         "padding-lg": "24px",
         "padding-md": "16px",
         "padding-sm": "12px",
         "padding-xs": "8px",
+
         "screen-xs": "480px",
         "screen-sm": "576px",
         "screen-md": "768px",
         "screen-lg": "992px",
         "screen-xl": "1200px",
         "screen-xxl": "1600px",
-        "layout-header-height": "60px",
-        "btn-border-radius-base": "0",
-        "btn-border-radius-sm": "0",
-        "btn-font-weight": "600",
+
+        "layout-header-height": "100px",
+
+        "btn-border-radius-base": "6px",
+        "btn-border-radius-sm": "4px",
+        "btn-font-weight": "500",
         "btn-shadow": "none",
         "btn-primary-shadow": "none",
         "btn-text-shadow": "none",
+
         "btn-padding-horizontal-base": "16px",
         "btn-padding-horizontal-lg": "16px",
         "btn-padding-horizontal-sm": "8px",
@@ -768,27 +900,32 @@
         "btn-height-lg": "48px",
         "btn-height-sm": "30px",
         "btn-font-size-sm": "15px",
+
         "popover-bg": "#ffffff",
         "popover-min-width": "200px",
         "popover-arrow-width": "14px",
         "popover-arrow-color": "#ffffff",
         "popover-arrow-outer-color": "#ffffff",
         "popover-distance": "16px",
+
         "dropdown-vertical-padding": "5px",
         "dropdown-edge-child-vertical-padding": "4px",
         "dropdown-line-height": "22px",
         "dropdown-selected-color": "#f5f5f5",
-        "select-item-selected-font-weight": "600",
+
+        "select-item-selected-font-weight": "500",
         "select-dropdown-bg": "#ffffff",
         "select-item-selected-bg": "#f5f5f5",
         "select-background": "#ffffff",
         "select-clear-background": "#ffffff",
         "select-selection-item-bg": "#f5f5f5",
         "select-selection-item-border-color": "#f0f0f0",
+
         "checkbox-size": "20px",
-        "checkbox-color": "#108294",
+        "checkbox-color": "#c12126",
         "checkbox-check-color": "#ffffff",
         "checkbox-border-width": "2px",
+
         "input-height-base": "40px",
         "input-height-lg": "48px",
         "input-height-sm": "30px",
@@ -798,6 +935,7 @@
         "input-padding-horizontal-lg": "16px",
         "input-placeholder-color": "#aaaaaa",
         "input-bg": "#ffffff",
+
         "animation-duration-slow": "0.2s",
         "animation-duration-base": "0.3s",
         "animation-duration-fast": "0.1s",
@@ -815,21 +953,22 @@
         "ease-out-quint": "cubic-bezier(0.23, 1, 0.32, 1)",
         "ease-in-quint": "cubic-bezier(0.755, 0.05, 0.855, 0.06)",
         "ease-in-out-quint": "cubic-bezier(0.86, 0, 0.07, 1)",
+
         "menu-inline-toplevel-item-height": "36px",
         "menu-item-height": "36px",
         "menu-collapsed-width": "80px",
         "menu-bg": "#ffffff",
         "menu-popup-bg": "#ffffff",
-        "menu-item-color": "#030f17",
-        "menu-highlight-color": "#108294",
+        "menu-item-color": "rgba(255, 255, 255, 0.85)",
+        "menu-highlight-color": "#ffffff",
         "menu-item-active-bg": "#ebf9f9",
         "menu-item-active-border-width": "0",
         "menu-item-group-title-color": "#38343f",
         "menu-item-vertical-margin": "2px",
-        "menu-item-font-size": "17px",
+        "menu-item-font-size": "15px",
         "menu-item-boundary-margin": "0",
-        "menu-dark-color": "rgba(0,0,0,0.65)",
-        "menu-dark-bg": "#001529",
+        "menu-dark-color": "rgba(255,255,255,0.85)",
+        "menu-dark-bg": "#3d3d44",
         "menu-dark-arrow-color": "#fff",
         "menu-dark-submenu-bg": "#000c17",
         "menu-dark-highlight-color": "#fff",
@@ -837,16 +976,22 @@
         "menu-dark-selected-item-icon-color": "#ffffff",
         "menu-dark-selected-item-text-color": "#ffffff",
         "menu-dark-item-hover-bg": "transparent",
-        "primary-hover-color": "#17a2b8",
-        "text-gray-color": "#38343f",
-        "secondary-color": "#fbd46d",
-        "secondary-hover-color": "#030f17",
+
+        "primary-hover-color": "#a11d21",
+        "text-gray-color": "#2e4f6b",
+
+        "secondary-color": "#1e3f5b",
+        "secondary-hover-color": "#15324b",
+
         "btn-primary-text-color": "#ffffff",
         "btn-primary-hover-text-color": "#ffffff",
-        "btn-secondary-text-color": "#030f17",
-        "btn-secondary-hover-text-color": "#fbd46d",
+        "btn-secondary-text-color": "#ffffff",
+        "btn-secondary-hover-text-color": "#ffffff",
+
         "btn-secondary-shadow": "none",
+
         "box-shadow-lg": "0 0.46875rem 2.1875rem rgba(8,10,37,.03), 0 0.9375rem 1.40625rem rgba(8,10,37,.03), 0 0.25rem 0.53125rem rgba(8,10,37,.05), 0 0.125rem 0.1875rem rgba(8,10,37,.03)",
+
         "gray-1": "#fff",
         "gray-2": "#fafafa",
         "gray-3": "#f5f5f5",
@@ -860,82 +1005,95 @@
         "gray-11": "#1f1f1f",
         "gray-12": "#141414",
         "gray-13": "#000",
+
         "padding-xl": "32px",
         "padding-xxl": "64px",
         "padding-xxxl": "128px",
         "padding-xxs": "4px",
+
         "typography-letter-spacing": "0",
-        "typography-font-weight": "400",
+        "typography-font-weight": "500",
         "typography-font-weight-thick": "600",
-        "heading-line-height-base": "1.2",
-        "content-heading-line-height-base": "1.35",
+
+        "heading-line-height-base": "1.6",
+        "content-heading-line-height-base": "1.75",
+
         "heading-5-size": "17px",
+
         "heading-1-font-weight": "400",
         "heading-2-font-weight": "400",
-        "heading-3-font-weight": "600",
-        "heading-4-font-weight": "600",
-        "heading-5-font-weight": "600",
-        "heading-1-font-family": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
-        "heading-2-font-family": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
-        "heading-3-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-        "heading-4-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-        "heading-5-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+        "heading-3-font-weight": "400",
+        "heading-4-font-weight": "400",
+        "heading-5-font-weight": "400",
+        "heading-1-font-family": "'Lato', sans-serif Sans', sans-serif",
+        "heading-2-font-family": "'Lato', sans-serif Sans', sans-serif",
+        "heading-3-font-family": "'Lato', sans-serif Sans', sans-serif",
+        "heading-4-font-family": "'Lato', sans-serif Sans', sans-serif",
+        "heading-5-font-family": "'Lato', sans-serif Sans', sans-serif",
         "heading-1-letter-spacing": "0",
         "heading-2-letter-spacing": "0",
         "heading-3-letter-spacing": "0",
         "heading-4-letter-spacing": "0",
         "heading-5-letter-spacing": "0",
+
         "content-width": "992px",
         "content-width-wide": "1200px",
         "content-line-height-base": "1.75",
-        "content-font-size-base": "17px",
-        "content-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+        "content-font-size-base": "15px",
+        "content-font-family": "'Lato', sans-serif Sans', sans-serif",
         "content-letter-spacing": "0",
         "content-heading-1-size": "48px",
         "content-heading-2-size": "36px",
         "content-heading-3-size": "28px",
         "content-heading-4-size": "24px",
-        "content-heading-1-font-weight": "400",
-        "content-heading-2-font-weight": "400",
-        "content-heading-3-font-weight": "600",
-        "content-heading-4-font-weight": "600",
-        "content-heading-5-font-weight": "600",
-        "content-heading-1-font-family": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
-        "content-heading-2-font-family": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
-        "content-heading-3-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-        "content-heading-4-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-        "content-heading-5-font-family": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+        "content-heading-1-font-weight": "700",
+        "content-heading-2-font-weight": "700",
+        "content-heading-3-font-weight": "700",
+        "content-heading-4-font-weight": "700",
+        "content-heading-5-font-weight": "700",
+        "content-heading-1-font-family": "'Lato', sans-serif Sans', sans-serif",
+        "content-heading-2-font-family": "'Lato', sans-serif Sans', sans-serif",
+        "content-heading-3-font-family": "'Lato', sans-serif Sans', sans-serif",
+        "content-heading-4-font-family": "'Lato', sans-serif Sans', sans-serif",
+        "content-heading-5-font-family": "'Lato', sans-serif Sans', sans-serif",
         "content-heading-1-letter-spacing": "0",
         "content-heading-2-letter-spacing": "0",
         "content-heading-3-letter-spacing": "0",
         "content-heading-4-letter-spacing": "0",
         "content-heading-5-letter-spacing": "0",
+
         "popover-arrow-top-distance": "6px",
         "popover-arrow-bottom-distance": "10px",
         "popover-padding": "16px 24px",
         "popover-shadow": "0 0 16px rgba(0, 0, 0, 0.15)",
+
         "dropdown-border-radius": "7px",
-        "input-border-radius": "0",
+
+        "input-border-radius": "6px",
         "input-border": "1px solid #d9d9d9",
         "input-box-shadow": "none",
+
         "btn-primary-shadow-lg": "none",
+
         "calendar-default-bg-color": "#ffffff",
         "calendar-default-hover-bg-color": "#eeeeee",
-        "calendar-default-color": "#030f17",
-        "calendar-hovered-offset-bg-color": "#ffe3a8",
-        "calendar-hovered-offset-color": "#030f17",
-        "calendar-selected-span-bg-color": "#fbd46d",
-        "calendar-selected-span-color": "#030f17",
-        "calendar-selected-bg-color": "#fbd46d",
-        "calendar-selected-color": "#030f17",
+        "calendar-default-color": "#1e3f5b",
+        "calendar-hovered-offset-bg-color": "#bfecee",
+        "calendar-hovered-offset-color": "#1e3f5b",
+        "calendar-selected-span-bg-color": "#4dc9cf",
+        "calendar-selected-span-color": "#ffffff",
+        "calendar-selected-bg-color": "#00b2bb",
+        "calendar-selected-color": "#ffffff",
         "calendar-blocked-bg-color": "repeating-linear-gradient(-45deg, rgb(255, 255, 255), rgb(255, 255, 255) 3px, #e0e0e0 3px, #d2d2d2 4px)",
         "calendar-blocked-color": "#cccccc",
+
         "menu-horizontal-border-bottom": "1px solid transparent",
         "menu-horizontal-border-bottom-active": "1px solid transparent",
         "menu-horizontal-side-padding": "10px",
-        "menu-item-font-weight": "600",
-        "fa-icon-primary": "#108294",
-        "fa-icon-secondary": "#108294"
+        "menu-item-font-weight": "500",
+
+        "fa-icon-primary": "#c12126",
+        "fa-icon-secondary": "#c12126"
       },
       "theme": {
         "site-header-fluid": true,
@@ -953,10 +1111,18 @@
     "barcelona": {
       "search": {
         "defaultType": "list",
-        "showViewButton": true,
+        "showViewButton": false,
         "moreFilters": [
           {
             "type": "keyword"
+          },
+          {
+            "type": "title",
+            "title": "FILTER_TITLE_ROOMS_BEDS",
+            "props": {
+              "as": "h5",
+              "mb": -2
+            }
           },
           {
             "type": "bedrooms"
@@ -966,6 +1132,12 @@
           },
           {
             "type": "bathrooms"
+          },
+          {
+            "type": "tagsFlags"
+          },
+          {
+            "type": "discounts"
           },
           {
             "title": "FILTER_TITLE_FEATURES",
@@ -979,38 +1151,10 @@
             }
           },
           {
-            "title": "FILTER_TITLE_KITCHEN_APPLIANCES",
+            "title": "FILTER_TITLE_LOCATION_FILTERS",
             "type": "features",
             "props": {
-              "filterConfigKey": "kitchenAppliances"
-            }
-          },
-          {
-            "title": "FILTER_TITLE_FAMILY_FRIENDLY",
-            "type": "features",
-            "props": {
-              "filterConfigKey": "familyFriendly"
-            }
-          },
-          {
-            "title": "FILTER_TITLE_SPECIAL_FEATURES",
-            "type": "features",
-            "props": {
-              "filterConfigKey": "specialFeatures"
-            }
-          },
-          {
-            "title": "FILTER_TITLE_ACCESSIBILITY",
-            "type": "features",
-            "props": {
-              "filterConfigKey": "accessibilityFeatures"
-            }
-          },
-          {
-            "title": "FILTER_TITLE_SAFETY",
-            "type": "features",
-            "props": {
-              "filterConfigKey": "safety"
+              "filterConfigKey": "locationFeatures"
             }
           },
           {
@@ -1018,6 +1162,13 @@
             "type": "features",
             "props": {
               "filterConfigKey": "suitability"
+            }
+          },
+          {
+            "title": "FILTER_TITLE_RELAX",
+            "type": "features",
+            "props": {
+              "filterConfigKey": "relax"
             }
           },
           {
@@ -1044,13 +1195,13 @@
               },
               "xl": {
                 "colSpan": 14,
-                "perRow": 2,
-                "type": "grid"
+                "perRow": 1,
+                "type": "list"
               },
               "xxl": {
                 "colSpan": 12,
-                "perRow": 2,
-                "type": "grid"
+                "perRow": 1,
+                "type": "list"
               }
             },
             "mapClosed": {
@@ -1071,7 +1222,7 @@
                 "type": "grid"
               },
               "xxl": {
-                "perRow": 4,
+                "perRow": 5,
                 "type": "grid"
               }
             }
@@ -1080,62 +1231,62 @@
       }
     },
     "colors": {
-      "text": "#030f17",
-      "textLight": "#667488",
-      "link": "#188FBF",
-      "linkHover": "#126D92",
+      "text": "#000000",
+      "textLight": "#999999",
+      "link": "#999999",
+      "linkHover": "#000000",
       "primary": {
-        "50": "#F2FAFD",
-        "100": "#DBF2FB",
-        "200": "#AEE0F5",
-        "300": "#81CFEF",
-        "400": "#53BEEA",
-        "500": "#26ADE4",
-        "600": "#188FBF",
-        "700": "#126D92",
-        "800": "#0D4B64",
-        "900": "#072937"
+        "50": "#FFFFFF",
+        "100": "#FBFBFB",
+        "200": "#E6E7E8",
+        "300": "#D0D3D4",
+        "400": "#BBBEC1",
+        "500": "#A6AAAD",
+        "600": "#898E92",
+        "700": "#6D7276",
+        "800": "#525659",
+        "900": "#373A3C"
       },
       "secondary": {
-        "50": "#FFFDF8",
-        "100": "#FFFBF0",
-        "200": "#FEF4DB",
-        "300": "#FDEEC5",
-        "400": "#FCE199",
-        "500": "#FBD46D",
-        "600": "#E2BF62",
-        "700": "#977F41",
-        "800": "#715F31",
-        "900": "#4B4021"
+        "50": "#5C5C5C",
+        "100": "#525252",
+        "200": "#3D3D3D",
+        "300": "#292929",
+        "400": "#141414",
+        "500": "#000000",
+        "600": "#000000",
+        "700": "#000000",
+        "800": "#000000",
+        "900": "#000000"
       },
       "tertiary": {
         "50": "#FFFFFF",
-        "100": "#FFFFFF",
-        "200": "#FFF3F3",
-        "300": "#FFC0C2",
-        "400": "#FF8D90",
-        "500": "#FF5A5F",
-        "600": "#FF272E",
-        "700": "#F30007",
-        "800": "#C00006",
-        "900": "#8D0004"
+        "100": "#FBFBFB",
+        "200": "#E6E7E8",
+        "300": "#D0D3D4",
+        "400": "#BBBEC1",
+        "500": "#A6AAAD",
+        "600": "#898E92",
+        "700": "#6D7276",
+        "800": "#525659",
+        "900": "#373A3C"
       }
     },
     "fontWeights": {
       "hairline": 100,
-      "thin": 200,
+      "thin": 300,
       "light": 300,
       "normal": 400,
-      "medium": 500,
+      "medium": 600,
       "semibold": 600,
       "bold": 700,
-      "extrabold": 800,
-      "black": 900
+      "extrabold": 700,
+      "black": 700
     },
     "fonts": {
-      "heading": "ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif",
-      "body": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
-      "button": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+      "heading": "'Lato', sans-serif",
+      "body": "'Nunito', sans-serif",
+      "other": "'Nunito', sans-serif",
       "mono": "SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace"
     },
     "fontSizes": {
@@ -1155,77 +1306,182 @@
     },
     "typography": {
       "text": {
-        "fontFamily": "body"
+        "fontFamily": "body",
+        "fontWeight": "normal"
       },
       "textWriting": {
-        "fontFamily": "body"
+        "fontFamily": "body",
+        "fontWeight": "normal"
       },
       "heading": {
         "h1": {
-          "fontFamily": "body"
+          "fontFamily": "heading",
+          "fontWeight": "400",
+          "lineHeight": "shorter",
+          "letterSpacing": "1.5px",
+          "fontSize": { "base": "2xl", "lg": "3xl" },
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h2": {
-          "fontFamily": "body"
+          "fontFamily": "heading",
+          "fontWeight": "400",
+          "lineHeight": "shorter",
+          "letterSpacing": "1.5px",
+          "fontSize": { "base": "xl", "lg": "2xl" },
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h3": {
-          "fontFamily": "body"
+          "fontFamily": "heading",
+          "fontWeight": "400",
+          "lineHeight": "shorter",
+          "letterSpacing": "1.5px",
+          "fontSize": { "base": "lg", "lg": "xl" },
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h4": {
-          "fontFamily": "body"
+          "fontFamily": "heading",
+          "fontWeight": "400",
+          "letterSpacing": "1.5px",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "lg", "lg": "lg" },
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h5": {
-          "fontFamily": "body"
+          "fontFamily": "heading",
+          "fontWeight": "400",
+          "letterSpacing": "1.5px",
+          "lineHeight": "shorter",
+          "fontSize": "md",
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h6": {
-          "fontFamily": "body"
+          "fontFamily": "heading",
+          "fontWeight": "400",
+          "lineHeight": "shorter",
+          "letterSpacing": "1.5px",
+          "fontSize": "md",
+          "color": "text",
+          "textTransform": "uppercase"
         }
       },
       "writingHeading": {
         "h1": {
           "fontFamily": "heading",
-          "fontWeight": "medium"
+          "fontWeight": "400",
+          "letterSpacing": "1.5px",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "3xl", "lg": "4xl" },
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h2": {
           "fontFamily": "heading",
-          "fontWeight": "medium"
+          "fontWeight": "400",
+          "letterSpacing": "1.5px",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "2xl", "lg": "3xl" },
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h3": {
-          "fontFamily": "body"
+          "fontFamily": "heading",
+          "fontWeight": "400",
+          "letterSpacing": "1.5px",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "xl", "lg": "2xl" },
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h4": {
-          "fontFamily": "body"
+          "fontFamily": "heading",
+          "fontWeight": "400",
+          "letterSpacing": "1.5px",
+          "lineHeight": "shorter",
+          "fontSize": { "base": "lg", "lg": "xl" },
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h5": {
-          "fontFamily": "body"
+          "fontFamily": "heading",
+          "fontWeight": "400",
+          "letterSpacing": "1.5px",
+          "lineHeight": "shorter",
+          "fontSize": "lg",
+          "color": "text",
+          "textTransform": "uppercase"
         },
         "h6": {
-          "fontFamily": "body"
+          "fontFamily": "heading",
+          "fontWeight": "400",
+          "letterSpacing": "1.5px",
+          "lineHeight": "shorter",
+          "fontSize": "md",
+          "color": "text",
+          "textTransform": "uppercase"
         }
       }
     },
-    "layerStyles": {
-      "highlight": {
-        "borderBottom": "2px solid",
-        "bg": "secondary.200",
-        "borderColor": "secondary.300",
-        "color": "text",
-        "fontSize": "sm",
-        "display": "inline-block",
-        "padding": "0 5px",
-        "margin-top": "4px",
-        "margin-bottom": "3px"
-      }
-    },
+    "layerStyles": {},
     "components": {
-      "Link": {
-        "baseStyle": {
-          "color": "primary.400",
-          "_hover": {
-            "textDecoration": "none",
-            "color": "primary.500"
+      "Select": {
+        "sizes": {
+          "sm": {
+            "field": {
+              "borderRadius": "none"
+            }
           },
-          "_focus": {
-            "boxShadow": "none"
+          "md": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "lg": {
+            "field": {
+              "borderRadius": "none"
+            }
+          }
+        }
+      },
+      "NumberInput": {
+        "sizes": {
+          "sm": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "md": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "lg": {
+            "field": {
+              "borderRadius": "none"
+            }
+          }
+        }
+      },
+      "Textarea": {
+        "sizes": {
+          "sm": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "md": {
+            "field": {
+              "borderRadius": "none"
+            }
+          },
+          "lg": {
+            "field": {
+              "borderRadius": "none"
+            }
           }
         }
       },
@@ -1238,6 +1494,7 @@
         },
         "variants": {
           "default": {
+            "borderRadius": "none",
             "bg": "#ffffff",
             "color": "text",
             "borderColor": "gray.200",
@@ -1254,51 +1511,69 @@
             }
           },
           "primary": {
+            "borderRadius": "none",
             "borderColor": "primary.500",
             "bg": "primary.500",
+            "color": "white",
+            "fontWeight": "normal",
+            "textTransform": "uppercase",
             "_hover": {
-              "borderColor": "primary.400",
-              "bg": "primary.400"
+              "borderColor": "primary.600",
+              "bg": "primary.600",
+              "color": "white"
             },
             "_focus": {
-              "borderColor": "primary.400",
-              "bg": "primary.400"
+              "borderColor": "primary.600",
+              "bg": "primary.600",
+              "color": "white"
             },
             "_active": {
-              "borderColor": "primary.400",
-              "bg": "primary.400"
+              "borderColor": "primary.600",
+              "bg": "primary.600",
+              "color": "white"
             }
           },
           "secondary": {
-            "border": "1px solid #FBD46D",
-            "bg": "secondary.500",
-            "color": "text",
+            "borderRadius": "none",
+            "borderColor": "secondary.500",
+            "bg": "transparent",
+            "color": "secondary.500",
+            "fontWeight": "normal",
+            "textTransform": "uppercase",
             "_hover": {
-              "bg": "text",
-              "border": "1px solid #030f17"
+              "borderColor": "secondary.500",
+              "bg": "secondary.500",
+              "color": "white"
             },
             "_focus": {
-              "bg": "text",
-              "border": "1px solid #030f17"
+              "borderColor": "secondary.500",
+              "bg": "secondary.500",
+              "color": "white"
             },
             "_active": {
-              "bg": "text",
-              "border": "1px solid #030f17"
+              "borderColor": "secondary.500",
+              "bg": "secondary.500",
+              "color": "white"
             }
           },
           "menuLight": {
-            "bg:": "transparent",
+            "borderRadius": "none",
+            "background": "transparent",
             "color": "text",
+            "fontWeight": "normal",
+            "textTransform": "uppercase",
             "_focus": {
-              "bg:": "primary.100",
+              "borderColor": "gray.200",
+              "background": "gray.200",
               "color": "text"
             },
             "_active": {
-              "bg:": "primary.100",
+              "borderColor": "gray.200",
+              "background": "gray.200",
               "color": "text"
             },
             "_hover": {
-              "bg:": "primary.100",
+              "background": "gray.200",
               "color": "text"
             }
           }
@@ -1308,9 +1583,10 @@
         "parts": ["header"],
         "baseStyle": {
           "type": "light",
+          "layout": "LEFT_LOGO",
           "header": {
-            "height": "60px",
-            "boxShadow": "lg",
+            "height": "100px",
+            "boxShadow": "0 0 5px 1px rgba(0, 0, 0, 0.05)",
             "bg": "white"
           },
           "container": {
